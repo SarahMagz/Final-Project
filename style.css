@@ -61,8 +61,13 @@ body {
 }
 
 .main {
+<<<<<<< Updated upstream
     height: 800px;
     width: 85%;
+=======
+    height: 900px;
+    width: 80%;
+>>>>>>> Stashed changes
     padding-top: 8%;
     padding-bottom: 8%;
     background-color: white;
