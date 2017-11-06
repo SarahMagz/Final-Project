@@ -1,0 +1,81 @@
+/* Menu */
+
+#menu {
+    overflow: hidden;
+    background-image: url("bilder/background.png"); 
+    /*background-color: #E57007;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -0.5%;
+    margin-right: -0.5%; 
+}
+
+
+#menu a {
+	width: 33.3%;
+    float: left;
+    display: block;
+    color: white;
+	text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Neutra text, sans-serif;
+}
+
+a:hover {
+	background-color: black;
+}
+
+a:active {
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    overflow: hidden;
+    background-image: url("bilder/background.png"); 
+    position: fixed;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -0.1%;
+    
+}
+
+#countdown {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: url("bilder/background.png"); 
+}
+
+.main {
+    height: 800px;
+    width: 80%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: white;
+    margin: auto;
+}
+
+section {
+    width: 45%;
+    margin-left: 2.5%;
+    float: left; 
+}
+
+/* Fonts */
+p {
+    font-family: Neutra text, sans-serif;
+    font-size: 1em;
+    color: black;
+}
