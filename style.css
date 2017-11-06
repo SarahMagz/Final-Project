@@ -3,6 +3,7 @@
 #menu {
     overflow: hidden;
     background-image: url("bilder/background.png");
+    background-size: 140%;
     /*background-color: #E57007;*/
     position: fixed;
     top: 0;
@@ -38,6 +39,7 @@ a:active {
 footer {
     overflow: hidden;
     background-image: url("bilder/background.png");
+    background-size: 140%;
     position: fixed;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -58,6 +60,7 @@ footer {
 
 body {
     background-image: url("bilder/background.png");
+    background-size: 140%;
 }
 
 .main {
