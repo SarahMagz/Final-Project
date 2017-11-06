@@ -79,3 +79,31 @@ p {
     font-size: 1em;
     color: black;
 }
+
+h1 {
+    font-family: Neutra text, sans-serif;
+    font-size: 2em;
+    color: black;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: Neutra text, sans-serif;
+    font-size: 1.4em;
+    color: black;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: Neutra text, sans-serif;
+    font-size: 1.4em;
+    color: black;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: Neutra text, sans-serif;
+    font-size: 1.4em;
+    color: black;
+    font-weight: 500;
+}
