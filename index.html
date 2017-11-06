@@ -11,7 +11,7 @@
 
 		<header>
 			<div id="menu">
- 				  
+
  				  <a href="index.html">HOME</a>
 				  <a href="zentopia.html">ZENTOPIA</a>
 				  <a href="søknadsskjema.html">APPLY NOW</a>
@@ -20,13 +20,13 @@
 
 		<div class="main">
 			<section>
-			<p> Located on the Amazonis quadrangle, close to the the Martian equator, lies Zentopia. Zentopia is a highly modern and advanced city, functioning as a safe-space for our refugees from Earth. The city itself is divided into multiple quarters, each matching the different continents and cultures from Earth. The city center functions as a big melting pot, binding all of these cultures together and exposing them to one another.</p> 
+			<p> Located on the Amazonis quadrangle, close to the the Martian equator, lies Zentopia. Zentopia is a highly modern and advanced city, functioning as a safe-space for our refugees from Earth. The city itself is divided into multiple quarters, each matching the different continents and cultures from Earth. The city center functions as a big melting pot, binding all of these cultures together and exposing them to one another.</p>
 			</section>
 
 			<section>
 			<p>There are seven landing platforms located outside the city, one for every continent. Within a short time after arrival, you will be transported to the city thanks to our highly intelligent, self-driven buggy-cars.<br>
 
-			When you first set your feet on Mars, you will soon come to realize that it’s not that different from this home after all. Thanks to our breakthrough technologies, we’ve managed to terraform the Red Planet into a place of wonders. 
+			When you first set your feet on Mars, you will soon come to realize that it’s not that different from this home after all. Thanks to our breakthrough technologies, we’ve managed to terraform the Red Planet into a place of wonders.
 			</p>
 			</section>
 		</div>
@@ -34,7 +34,7 @@
 
 
 		<footer>
-			
+
 			<p id="countdown"></p>
 
 <script> // hentet fra: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown
@@ -46,23 +46,23 @@ var x = setInterval(function() {
 
     // Get todays date and time
     var now = new Date().getTime();
-    
+
     // Find the distance between now an the count down date
     var distance = countDownDate - now;
-    
+
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    
-    
+
+
     // Output the result in an element with id="demo"
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+  document.getElementById("countdown").innerHTML = "Departure in " + days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
+
+    // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("countdown").innerHTML = "EXPIRED";
