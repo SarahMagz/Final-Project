@@ -83,8 +83,11 @@ article {
 
 #play {
     display: block;
-    margin: auto;
     width: 10%;
+    position: absolute;
+    top: 50%;
+    margin-left: 45%;
+
 
 }
 
