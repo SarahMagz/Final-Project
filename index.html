@@ -7,10 +7,8 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-
 		<header>
 			<div id="menu">
-
  				  <a href="index.html">HOME</a>
 				  <a href="zentopia.html">ZENTOPIA</a>
 				  <a href="application.html">APPLY NOW</a>
@@ -19,22 +17,38 @@
 
 		<div class="main">
 			<section>
-			<p> Located on the Amazonis quadrangle, close to the the Martian equator, lies Zentopia. Zentopia is a highly modern and advanced city, functioning as a safe-space for our refugees from Earth. The city itself is divided into multiple quarters, each matching the different continents and cultures from Earth. The city center functions as a big melting pot, binding all of these cultures together and exposing them to one another.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Duis faucibus, odio ut suscipit aliquet, nibh justo tristique dolor, 
+					consequat porta metus quam ut risus. Nulla facilisi. Nullam 
+					elementum semper ex ac luctus. Pellentesque luctus dolor vel 
+					tortor ultricies, eget ultrices quam tincidunt. Etiam hendrerit 
+					tempor lacus, elementum cursus sem luctus et. Nulla ornare ac 
+					lacus nec pretium. Donec sit amet vestibulum justo, auctor luctus 
+					erat. Aliquam feugiat nisl sit amet efficitur semper. Phasellus dictum 
+					laoreet nunc, quis lacinia diam. In ornare velit enim, non pulvinar risus 
+					rhoncus nec. Proin nunc massa, lobortis vel dictum porta, varius eu 
+					neque. Nullam ac porttitor arcu, aliquet mollis mauris. Donec in lorem 
+					massa. Cras sed metus tincidunt, tempus nisl sed, pharetra justo.
+				</p>
 			</section>
-
 			<section>
-			<p>There are seven landing platforms located outside the city, one for every continent. Within a short time after arrival, you will be transported to the city thanks to our highly intelligent, self-driven buggy-cars.<br>
-
-			When you first set your feet on Mars, you will soon come to realize that it’s not that different from this home after all. Thanks to our breakthrough technologies, we’ve managed to terraform the Red Planet into a place of wonders.
-			</p>
-			</section>
+					Nunc maximus id ex quis dignissim. In convallis lectus sit amet tristique 
+					imperdiet. Ut fringilla molestie nisi non egestas. Praesent aliquam felis 
+					at magna facilisis pretium. Pellentesque habitant morbi tristique senectus 
+					et netus et malesuada fames ac turpis egestas. Phasellus ac ipsum ultrices, 
+					suscipit eros sit amet, sodales mi. Curabitur lorem nunc, accumsan et ante 
+					vel, rutrum interdum urna. Duis tincidunt ligula vitae lectus tristique cursus. 
+					Pellentesque semper dapibus mi ac aliquet. Duis id quam lorem. Etiam 
+					elementum pellentesque libero pharetra auctor. Praesent lobortis eros 
+					est. In iaculis sed justo ut suscipit. Nam molestie, massa eget viverra mattis, 
+					odio nulla accumsan justo, id eleifend justo tellus sed sapien. Proin tincidunt, 
+					libero sed interdum maximus, sem nibh aliquet lorem, vitae accumsan mauris 
+					nibh posuere tellus. Nam consequat ante orci, non ultricies ex cursus sed.
+			</section>>
 		</div>
-
-
-
 		<footer>
-
 			<p id="countdown"></p>
+<<<<<<< b2cf253e19e1f9facd476a08e867ea50f30f7eec
 			<script> // hentet fra: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown
 			// Set the date we're counting down to
 			var countDownDate = new Date("Jan 5, 2020 15:00:00").getTime();
@@ -69,7 +83,30 @@
 			}, 1000);
 			</script>
 
-		</footer>
+=======
+			<script>
+				var departure = new Date("Jan 1, 2020 00:00:00").getTime(); // Reiser ved midnatt, 1. januar
 
+				var x = setInterval(function() {
+					var toDay = new Date().getTime(); //Todays date
+					var timeLeft = departure - toDay; // Time left
+
+					var years = Math.floor (timeLeft / (365 * 24 *60 *60 * 1000));
+					var days = Math.floor ((timeLeft % (365 * 24 * 60 * 60 * 1000)) / (24 * 60 * 60 * 1000));
+					var hours = Math.floor ((timeLeft % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+					var minutes = Math.floor ((timeLeft % (60 * 60 * 1000)) / (60 * 1000));
+					var seconds = Math.floor ((timeLeft % (60 * 1000)) / 1000);
+
+					document.getElementById("countdown").innerHTML = "Departure in " + years + 
+					"y " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+					if (timeLeft < 0) {
+						clearInterval(x);
+						document.getElementById("countdown").innerHTML = "EXPIRED";
+					}
+				}, 1000);
+			</script>
+>>>>>>> Fikset JS-countdown
+		</footer>
 	</body>
 </html>
