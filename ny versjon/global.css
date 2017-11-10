@@ -2,8 +2,8 @@
 
 #menu {
     overflow: hidden;
-    
-    
+
+
     /*background-color: #E57007;*/
     position: fixed;
     top: 0;
@@ -45,6 +45,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-left: -0.5em;
 
 }
 
@@ -71,20 +72,20 @@ body {
 
 article {
     width: 100%;
-    
+
     float: left;
 }
 
 #overskrift {
     width: 100%;
-    margin: auto; 
+    margin: auto;
 }
 
 #play {
     display: block;
     margin: auto;
     width: 10%;
-    
+
 }
 
 
