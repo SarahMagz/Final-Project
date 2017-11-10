@@ -23,7 +23,7 @@
     padding-top: 2%;
     text-decoration: none;
     font-size: 1em;
-    font-family: Neutra text, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a:hover {
@@ -91,13 +91,15 @@ article {
 
 /* Fonts */
 p {
-    font-family: Neutra text, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 1em;
     color: #EF9529;
 }
 
 h1 {
-    font-family: Neutra text, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
     font-size: 7em;
     color: #EF9529;
     text-align: center;
