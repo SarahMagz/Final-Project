@@ -90,7 +90,7 @@ body#application{
     float: left;
     width: 33%;
     padding-top: 10%;
-    padding-bottom: 50%;
+    padding-bottom: 5%;
     padding-left: -7%;
     margin-top: 5%;
     overflow: hidden;
@@ -101,11 +101,11 @@ body#application{
     float: left;
     width: 33%;
     padding-top: 10%;
-    padding-bottom: 50%;
+    padding-bottom: 5%;
     padding-left: -7%;
     margin-top: 5%;
     overflow: hidden;
-    
+    background-color: #EF9529;
     rgba(#EF9529,0,0,0.4)
 }
 
