@@ -179,6 +179,14 @@ h2 {
     text-align: left;
 }
 
+.orangeBox {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 4em;
+    color: black;
+    text-align: left;
+}
+
 h4 {
    font-family: 'Montserrat', sans-serif;
     font-weight: 300i;
