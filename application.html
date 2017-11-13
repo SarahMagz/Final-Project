@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> Application form </title>
+        <title> Application Form </title>
     </head>
     <body id="application">
         <h1>Application for visa to Zentopia</h1>
@@ -79,11 +79,11 @@
 
                 <!-- Nationality -->
                 Nationality:
-                <input type="text" name="Nationality"  placeholder="Norwegian, Spanish etc." required><br>
-                Brithcountry:
+                <input type="text" name="nationality"  placeholder="Norwegian, Spanish etc." required><br>
+                Birthcountry:
                 <input type="text" name="birthplace"  placeholder="France, England etc." required><br>
                 Address:
-                <input type ="text" name ="address"  placeholder="Random address 14b" required><br>
+                <input type ="text" name ="address"  placeholder="Random Address 14b" required><br>
                 ZIP code:
                 <input type ="number" name ="zip"  placeholder="xxxx" required><br>
                 City / Province: 
@@ -102,7 +102,7 @@
                 <input type="radio" name="status" value="engaged"> Engaged
                 <input type="radio" name="status" value="married"> Married<br>
                 <input type="radio" name="status" value="separated"> Separated
-                <input type="radio" name="status" value="divorced"> Divorces
+                <input type="radio" name="status" value="divorced"> Divorced
                 <input type="radio" name="status" value="widow"> Widow<br><br>
 
                 <!-- Number of kids -->
@@ -113,14 +113,13 @@
             <!-- Partner information -->
            <fieldset>
                 <legend><h2>2. Partners information</h2></legend>
-
-                <strong>Pleace leave empty if you do not have a partner</strong><br>
+                <strong>Pleace leave empty if you don't have a partner</strong><br>
 
                 <!-- Partner: Name -->
                 Partners name:
-                <input type ="text" name ="par_name"  placeholder="Jane/John" required><br>
+                <input type ="text" name ="par_name"  placeholder="Jane/John"><br>
                 Partners surname:
-                <input type ="text" name ="par_surname"  placeholder="Doe" required><br>
+                <input type ="text" name ="par_surname"  placeholder="Doe"><br>
 
                 <!-- Partner: Birthday = date, month, year -->
                 Partners birthdate:
@@ -195,6 +194,8 @@
                 <legend><h2>3. Education</h2></legend>
                 Highest degree achieved:
                 <input type="text" name="degree" placeholder="Bachelors, Masters etc." required><br>
+                Year degree achieved:
+                <input type ="number" name ="deg_year" placeholder ="xxxx" required><br>
                 School:
                 <input type="text" name="school" placeholder="School Name" required><br>
             </fieldset>
@@ -207,7 +208,7 @@
                 Current employer:
                 <input type="text" name="cur_emp" placeholder="Company, Self employed etc"><br>
                 Current work address:
-                <input type="text" name="cur_workadd" placeholder ="Random addresse 15c"><br>
+                <input type="text" name="cur_workadd" placeholder ="Random Address 15c"><br>
                 Current employers number:
                 <input type="number" name="curr_empnum" placeholder="xxxxxxxx"><br><br>
                 Previous job:
@@ -215,7 +216,7 @@
                 Previous employer:
                 <input type="text" name="ear_emp" placeholder="Company, Self employed etc."><br>
                 Previous work address:
-                <input type="text" name="ear_workadd" placeholder="Random addresse 16a"><br>
+                <input type="text" name="ear_workadd" placeholder="Random Address 16a"><br>
                 Previous employers number:
                 <input type="number" name="ear_empnum" placeholder="xxxxxxxx"><br>
             </fieldset>
@@ -224,11 +225,11 @@
             <fieldset>
                 <legend><h2>5. Passport information</h2></legend>
                 Pass type:
-                <input type="text" name="p_type" required placeholder="Type P etc."><br>
+                <input type="text" name="p_type"  placeholder="Type P etc." required><br>
                 Pass number:
-                <input type="text" name="p_number" required placeholder="xxxxxxxx"><br>
+                <input type="text" name="p_number" placeholder="xxxxxxxx" required><br>
                 Date of issue:
-                <select name="p_date">
+                <select name="p_date" required>
                     <option value ="default">-Date-</option>
                     <option value = "1">1</option>
                     <option value = "2">2</option>
@@ -277,9 +278,9 @@
                     <option value ="November">November</option>
                     <option value ="December">December</option>
                 </select>
-                <input type="text" name="p_year" placeholder="Year"required><br>
+                <input type="text" name="p_year" placeholder="Year" required><br>
                 Date of experation:
-                <select name="p_date2">
+                <select name="p_date2" required>
                     <option value ="default">-Date-</option>
                     <option value = "1">1</option>
                     <option value = "2">2</option>
