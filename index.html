@@ -4,7 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Zentopia</title>
-		<link rel="stylesheet" type="text/css" href="style.css"> <!-- Linker til CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300i,400,500,700" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -16,45 +17,17 @@
 		</header>
 
 		<div class="main">
-			<section>
-<<<<<<< Updated upstream
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Duis faucibus, odio ut suscipit aliquet, nibh justo tristique dolor, 
-					consequat porta metus quam ut risus. Nulla facilisi. Nullam 
-					elementum semper ex ac luctus. Pellentesque luctus dolor vel 
-					tortor ultricies, eget ultrices quam tincidunt. Etiam hendrerit 
-					tempor lacus, elementum cursus sem luctus et. Nulla ornare ac 
-					lacus nec pretium. Donec sit amet vestibulum justo, auctor luctus 
-					erat. Aliquam feugiat nisl sit amet efficitur semper. Phasellus dictum 
-					laoreet nunc, quis lacinia diam. In ornare velit enim, non pulvinar risus 
-					rhoncus nec. Proin nunc massa, lobortis vel dictum porta, varius eu 
-					neque. Nullam ac porttitor arcu, aliquet mollis mauris. Donec in lorem 
-					massa. Cras sed metus tincidunt, tempus nisl sed, pharetra justo.
-				</p>
-=======
-			<p> Located on the Amazonis quadrangle, close to the the Martian equator, lies Zentopia. 
-			Zentopia is a highly modern and advanced city, functioning as a safe-space for our refugees
-			from Earth. The city itself is divided into multiple quarters, each matching the different continents 
-			and cultures from Earth. The city center functions as a big melting pot, binding all of these cultures 
-			together and exposing them to one another.
-			SKULLE BARE TESTE EN ENDRING</p>
->>>>>>> Stashed changes
-			</section>
-			<section>
-					Nunc maximus id ex quis dignissim. In convallis lectus sit amet tristique 
-					imperdiet. Ut fringilla molestie nisi non egestas. Praesent aliquam felis 
-					at magna facilisis pretium. Pellentesque habitant morbi tristique senectus 
-					et netus et malesuada fames ac turpis egestas. Phasellus ac ipsum ultrices, 
-					suscipit eros sit amet, sodales mi. Curabitur lorem nunc, accumsan et ante 
-					vel, rutrum interdum urna. Duis tincidunt ligula vitae lectus tristique cursus. 
-					Pellentesque semper dapibus mi ac aliquet. Duis id quam lorem. Etiam 
-					elementum pellentesque libero pharetra auctor. Praesent lobortis eros 
-					est. In iaculis sed justo ut suscipit. Nam molestie, massa eget viverra mattis, 
-					odio nulla accumsan justo, id eleifend justo tellus sed sapien. Proin tincidunt, 
-					libero sed interdum maximus, sem nibh aliquet lorem, vitae accumsan mauris 
-					nibh posuere tellus. Nam consequat ante orci, non ultricies ex cursus sed.
-			</section>>
+			<article id="overskrift">
+				<h1>ZENTOPIA</h1>
+				<h3>THE FIRST HABITABLE CITY ON MARS</h3>
+			</article>
+			<article>
+				<a href="movie.html">
+					<img src="bilder/play.png" alt="play button" id="play">
+				</a>
+			</article>
 		</div>
+
 		<footer>
 			<p id="countdown"></p>
 			<script>
@@ -74,7 +47,7 @@
 					"y " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
 					if (timeLeft < 0) {
-						clearInterval(x);
+						clear <!-- Linker til CSS -->Interval(x);
 						document.getElementById("countdown").innerHTML = "EXPIRED";
 					}
 				}, 1000);
