@@ -5,8 +5,10 @@
     position: fixed;
     top: 0;
     width: 100%;
-    margin-left: -0.5%;
-    margin-right: -0.5%;
+    margin-left: -0.5em;
+    background-color: black;
+
+
 }
 
 
@@ -39,7 +41,6 @@ footer {
     position: fixed;
     padding-top: 1%;
     padding-bottom: 1%;
-    position: fixed;
     bottom: 0;
     width: 100%;
     margin-left: -0.5em;
@@ -186,6 +187,15 @@ legend {
     font-size: 1em;
     color: #EF9529;
     text-align: left;
+}
 
-
+.skjema {
+    font-size: 1.5em;
+    color:  rgb(167, 0, 0);
+}
+.skjema legend {
+    color: rgb(14, 167, 0);
+}
+.skjema input {
+    background-color: rgb(200, 50, 238);
 }
