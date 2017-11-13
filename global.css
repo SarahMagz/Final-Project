@@ -89,6 +89,7 @@ body#application{
 
 .historyBox {
     float: left;
+    min-height: 700px;
     width: 33%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -101,6 +102,7 @@ body#application{
 
 .historyBox_orange {
     float: left;
+    min-height: 700px;
     width: 33%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -118,9 +120,9 @@ article {
 }
 
 section {
-    width: 33%;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #overskrift {
