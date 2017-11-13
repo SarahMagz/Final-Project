@@ -5,8 +5,10 @@
     position: fixed;
     top: 0;
     width: 100%;
-    margin-left: -0.5%;
-    margin-right: -0.5%;
+    margin-left: -0.5em;
+    background: rgba(0, 0, 0, 0.6);
+
+
 }
 
 
@@ -39,7 +41,6 @@ footer {
     position: fixed;
     padding-top: 1%;
     padding-bottom: 1%;
-    position: fixed;
     bottom: 0;
     width: 100%;
     margin-left: -0.5em;
@@ -57,12 +58,12 @@ footer {
 body {
     background-image: url("bilder/stone.jpg");
     background-repeat: inherit;
-    
+
 }
 
 body#application{
     background-color: aqua;
-    
+
 }
 
 
@@ -89,31 +90,37 @@ body#application{
 .historyBox {
     float: left;
     width: 33%;
-    padding-top: 10%;
-    padding-bottom: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: -7%;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .historyBox_orange {
     float: left;
     width: 33%;
-    padding-top: 10%;
-    padding-bottom: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: -7%;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom:10%;
     overflow: hidden;
-    
-    rgba(#EF9529,0,0,0.4)
+    background: rgba(239, 149, 41,0.6);
 }
 
 
 article {
     width: 100%;
+    float: left;  
+}
 
-    float: left;
+section {
+    width: 33%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #overskrift {
@@ -127,8 +134,10 @@ article {
     position: absolute;
     top: 55%;
     margin-left: 45%;
+}
 
-
+#play:hover {
+    opacity: 0.5;
 }
 
 
@@ -137,7 +146,7 @@ article {
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 }
 
@@ -165,4 +174,30 @@ h2 {
     font-size: 4em;
     color: #EF9529;
     text-align: left;
+}
+
+h4 {
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 300i;
+    font-size: 2em;
+    color: white;
+    text-align: center; 
+}
+
+legend {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #EF9529;
+    text-align: left;
+}
+
+.skjema {
+    font-size: 1.5em;
+    color:  rgb(167, 0, 0);
+}
+.skjema legend {
+    color: rgb(14, 167, 0);
+}
+.skjema input {
+    background-color: rgb(200, 50, 238);
 }

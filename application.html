@@ -3,15 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="global.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300i,400,500,700" rel="stylesheet">
         <title> Application Form </title>
     </head>
     <body id="application">
         <h1>Application for visa to Zentopia</h1>
-        <form action ="registered.html" method ="post">
+        <form action ="registered.html" method ="post" class = "skjema">
 
             <!-- Your Information -->
             <fieldset>
-                <legend><h2>1. Your information</h2></legend>
+                <legend>1. Your information</legend>
                 <!-- Name -->
                 Given name:
                 <input type ="text" name ="name"  placeholder="Jane/John" required><br>
@@ -79,18 +81,18 @@
 
                 <!-- Nationality -->
                 Nationality:
-                <input type="text" name="nationality"  placeholder="Norwegian, Spanish etc." required><br>
+                <input type="text" name="Nationality"  placeholder="Norwegian, Spanish etc." required><br>
                 Birthcountry:
                 <input type="text" name="birthplace"  placeholder="France, England etc." required><br>
                 Address:
                 <input type ="text" name ="address"  placeholder="Random Address 14b" required><br>
                 ZIP code:
                 <input type ="number" name ="zip"  placeholder="xxxx" required><br>
-                City / Province: 
+                City / Province:
                 <input type ="text" name ="city"  placeholder="Oslo, Boston etc." required><br>
                 Country:
                 <input type="text" name="country"  placeholder="America, China etc."><br><br>
-                
+
                 Phone:
                 <input type="text" name="phone"  placeholder="xxxxxxxx" required><br>
                 E-mail:
@@ -109,10 +111,10 @@
                 Number of kids:
                 <input type ="number" name ="kids"  placeholder="x" required><br>
             </fieldset>
-            
+
             <!-- Partner information -->
            <fieldset>
-                <legend><h2>2. Partners information</h2></legend>
+                <legend>2. Partners information</legend>
                 <strong>Pleace leave empty if you don't have a partner</strong><br>
 
                 <!-- Partner: Name -->
@@ -178,7 +180,7 @@
                 Gender:
                 <input type="radio" name="par_gender" value="male"> Male
                 <input type="radio" name="par_gender" value="female"> Female
-                <input type="radio" name="par_gender" value="other"> Other<br><br>          
+                <input type="radio" name="par_gender" value="other"> Other<br><br>
 
                 <!-- Partner: Nationality -->
                 Nationality:
@@ -188,10 +190,10 @@
                 Recidency (city/country):
                 <input type="text" name="par_recidency" placeholder="Oslo/Norway, Paris/France etc."><br>
             </fieldset>
-            
+
             <!-- Education -->
             <fieldset>
-                <legend><h2>3. Education</h2></legend>
+                <legend>3. Education</legend>
                 Highest degree achieved:
                 <input type="text" name="degree" placeholder="Bachelors, Masters etc." required><br>
                 Year degree achieved:
@@ -199,10 +201,10 @@
                 School:
                 <input type="text" name="school" placeholder="School Name" required><br>
             </fieldset>
-            
+
             <!-- Work -->
             <fieldset>
-                <legend><h2>4. Work</h2></legend>
+                <legend>4. Work</legend>
                 Current job:
                 <input type="text" name="cur_job" placeholder="Mechanic, Doctor etc."><br>
                 Current employer:
@@ -220,12 +222,12 @@
                 Previous employers number:
                 <input type="number" name="ear_empnum" placeholder="xxxxxxxx"><br>
             </fieldset>
-            
+
             <!-- Passport Information -->
             <fieldset>
-                <legend><h2>5. Passport information</h2></legend>
+                <legend>5. Passport information</legend>
                 Pass type:
-                <input type="text" name="p_type"  placeholder="Type P etc." required><br>
+                <input type="text" name="p_type" placeholder="Type P etc." required><br>
                 Pass number:
                 <input type="text" name="p_number" placeholder="xxxxxxxx" required><br>
                 Date of issue:
@@ -278,9 +280,9 @@
                     <option value ="November">November</option>
                     <option value ="December">December</option>
                 </select>
-                <input type="text" name="p_year" placeholder="Year" required><br>
+                <input type="text" name="p_year" placeholder="Year"required><br>
                 Date of experation:
-                <select name="p_date2" required>
+                <select name="p_date2">
                     <option value ="default">-Date-</option>
                     <option value = "1">1</option>
                     <option value = "2">2</option>
@@ -334,10 +336,10 @@
 
             <!-- Letter of Application -->
             <fieldset>
-                <legend><h2>6. Letter of application</h2></legend>
+                <legend>6. Letter of application</legend>
                 <span>- Why do you want to go to mars?<br></span>
                 <span> - What are your best characteristics?<br></span>
-                <span>- In what way can you contribute?<br><br></span> 
+                <span>- In what way can you contribute?<br><br></span>
                 <textarea name ="text" rows="6" cols="60" placeholder="Write Here"required></textarea><br>
             </fieldset>
             <br>
