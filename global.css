@@ -111,8 +111,7 @@ body#application{
 
 article {
     width: 100%;
-
-    float: left;
+    float: left;  
 }
 
 section {
@@ -132,7 +131,10 @@ section {
     position: absolute;
     top: 55%;
     margin-left: 45%;
+}
 
+#play:hover {
+    opacity: 0.5;
 }
 
 
@@ -169,6 +171,14 @@ h2 {
     font-size: 4em;
     color: #EF9529;
     text-align: left;
+}
+
+h4 {
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 300i;
+    font-size: 2em;
+    color: white;
+    text-align: center; 
 }
 
 legend {
