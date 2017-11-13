@@ -57,6 +57,12 @@ footer {
 body {
     background-image: url("bilder/stone.jpg");
     background-repeat: inherit;
+    
+}
+
+body#application{
+    background-color: aqua;
+    
 }
 
 
@@ -99,10 +105,8 @@ article {
     position: absolute;
     top: 55%;
     margin-left: 45%;
-}
 
-#play:hover {
-    opacity: 0.5;
+
 }
 
 
@@ -127,8 +131,8 @@ h1 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 1.8em;
-  color: white;
+  font-size: 2em;
+  color: #EF9529;
   text-align: center;
   margin-top: -3em;
 }
