@@ -116,7 +116,7 @@ body#application{
 
 article {
     width: 100%;
-    float: left;  
+    float: left;
 }
 
 section {
@@ -183,7 +183,7 @@ h4 {
     font-weight: 300i;
     font-size: 2em;
     color: white;
-    text-align: center; 
+    text-align: center;
 }
 
 legend {
@@ -194,12 +194,18 @@ legend {
 }
 
 .skjema {
-    font-size: 1.5em;
-    color:  rgb(167, 0, 0);
+    font-size: 0.8 em;
+    color:  rgb(255,255,255);
+    font-family: 'Montserrat', sans-serif;
+    
 }
 .skjema legend {
-    color: rgb(14, 167, 0);
+    color: #EF9529;
+    
+
 }
 .skjema input {
-    background-color: rgb(200, 50, 238);
+    background-color:rgb(255,255,255); ;
+
+    
 }
