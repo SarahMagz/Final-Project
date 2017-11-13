@@ -97,10 +97,8 @@ article {
     position: absolute;
     top: 50%;
     margin-left: 45%;
-}
 
-#play:hover {
-    opacity: 0.5;
+
 }
 
 
@@ -120,20 +118,9 @@ h1 {
     color: #EF9529;
     text-align: center;
 }
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 1.8em;
-  color: white;
-  text-align: center;
-  margin-top: -3em;
-}
-
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 4em;
     color: #EF9529;
     text-align: left;
-}
