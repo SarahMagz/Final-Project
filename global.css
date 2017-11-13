@@ -2,9 +2,6 @@
 
 #menu {
     overflow: hidden;
-
-
-    /*background-color: #E57007;*/
     position: fixed;
     top: 0;
     width: 100%;
@@ -69,6 +66,7 @@ body {
     padding-bottom: 8%;
     margin: auto;
 }
+
 .box {
 	width: 100%;
     padding-top: -1%;
