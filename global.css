@@ -82,10 +82,32 @@ body#application{
 	padding-left: -7%;
 	margin-top: 5%;
 	overflow: hidden;
-  background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 
 }
 
+.historyBox {
+    float: left;
+    width: 33%;
+    padding-top: 10%;
+    padding-bottom: 50%;
+    padding-left: -7%;
+    margin-top: 5%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.historyBox_orange {
+    float: left;
+    width: 33%;
+    padding-top: 10%;
+    padding-bottom: 50%;
+    padding-left: -7%;
+    margin-top: 5%;
+    overflow: hidden;
+    
+    rgba(#EF9529,0,0,0.4)
+}
 
 
 article {
