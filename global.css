@@ -75,9 +75,11 @@ body {
     padding-bottom: 50%;
 	padding-left: -7%;
 	margin-top: -1%;
-	background-color: black;
 	overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+
 }
+
 
 
 article {
