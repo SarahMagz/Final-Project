@@ -57,12 +57,12 @@ footer {
 body {
     background-image: url("bilder/stone.jpg");
     background-repeat: inherit;
-    
+
 }
 
 body#application{
     background-color: aqua;
-    
+
 }
 
 
@@ -105,8 +105,7 @@ body#application{
     padding-left: -7%;
     margin-top: 5%;
     overflow: hidden;
-    background-color: #EF9529;
-    rgba(#EF9529,0,0,0.4)
+    background: rgba(239, 149, 41,0.6);
 }
 
 
@@ -172,6 +171,6 @@ legend {
     font-size: 1em;
     color: #EF9529;
     text-align: left;
-    
-    
+
+
 }
