@@ -89,18 +89,18 @@ body#application{
 .historyBox {
     float: left;
     width: 33%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: -7%;
     margin-top: 5%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .historyBox_orange {
     float: left;
     width: 33%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: -7%;
     margin-top: 5%;
@@ -115,6 +115,12 @@ article {
     float: left;
 }
 
+section {
+    width: 33%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 #overskrift {
     width: 100%;
     margin: auto;
@@ -127,7 +133,6 @@ article {
     top: 55%;
     margin-left: 45%;
 
-
 }
 
 
@@ -136,7 +141,7 @@ article {
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 }
 
