@@ -61,8 +61,9 @@ body {
 
 }
 
-body#application{
-    background-color: aqua;
+#application{
+    background-color: #000000;
+    
 
 }
 
@@ -194,13 +195,14 @@ legend {
 }
 
 .skjema {
-    font-size: 0.8 em;
+    font-size: 0.8em;
     color:  rgb(255,255,255);
     font-family: 'Montserrat', sans-serif;
     
 }
 .skjema legend {
     color: #EF9529;
+    font-size: 2em;
     
 
 }
