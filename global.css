@@ -112,7 +112,7 @@ body#application{
 
 article {
     width: 100%;
-    float: left;  
+    float: left;
 }
 
 section {
@@ -179,7 +179,7 @@ h4 {
     font-weight: 300i;
     font-size: 2em;
     color: white;
-    text-align: center; 
+    text-align: center;
 }
 
 legend {
