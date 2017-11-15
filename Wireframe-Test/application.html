@@ -22,7 +22,7 @@
         <form action ="registered.html" method ="post" class = "skjema">
 
             <!-- Your Information -->
-            <div class="box">
+            <div class="boxapp">
             <div class="application">
                 
         <table>
@@ -283,22 +283,34 @@
             
             
             <!-- Partner information -->
-           <div class="box">
+           <div class="boxapp">
            <div class="application">
                <table> 
                 
-                <legend>2. Partners information</legend>
-                <strong>Pleace leave empty if you don't have a partner</strong><br>
-
+                   <div> 
+                       <tr>
+                        <td><h4>2. Partners information</h4></td>
+                        <td><p>Pleace leave empty if you don't have a partner</p></td>
+                       </tr>
+                   
+                   </div> 
+                   
                 <!-- Partner: Name -->
-                Partners name:
-                <input type ="text" name ="par_name"  placeholder="Jane/John"><br>
-                Partners surname:
-                <input type ="text" name ="par_surname"  placeholder="Doe"><br>
+                
+                <tr>
+                    <td>Partners name:</td>
+                    <td><input type ="text" name ="par_name"  placeholder="Jane/John"></td>
+                </tr>
+                <tr>
+                    <td>Partners surname:</td>
+                    <td><input type ="text" name ="par_surname"  placeholder="Doe"></td>
+                </tr>
 
                 <!-- Partner: Birthday = date, month, year -->
-                Partners birthdate:
-                <select name="par_date" required>
+                <tr> 
+                    <td>Partners birthdate:</td>
+                    
+                    <td><select name="par_date" required>
                     <option value ="default">-Date-</option>
                     <option value = "1">1</option>
                     <option value = "2">2</option>
@@ -331,8 +343,9 @@
                     <option value = "29">29</option>
                     <option value = "30">30</option>
                     <option value = "31">31</option>
-                </select>
-                <select name = "par_month" required>
+                </select></td>
+                    
+                    <td><select name = "par_month" required>
                     <option value ="default">-Month-</option>
                     <option value ="January">January</option>
                     <option value ="February">February</option>
@@ -346,22 +359,36 @@
                     <option value ="October">October</option>
                     <option value ="November">November</option>
                     <option value ="December">December</option>
-                </select>
-                <input type="number" name="par_year"  placeholder="Year" required><br>
+                </select> </td>
+                    
+                    <td><input type="number" name="par_year"  placeholder="Year" required></td>
+                    
+                </tr>
+                
 
                 <!-- Partner: Gender -->
-                Gender:
-                <input type="radio" name="par_gender" value="male"> Male
-                <input type="radio" name="par_gender" value="female"> Female
-                <input type="radio" name="par_gender" value="other"> Other<br><br>
-
-                <!-- Partner: Nationality -->
-                Nationality:
-                <input type="text" name="par_nationality"  placeholder="Norwegian, Spanish etc." ><br>
-                Birthcountry:
-                <input type="text" name="par_birthplace" placeholder="France, England etc."><br>
-                Recidency (city/country):
-                <input type="text" name="par_recidency" placeholder="Oslo/Norway, Paris/France etc."><br>
+                <tr> 
+                    <td>Gender:</td>
+                    <td>Male<input type="radio" name="par_gender" value="male"></td>
+                    <td>Female<input type="radio" name="par_gender" value="female"></td>
+                    <td>Other<input type="radio" name="par_gender" value="other"></td>
+                </tr>
+                            
+                    <td><br><br></td>
+                    
+                <!-- Partner: Nationality --> 
+                <tr>
+                            <td>Nationality:</td>
+                            <td><input type="text" name="par_nationality"  placeholder="Norwegian, Spanish etc." ></td>
+                        </tr>
+                <tr>
+                            <td>Birthcountry:</td>
+                            <td><input type="text" name="par_birthplace" placeholder="France, England etc."></td>
+                        </tr>
+                <tr>
+                            <td>Recidency (city/country):</td>
+                            <td><input type="text" name="par_recidency" placeholder="Oslo/Norway, Paris/France etc."><br></td>
+                        </tr>
                    
                    
                </table>
@@ -369,46 +396,104 @@
             </div>
 
             <!-- Education -->
-            <fieldset>
-                <legend>3. Education</legend>
-                Highest degree achieved:
-                <input type="text" name="degree" placeholder="Bachelors, Masters etc." required><br>
-                Year degree achieved:
-                <input type ="number" name ="deg_year" placeholder ="xxxx" required><br>
-                School:
-                <input type="text" name="school" placeholder="School Name" required><br>
-            </fieldset>
+            <div class="boxapp">
+            <div class="application">
+               <table>
+                   <div> 
+                       <tr>
+                        <td><h4>3. Education</h4></td>
+                       </tr>
+                   </div> 
+                
+                <tr>
+                    <td>Highest degree achieved:</td>
+                    <td><input type="text" name="degree" placeholder="Bachelors, Masters etc." required></td>
+                </tr>
+                <tr>
+                    <td>Year degree achieved:</td>
+                    <td><input type ="number" name ="deg_year" placeholder ="xxxx" required></td>
+                </tr>
+                <tr>
+                   <td>School:</td>
+                    <td><input type="text" name="school" placeholder="School Name" required></td>
+                </tr>
+    
+                </table>
+               </div>
+            </div>
 
             <!-- Work -->
-            <fieldset>
-                <legend>4. Work</legend>
-                Current job:
-                <input type="text" name="cur_job" placeholder="Mechanic, Doctor etc."><br>
-                Current employer:
-                <input type="text" name="cur_emp" placeholder="Company, Self employed etc"><br>
-                Current work address:
-                <input type="text" name="cur_workadd" placeholder ="Random Address 15c"><br>
-                Current employers number:
-                <input type="number" name="curr_empnum" placeholder="xxxxxxxx"><br><br>
-                Previous job:
-                <input type="text" name="ear_job"placeholder="Dancer, Driver etc."><br>
-                Previous employer:
-                <input type="text" name="ear_emp" placeholder="Company, Self employed etc."><br>
-                Previous work address:
-                <input type="text" name="ear_workadd" placeholder="Random Address 16a"><br>
-                Previous employers number:
-                <input type="number" name="ear_empnum" placeholder="xxxxxxxx"><br>
-            </fieldset>
+            <div class="boxapp">
+            <div class="application">
+               <table>
+                   
+                <div> 
+                       <tr>
+                        <td><h4>4. Work</h4></td>
+                       </tr>
+                   </div> 
+                <tr>
+                    <td>Current job:</td>
+                    <td><input type="text" name="cur_job" placeholder="Mechanic, Doctor etc."></td>
+                </tr>
+                <tr>
+                   <td>Current employer:</td>
+                    <td><input type="text" name="cur_emp" placeholder="Company, Self employed etc"></td>
+                </tr>
+                <tr>
+                    <td>Current work address:</td>
+                    <td><input type="text" name="cur_workadd" placeholder ="Random Address 15c"></td>
+                </tr>
+                <tr>
+                   <td>Current employers number:</td>
+                    <td><input type="number" name="curr_empnum" placeholder="xxxxxxxx"></td>
+                </tr>
+                
+                <tr>
+               <td><br><br></td>
+                </tr>
+                
+                <tr>
+                   <td>Previous job:</td>
+                    <td><input type="text" name="ear_job"placeholder="Dancer, Driver etc."></td>
+                </tr>
+                <tr>
+                   <td>Previous employer:</td>
+                    <td><input type="text" name="ear_emp" placeholder="Company, Self employed etc."></td>
+                </tr>
+                <tr>
+                   <td>Previous work address:</td>
+                    <td><input type="text" name="ear_workadd" placeholder="Random Address 16a"><br></td>
+                </tr>
+                <tr>
+                   <td>Previous employers number:</td>
+                    <td><input type="number" name="ear_empnum" placeholder="xxxxxxxx"><br></td>
+                </tr>
+                </table>
+            </div>
+            </div>
 
             <!-- Passport Information -->
-            <fieldset>
-                <legend>5. Passport information</legend>
-                Pass type:
-                <input type="text" name="p_type" placeholder="Type P etc." required><br>
-                Pass number:
-                <input type="text" name="p_number" placeholder="xxxxxxxx" required><br>
-                Date of issue:
-                <select name="p_date" required>
+            <div class="boxapp">
+            <div class="application">
+               <table>
+                <div> 
+                       <tr>
+                        <td><h4>5. Passport information</h4></td>
+                       </tr>
+                </div> 
+                
+                <tr>
+                    <td>Pass type:</td>
+                    <td><input type="text" name="p_type" placeholder="Type P etc." required></td>
+                </tr>
+                <tr>
+                    <td>Pass number:</td>
+                    <td><input type="text" name="p_number" placeholder="xxxxxxxx" required></td>
+                </tr>
+                <tr>
+                    <td>Date of issue:</td>
+                    <td><select name="p_date" required>
                     <option value ="default">-Date-</option>
                     <option value = "1">1</option>
                     <option value = "2">2</option>
@@ -441,8 +526,8 @@
                     <option value = "29">29</option>
                     <option value = "30">30</option>
                     <option value = "31">31</option>
-                </select>
-                <select name = "p_month" required>
+                    </select></td>
+                    <td><select name = "p_month" required>
                     <option value ="default">-Month-</option>
                     <option value ="January">January</option>
                     <option value ="February">February</option>
@@ -456,10 +541,12 @@
                     <option value ="October">October</option>
                     <option value ="November">November</option>
                     <option value ="December">December</option>
-                </select>
-                <input type="text" name="p_year" placeholder="Year"required><br>
-                Date of experation:
-                <select name="p_date2">
+                    </select></td>
+                    <td><input type="text" name="p_year" placeholder="Year"required></td>
+                </tr>
+                <tr>
+                   <td>Date of experation:</td>
+                    <td><select name="p_date2">
                     <option value ="default">-Date-</option>
                     <option value = "1">1</option>
                     <option value = "2">2</option>
@@ -492,8 +579,8 @@
                     <option value = "29">29</option>
                     <option value = "30">30</option>
                     <option value = "31">31</option>
-                </select>
-                <select name = "p_month2" required>
+                    </select></td>
+                    <td><select name = "p_month2" required>
                     <option value ="default">-Month-</option>
                     <option value ="January">January</option>
                     <option value ="February">February</option>
@@ -507,20 +594,45 @@
                     <option value ="October">October</option>
                     <option value ="November">November</option>
                     <option value ="December">December</option>
-                </select>
-                <input type="text" name="p_year2" placeholder="Year"required><br>
-            </fieldset>
+                    </select></td>
+                    <td><input type="text" name="p_year2" placeholder="Year"required></td>
+                </tr>
+            </table>
+            </div>
+            </div>
+
 
             <!-- Letter of Application -->
-            <fieldset>
-                <legend>6. Letter of application</legend>
-                <span>- Why do you want to go to mars?<br></span>
-                <span> - What are your best characteristics?<br></span>
-                <span>- In what way can you contribute?<br><br></span>
-                <textarea name ="text" rows="6" cols="60" placeholder="Write Here"required></textarea><br>
-            </fieldset>
-            <br>
-            <input type="submit" name="Submit">
+            <div class="boxapp">
+            <div class="application">
+               <table>
+                    <div> 
+                       <tr>
+                        <td><h4>6. Letter of application</h4></td>
+                        <td><p>(Make sure you have answered at least the questions underneath)</p></td>
+                       </tr>
+                </div>
+                <tr>
+                    <td>1. Why do you want to go to mars?</td>
+                
+                    <td>2. What are your best characteristics?</td>
+               
+                    <td>3. In what way can you contribute?</td>
+                    
+                 <tr><td colspan="3"><textarea name ="text" rows="6" cols="140" placeholder="Write Here"required></textarea></td></tr>
+                </tr>
+                
+                  
+                
+            </table>
+            </div>
+            </div>
+                
+        <div class="btn" style="padding-left:45%">
+      <input type="submit" name="Submit"> 
+        </div>
+        
+            
         </form>
     </body>
 </html>
