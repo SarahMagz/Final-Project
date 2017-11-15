@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="global.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300i,400,500,700" rel="stylesheet">
+        <title> Application Form </title>
+    </head>
+    <body>
+        <header>
+            <table id="menu">
+			<div >
+ 				<td><a href="index.html">HOME</a></td>
+ 				<td><a href="problem.html">PROBLEM</a></td>
+				<td><a href="historie.html">ZENTOPIA</a></td>
+				<td><a href="application.html">APPLY NOW</a></td>
+			</div>
+            </table>
+		</header>
+        <h2>Application for visa to Zentopia</h2>
+        <form action ="registered.html" method ="post" class = "skjema">
+
+            <!-- Your Information -->
+            <div class="box">
+            <div class="application">
+                
+        <table>
+            <h4>1. Your information</h4>
+            <!-- Name -->
+            <tr>
+                <td>Given name:</td>
+                <td><input type ="text" name ="name"  placeholder="Jane/John" required></td>
+                
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Nationality:</td>
+                    <td><input type="text" name="Nationality"  placeholder="Norwegian, Spanish etc." required> </td>
+            </tr>
+            <tr>
+                <td>Surname:</td>
+                <td><input type ="text" name ="surname"  placeholder="Doe" required></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Birthcountry:</td>
+                <td><input type="text" name="birthplace"  placeholder="France, England etc." required></td>
+                
+            </tr>
+            
+                <!-- Birthdate = day, month, year -->
+            <tr>
+                <td>Birthdate:</td>
+                <td><select name="date" required>
+                    <option value ="default">-Date-</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                    <option value = "11">11</option>
+                    <option value = "12">12</option>
+                    <option value = "13">13</option>
+                    <option value = "14">14</option>
+                    <option value = "15">15</option>
+                    <option value = "16">16</option>
+                    <option value = "17">17</option>
+                    <option value = "18">18</option>
+                    <option value = "19">19</option>
+                    <option value = "20">20</option>
+                    <option value = "21">21</option>
+                    <option value = "22">22</option>
+                    <option value = "23">23</option>
+                    <option value = "24">24</option>
+                    <option value = "25">25</option>
+                    <option value = "26">26</option>
+                    <option value = "27">27</option>
+                    <option value = "28">28</option>
+                    <option value = "29">29</option>
+                    <option value = "30">30</option>
+                    <option value = "31">31</option>
+                    </select></td>
+                <td><select name = "month" required>
+                    <option value ="default">-Month-</option>
+                    <option value ="January">January</option>
+                    <option value ="February">February</option>
+                    <option value ="March">March</option>
+                    <option value ="April">April</option>
+                    <option value ="May">May</option>
+                    <option value ="June">June</option>
+                    <option value ="July">July</option>
+                    <option value ="August">August</option>
+                    <option value ="September">September</option>
+                    <option value ="October">October</option>
+                    <option value ="November">November</option>
+                    <option value ="December">December</option>
+                    </select></td>
+                <td><input type="number" name="year"  placeholder="Year" required></td>
+                
+                
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Address:</td>
+                <td><input type ="text" name ="address"  placeholder="Random Address 14b" required></td>
+                
+            </tr>
+            
+            
+            
+                <!-- Gender -->
+            <tr> 
+                <td>Gender:</td>
+                <td>Male<input type="radio" name="gender" value="male"> </td>
+                <td>Female<input type="radio" name="gender" value="female"></td>
+                <td>Other<input type="radio" name="gender" value="other"></td>
+                
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>ZIP code:</td>
+                <td><input type ="number" name ="zip"  placeholder="xxxx" required> </td>
+            </tr>
+            
+            <tr>
+            <td><br><br></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>City / Province: </td>
+                <td><input type ="text" name ="city"  placeholder="Oslo, Boston etc." required> </td>
+            </tr>
+
+                <!-- Nationality 
+                <tr>
+                    <td>Nationality:</td>
+                    <td><input type="text" name="Nationality"  placeholder="Norwegian, Spanish etc." required> </td>
+                </tr>
+            
+            <tr>
+                <td>Birthcountry:</td>
+                <td><input type="text" name="birthplace"  placeholder="France, England etc." required></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type ="text" name ="address"  placeholder="Random Address 14b" required></td>
+            </tr>
+            <tr>
+                <td>ZIP code:</td>
+                <td><input type ="number" name ="zip"  placeholder="xxxx" required> </td>
+            </tr>
+            <tr>
+                <td>City / Province: </td>
+                <td><input type ="text" name ="city"  placeholder="Oslo, Boston etc." required> </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td><input type="text" name="country"  placeholder="America, China etc."></td>
+            </tr>
+             
+            
+            
+            <tr>
+                <td>Phone:</td>
+                <td><input type="text" name="phone"  placeholder="xxxxxxxx" required></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="email" name="email"  placeholder="random@random.com" required></td>
+            </tr>
+                
+            <tr>
+                <td><br><br></td>
+            </tr>
+
+                <!-- Relationship status -->
+            
+            <tr>
+                <tr>
+                <td>Relationship status:</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Country:</td>
+                <td><input type="text" name="country"  placeholder="America, China etc."></td>  
+                </tr>
+                <tr>
+                <td>Unmarried<input type="radio" name="status" value="unmarried"></td>
+                <td>Engaged <input type="radio" name="status" value="engaged"> </td>
+                <td>Married<input type="radio" name="status" value="married"> </td>
+                
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Phone:</td>
+                <td><input type="text" name="phone"  placeholder="xxxxxxxx" required></td>
+                </tr>
+                <tr>
+                    <td> Separated<input type="radio" name="status" value="separated"> </td>
+                    <td>Divorced<input type="radio" name="status" value="divorced"> </td>
+                    <td>Widow<input type="radio" name="status" value="widow"> </td>
+                       <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>E-mail:</td>
+                <td><input type="email" name="email"  placeholder="random@random.com" required></td>
+            </tr>
+                
+            <tr>
+                <td><br><br></td>
+            </tr>
+            
+                <!-- Number of kids -->
+            
+            <tr>
+                <td>Number of kids:</td>
+                <td><input type ="number" name ="kids"  placeholder="x" required></td>
+            </tr>
+            </table>
+            </div>
+            </div>
+
+            
+            
+            
+            
+            <!-- Partner information -->
+           <div class="box">
+           <div class="application">
+               <table> 
+                
+                <legend>2. Partners information</legend>
+                <strong>Pleace leave empty if you don't have a partner</strong><br>
+
+                <!-- Partner: Name -->
+                Partners name:
+                <input type ="text" name ="par_name"  placeholder="Jane/John"><br>
+                Partners surname:
+                <input type ="text" name ="par_surname"  placeholder="Doe"><br>
+
+                <!-- Partner: Birthday = date, month, year -->
+                Partners birthdate:
+                <select name="par_date" required>
+                    <option value ="default">-Date-</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                    <option value = "11">11</option>
+                    <option value = "12">12</option>
+                    <option value = "13">13</option>
+                    <option value = "14">14</option>
+                    <option value = "15">15</option>
+                    <option value = "16">16</option>
+                    <option value = "17">17</option>
+                    <option value = "18">18</option>
+                    <option value = "19">19</option>
+                    <option value = "20">20</option>
+                    <option value = "21">21</option>
+                    <option value = "22">22</option>
+                    <option value = "23">23</option>
+                    <option value = "24">24</option>
+                    <option value = "25">25</option>
+                    <option value = "26">26</option>
+                    <option value = "27">27</option>
+                    <option value = "28">28</option>
+                    <option value = "29">29</option>
+                    <option value = "30">30</option>
+                    <option value = "31">31</option>
+                </select>
+                <select name = "par_month" required>
+                    <option value ="default">-Month-</option>
+                    <option value ="January">January</option>
+                    <option value ="February">February</option>
+                    <option value ="March">March</option>
+                    <option value ="April">April</option>
+                    <option value ="May">May</option>
+                    <option value ="June">June</option>
+                    <option value ="July">July</option>
+                    <option value ="August">August</option>
+                    <option value ="September">September</option>
+                    <option value ="October">October</option>
+                    <option value ="November">November</option>
+                    <option value ="December">December</option>
+                </select>
+                <input type="number" name="par_year"  placeholder="Year" required><br>
+
+                <!-- Partner: Gender -->
+                Gender:
+                <input type="radio" name="par_gender" value="male"> Male
+                <input type="radio" name="par_gender" value="female"> Female
+                <input type="radio" name="par_gender" value="other"> Other<br><br>
+
+                <!-- Partner: Nationality -->
+                Nationality:
+                <input type="text" name="par_nationality"  placeholder="Norwegian, Spanish etc." ><br>
+                Birthcountry:
+                <input type="text" name="par_birthplace" placeholder="France, England etc."><br>
+                Recidency (city/country):
+                <input type="text" name="par_recidency" placeholder="Oslo/Norway, Paris/France etc."><br>
+                   
+                   
+               </table>
+               </div>
+            </div>
+
+            <!-- Education -->
+            <fieldset>
+                <legend>3. Education</legend>
+                Highest degree achieved:
+                <input type="text" name="degree" placeholder="Bachelors, Masters etc." required><br>
+                Year degree achieved:
+                <input type ="number" name ="deg_year" placeholder ="xxxx" required><br>
+                School:
+                <input type="text" name="school" placeholder="School Name" required><br>
+            </fieldset>
+
+            <!-- Work -->
+            <fieldset>
+                <legend>4. Work</legend>
+                Current job:
+                <input type="text" name="cur_job" placeholder="Mechanic, Doctor etc."><br>
+                Current employer:
+                <input type="text" name="cur_emp" placeholder="Company, Self employed etc"><br>
+                Current work address:
+                <input type="text" name="cur_workadd" placeholder ="Random Address 15c"><br>
+                Current employers number:
+                <input type="number" name="curr_empnum" placeholder="xxxxxxxx"><br><br>
+                Previous job:
+                <input type="text" name="ear_job"placeholder="Dancer, Driver etc."><br>
+                Previous employer:
+                <input type="text" name="ear_emp" placeholder="Company, Self employed etc."><br>
+                Previous work address:
+                <input type="text" name="ear_workadd" placeholder="Random Address 16a"><br>
+                Previous employers number:
+                <input type="number" name="ear_empnum" placeholder="xxxxxxxx"><br>
+            </fieldset>
+
+            <!-- Passport Information -->
+            <fieldset>
+                <legend>5. Passport information</legend>
+                Pass type:
+                <input type="text" name="p_type" placeholder="Type P etc." required><br>
+                Pass number:
+                <input type="text" name="p_number" placeholder="xxxxxxxx" required><br>
+                Date of issue:
+                <select name="p_date" required>
+                    <option value ="default">-Date-</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                    <option value = "11">11</option>
+                    <option value = "12">12</option>
+                    <option value = "13">13</option>
+                    <option value = "14">14</option>
+                    <option value = "15">15</option>
+                    <option value = "16">16</option>
+                    <option value = "17">17</option>
+                    <option value = "18">18</option>
+                    <option value = "19">19</option>
+                    <option value = "20">20</option>
+                    <option value = "21">21</option>
+                    <option value = "22">22</option>
+                    <option value = "23">23</option>
+                    <option value = "24">24</option>
+                    <option value = "25">25</option>
+                    <option value = "26">26</option>
+                    <option value = "27">27</option>
+                    <option value = "28">28</option>
+                    <option value = "29">29</option>
+                    <option value = "30">30</option>
+                    <option value = "31">31</option>
+                </select>
+                <select name = "p_month" required>
+                    <option value ="default">-Month-</option>
+                    <option value ="January">January</option>
+                    <option value ="February">February</option>
+                    <option value ="March">March</option>
+                    <option value ="April">April</option>
+                    <option value ="May">May</option>
+                    <option value ="June">June</option>
+                    <option value ="July">July</option>
+                    <option value ="August">August</option>
+                    <option value ="September">September</option>
+                    <option value ="October">October</option>
+                    <option value ="November">November</option>
+                    <option value ="December">December</option>
+                </select>
+                <input type="text" name="p_year" placeholder="Year"required><br>
+                Date of experation:
+                <select name="p_date2">
+                    <option value ="default">-Date-</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                    <option value = "11">11</option>
+                    <option value = "12">12</option>
+                    <option value = "13">13</option>
+                    <option value = "14">14</option>
+                    <option value = "15">15</option>
+                    <option value = "16">16</option>
+                    <option value = "17">17</option>
+                    <option value = "18">18</option>
+                    <option value = "19">19</option>
+                    <option value = "20">20</option>
+                    <option value = "21">21</option>
+                    <option value = "22">22</option>
+                    <option value = "23">23</option>
+                    <option value = "24">24</option>
+                    <option value = "25">25</option>
+                    <option value = "26">26</option>
+                    <option value = "27">27</option>
+                    <option value = "28">28</option>
+                    <option value = "29">29</option>
+                    <option value = "30">30</option>
+                    <option value = "31">31</option>
+                </select>
+                <select name = "p_month2" required>
+                    <option value ="default">-Month-</option>
+                    <option value ="January">January</option>
+                    <option value ="February">February</option>
+                    <option value ="March">March</option>
+                    <option value ="April">April</option>
+                    <option value ="May">May</option>
+                    <option value ="June">June</option>
+                    <option value ="July">July</option>
+                    <option value ="August">August</option>
+                    <option value ="September">September</option>
+                    <option value ="October">October</option>
+                    <option value ="November">November</option>
+                    <option value ="December">December</option>
+                </select>
+                <input type="text" name="p_year2" placeholder="Year"required><br>
+            </fieldset>
+
+            <!-- Letter of Application -->
+            <fieldset>
+                <legend>6. Letter of application</legend>
+                <span>- Why do you want to go to mars?<br></span>
+                <span> - What are your best characteristics?<br></span>
+                <span>- In what way can you contribute?<br><br></span>
+                <textarea name ="text" rows="6" cols="60" placeholder="Write Here"required></textarea><br>
+            </fieldset>
+            <br>
+            <input type="submit" name="Submit">
+        </form>
+    </body>
+</html>
