@@ -19,7 +19,7 @@
     display: block;
     color: #EF9529;
     text-align: center;
-    padding-bottom: 1.35%;
+    padding-bottom: 1.05%;
     padding-top: 2%;
     text-decoration: none;
     font-size: 0.8em;
@@ -370,7 +370,7 @@ h3 {
 
 .menu a {
     width: 25%;
-    font-size: 1em;  
+    font-size: 1em;
 }
 
 }
@@ -388,7 +388,7 @@ h3 {
     margin-right: 50%;
 }
 
-/* Fonts */ 
+/* Fonts */
 p {
     font-size: 0.9em;
 }
@@ -407,7 +407,7 @@ h3 {
 
 .menu a {
     width: 20%;
-    font-size: 1.2em;  
+    font-size: 1.2em;
 }
 
 }
