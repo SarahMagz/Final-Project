@@ -206,6 +206,10 @@ section {
     opacity: 0.5;
 }
 
+#problem {
+    margin-top: 30%;
+}
+
 /* Fonts */
 p {
     font-family: 'Montserrat', sans-serif;
@@ -243,13 +247,6 @@ h2 {
     text-align: center;
 }
 
-.orangeBox {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 2em;
-    color: black;
-    text-align: left;
-}
 
 h4 {
    font-family: 'Montserrat', sans-serif;
@@ -376,6 +373,10 @@ h3 {
     width: 40%;
     text-align: left;
     margin-right: 6%;
+}
+
+#problem {
+    margin-top: 15%;
 }
 
 
