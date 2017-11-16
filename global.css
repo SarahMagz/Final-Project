@@ -212,8 +212,8 @@ p {
     font-weight: 300;
     font-size: 0.7em;
     color: white;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 h1 {
@@ -228,7 +228,7 @@ h1 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #EF9529;
   text-align: center;
   margin-top: -3em;
