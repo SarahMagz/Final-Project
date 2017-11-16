@@ -1,7 +1,7 @@
 # Final-Project
 Zentopia <br>
 
-sxxxxxx -- Julie <br>
+s326317 -- Julie <br>
 s178110 -- Karoline <br>
 s236017 -- Kjersti <br>
 s326276 -- Maren <br>
