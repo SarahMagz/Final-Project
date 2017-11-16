@@ -11,7 +11,6 @@
     margin-bottom: 10%;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
-    width: 100%;
 }
 
 .menu a {
@@ -23,7 +22,7 @@
     padding-bottom: 2%;
     padding-top: 2%;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
@@ -78,7 +77,6 @@ body{
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
-
 }
 
 .boxapp{
