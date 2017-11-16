@@ -4,24 +4,26 @@
 
 /* Menu */
 
-#menu {
+.menu {
     overflow: hidden;
     position: fixed;
     top: 0;
-    margin-left: -0.5em;
+    margin-bottom: 10%;
+    width: 100%;
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
 }
 
-
-#menu a {
+.menu a {
+    width: 20%;
+    float: left;
     display: block;
     color: #EF9529;
     text-align: center;
     padding-bottom: 2%;
     padding-top: 2%;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
