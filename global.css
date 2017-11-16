@@ -123,7 +123,7 @@ hr {
     width: 100%;
     padding-bottom: 1em;
     padding-left: -7%;
-    margin-top: 5%;
+    margin-top: 1%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
@@ -135,9 +135,9 @@ hr {
     background:url(bilder/flyingbike.jpg) no-repeat!important;
     background-repeat: no-repeat;
     width: 100%;
-    padding-bottom: 1em;
+    padding-bottom: 10em;
     padding-left: -7%;
-    margin-top: 5%;
+    margin-top: 1%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
@@ -147,11 +147,11 @@ hr {
 
 .historyBox {
     float: right;
-    min-height: 1200px;
+    min-height: 650px;
     width: 30%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-bottom: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
     margin-right: 6%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
@@ -265,8 +265,17 @@ header, p {
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 
 /*Registered*/
+=======
+<<<<<<< HEAD
+/*registered*/
+=======
+
+/*Registered*/
+>>>>>>> master
+>>>>>>> Stashed changes
 
 .registered, h3{
     text-align: center!important;
