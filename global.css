@@ -56,11 +56,10 @@ footer {
     margin-top: 0.1em;
 }
 
-body {
-    background-image: url("bilder/stone.png");
-    background-repeat:no-repeat;
+body{
     background-color: #000000;
 }
+
 
 
 .main {
