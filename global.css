@@ -60,6 +60,7 @@ body{
     background-image: url('bilder/stone.png');
     background-repeat:no-repeat;
     background-color: #000000;
+    position:inherit;
 }
 
 
