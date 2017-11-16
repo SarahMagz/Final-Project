@@ -1,3 +1,23 @@
+/*Mobile enheter*/
+
+@media screen and (min-width: 320px){
+
+}
+
+/*Nettbrett*/
+
+@media screen and (min-width: 760px){
+
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1200px){
+
+}
+
+
+
 /* Menu */
 
 #menu {
@@ -7,10 +27,6 @@
     margin-left: -0.5em;
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
-
-
-
-
 }
 
 
@@ -268,7 +284,7 @@ h2 {
 .orangeBox {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 4em;
+    font-size: 2em;
     color: black;
     text-align: left;
 }
@@ -308,7 +324,7 @@ header, p {
 
 .skjema {
     font-size: 0.8em;
-    color:  rgb(255,255,255);
+    color: rgb(255,255,255);
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -316,10 +332,9 @@ header, p {
     color: #EF9529;
     font-size: 2em;
 
-
 }
-.skjema input {
-    background-color:rgb(255,255,255); ;
 
+.skjema input {
+    background-color:rgb(255,255,255); 
 
 }
