@@ -147,12 +147,21 @@ hr {
 
 .historyBox {
     float: right;
+<<<<<<< HEAD
     min-height: 650px;
     width: 30%;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
     margin-right: 6%;
+=======
+    min-height: 1200px;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    
+>>>>>>> master
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
@@ -212,8 +221,8 @@ p {
     font-weight: 300;
     font-size: 0.7em;
     color: white;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 h1 {
@@ -228,7 +237,7 @@ h1 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #EF9529;
   text-align: center;
   margin-top: -3em;
@@ -373,6 +382,11 @@ h3 {
     font-size: 1em;
 }
 
+.historyBox {
+    width: 40%;
+    margin-right: 6%;
+}
+
 }
 
 /*Desktop*/
@@ -408,6 +422,11 @@ h3 {
 .menu a {
     width: 20%;
     font-size: 1.2em;
+}
+
+.historyBox {
+    width: 30%;
+    margin-right: 6%;
 }
 
 }
