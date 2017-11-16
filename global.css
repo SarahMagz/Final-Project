@@ -267,7 +267,7 @@ section {
     padding-top: 5%;
 }
 
-registered, p{
+.registered, p{
     text-align: center!important;
     color: white!important;
 }
@@ -299,7 +299,6 @@ h1 {
     font-size: 7em;
     color: #EF9529;
     text-align: center;
-    margin-top: 0em;
 }
 
 h3 {
