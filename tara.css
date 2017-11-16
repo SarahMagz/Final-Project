@@ -1,3 +1,11 @@
+body {
+    background-image: url("bilder/stone.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
 /* Footer */
 footer {
     overflow: hidden;
@@ -6,89 +14,53 @@ footer {
     height: 6%;
     bottom: 0;
     width: 100%;
+    margin-left: -0.5%;
 }
 
 #countdown {
     font-size: 2em;
     margin-top: 0.3em;
-}
-
-body {
-    background-image: url("bilder/stone.jpg");
-    background-repeat:no-repeat;
-    background-color: #000000;
-}
-.boxapp{
-    width: 80%;
-	overflow: hidden;
-    margin: 5%;
-    padding-bottom: 2%;
-    background: rgba(0, 0, 0, 0.6);
-    text-align: center;   
-}
-/* Fonts */
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 0.8em;
-    color: white;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-size: 7em;
-    color: #EF9529;
-    text-align: center;
-    margin-top: 0em;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 2em;
-  color: #EF9529;
-  text-align: center;
-  margin-top: -3em;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 4em;
-    color: #EF9529;
-    text-align: left;
-}
-
-h4 {
-   font-family: 'Montserrat', sans-serif;
-    font-weight: 300i;
-    font-size: 2em;
-    color: white;
-    text-align: center;
-}
-
-header, p {
-   font-family: 'Montserrat', sans-serif;
-    font-weight: 300i;
     color: #EF9529;
     text-align: center;
 }
+
 /* Skjema */
 .skjema {
-    font-size: 0.8em;
-    color:  rgb(255,255,255);
-    font-family: 'Montserrat', sans-serif;
-    
+    font-size: 1em;
+    color:  rgb(255,255,255);    
 }
 .skjema legend {
     color: #EF9529;
     font-size: 2em;
-    
-
 }
 .skjema input {
-    background-color:rgb(255,255,255); ;
-
-    
+    margin-bottom: 0.5em;
+}
+.skjema select {
+    padding: 0.2%;
+}
+.boxapp {
+    overflow: hidden;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 18%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 2em;
+    border: hidden;
+}
+.boxapp h1 {
+    text-align: center;
+    color: #EF9529;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif!important;
+}
+#btn {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2em;
+    border-color: white;
+    background-color: black;
+    color: #EF9529;
+    font-size: 1em;
+    padding: 1em;
 }
