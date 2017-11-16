@@ -1,3 +1,21 @@
+/*Mobile enheter*/
+
+@media screen and (min-width: 320px){
+
+}
+
+/*Nettbrett*/
+
+@media screen and (min-width: 760px){
+
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1200px){
+
+}
+
 /* Menu */
 
 #menu {
@@ -7,10 +25,6 @@
     margin-left: -0.5em;
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
-    
-    
-
-
 }
 
 
@@ -210,7 +224,7 @@ section {
     padding-top: 5%;
 }
 
-registered, p{
+.registered, p{
     text-align: center!important;
     color: white!important;
 }
@@ -315,6 +329,7 @@ header, p {
     
 
 }
+
 .skjema input {
     background-color:rgb(255,255,255); ;
 
