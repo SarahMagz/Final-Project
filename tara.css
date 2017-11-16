@@ -1,0 +1,94 @@
+/* Footer */
+footer {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    height: 6%;
+    bottom: 0;
+    width: 100%;
+}
+
+#countdown {
+    font-size: 2em;
+    margin-top: 0.3em;
+}
+
+body {
+    background-image: url("bilder/stone.jpg");
+    background-repeat:no-repeat;
+    background-color: #000000;
+}
+.boxapp{
+    width: 80%;
+	overflow: hidden;
+    margin: 5%;
+    padding-bottom: 2%;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;   
+}
+/* Fonts */
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 7em;
+    color: #EF9529;
+    text-align: center;
+    margin-top: 0em;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  color: #EF9529;
+  text-align: center;
+  margin-top: -3em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 4em;
+    color: #EF9529;
+    text-align: left;
+}
+
+h4 {
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 300i;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+header, p {
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 300i;
+    color: #EF9529;
+    text-align: center;
+}
+/* Skjema */
+.skjema {
+    font-size: 0.8em;
+    color:  rgb(255,255,255);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.skjema legend {
+    color: #EF9529;
+    font-size: 2em;
+    
+
+}
+.skjema input {
+    background-color:rgb(255,255,255); ;
+
+    
+}
