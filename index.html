@@ -5,29 +5,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="global.css">
 		<script type="text/javascript" src ="countdown.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300i,400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700" rel="stylesheet">
 		<title>Zentopia</title>
 	</head>
 	<body>
 		<header>
-			<div id="menu">
- 				<a href="index.html">HOME</a>
- 				<a href="problem.html">PROBLEM</a>
-				<a href="historie.html">ZENTOPIA</a>
-				<a href="application.html">APPLY NOW</a>
+            <table id="menu">
+			<div >
+ 				<td><a href="index.html">HOME</a></td>
+ 				<td><a href="problem.html">PROBLEM</a></td>
+				<td><a href="historie.html">ZENTOPIA</a></td>
+				<td><a href="application.html">APPLY NOW</a></td>
 			</div>
+            </table>
 		</header>
 		<div class="box">
 			<article id="overskrift">
 				<h1>ZENTOPIA</h1>
 				<h3>THE FIRST HABITABLE CITY ON MARS </h3>
+                <p>SCROLL DOWN TO SEE PROBLEM</p>
+                <hr width=15%>
+                <br>
 			</article>
 			<article>
                 <a href="movie.html">
-                <img src="bilder/play.png" alt="Press play to show video" id="play">
+                <img src="bilder/scroll.png" alt="Press play to show video" id="play">
                 </a>
 			</article>
 		</div>
+        
+        <div class="box">
+            <h3>Problem </h3>
+            <p>Press play to watch the future </p>
+                <hr width=12%>
+            
+            <video width="1000" controls>
+                <source src="mov_bbb.mp4" type="video/mp4"><source src="mov_bbb.ogg" type="video/ogg">
+                Your browser does not support HTML5 video
+            </video>
+        
+        </div>
 		<footer>
 			<p id ="countdown"></p>
 			<script>
