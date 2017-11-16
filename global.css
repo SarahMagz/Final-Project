@@ -1,6 +1,7 @@
 /*Mobile enheter*/
 
 @media screen and (min-width: 320px){
+
 /* Menu */
 
 #menu {
@@ -134,7 +135,6 @@ hr {
     height: 100%;
     padding-top: 10%;
     padding-bottom: 20em;
-    padding-left: -7%;
     margin-top: 5%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
@@ -222,8 +222,10 @@ hr {
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: white;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 h1 {
@@ -262,7 +264,7 @@ h2 {
 
 h4 {
    font-family: 'Montserrat', sans-serif;
-    font-weight: 300i;
+    font-weight: 300;
     font-size: 2em;
     color: white;
     text-align: center;
