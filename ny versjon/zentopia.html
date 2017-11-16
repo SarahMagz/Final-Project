@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="global.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300i,400,500,700" rel="stylesheet">
+		<title>Zentopia</title>
+	</head>
+
+	<body>
+
+		<header>
+			<div id="menu">
+
+ 				  <a href="index.html">HOME</a>
+				  <a href="zentopia.html">ZENTOPIA</a>
+				  <a href="application.html">APPLY NOW</a>
+			</div>
+		</header>
+
+		<div class="box">
+		
+			<article>
+	
+
+				<p id="article">
+				Zentopia was developed to save human kind and remaining creatures left on earth. 
+				Hundreds og years ago humans slowly destroyed earth as a paradise. Hundreds of 
+				scientists and delevopers have been working on making March a livable planet. 
+				We are provdly announcing the first city livable on March.
+				Welcome to Zentopia – first livable city on March.
+				
+				Zentopia
+				Located on the Amazonis quadrangle, close to the the Martian equator, lies Zentopia.
+				Zentopia is a highly modern and advanced city, functioning as a safe-space for our refugees
+				from Earth. The city itself is divided into multiple quarters, each matching the different 
+				continents and cultures from Earth. The city center functions as a big melting pot, binding all 
+				of these cultures together and exposing them to one another.
+				
+				Landing
+				There are seven landing platforms located outside the city, one for each continent. Within a short 
+				time after arrival, you will be transported to the city thanks to our highly intelligent, self-driven buggy-cars.
+				
+				Ohala-layer
+				The Ohala-layer on is our key to sucess. The layer recreates the greenhouse effect we know from Earth and 
+				regulates temperature and gravity. Even though Mars is further away from the sun, the temperature will always stay
+				between 15 to 40 degrees.
+				
+				Things to do
+				The city of Zentopia welcomes you with a place to live, and a job specifically tailored to your best abilities. 
+				In your free time time, you could visit one of our multiple stores, parks or museums. You could share a Martian Stirring 
+				Pot with your friends at Marn in Downtown Zentopia, take a stroll in the exotic Zingen-park, visit the Planet Tower or enjoy
+				a take-away coffee from one of the multiple Coffa-shops around town.
+
+				Welcome to Zentopia – first livable city on March.
+			</p></article>
+		</div>
+
+
+
+		<footer>
+
+			<p id="countdown"></p>
+
+<script> // hentet fra: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2020 15:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+		var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365));
+		var days = Math.floor(distance / (1000 * 60 * 60 * 24) / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+
+    // Output the result in an element with id="demo"
+  document.getElementById("countdown").innerHTML = "Departure in " + years + "y " + days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+		</footer>
+
+	</body>
+</html>
