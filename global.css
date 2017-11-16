@@ -46,6 +46,7 @@ footer {
     margin-left: -0.5em;
 }
 
+/* Body */
 
 body{
     background-image: url('bilder/stone.png');
@@ -63,6 +64,68 @@ body{
     padding-top: 8%;
     padding-bottom: 8%;
     margin: auto;
+}
+
+article {
+    width: 100%;
+    float: left;
+}
+
+section {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#overskrift {
+    width: 100%;
+    margin: auto;
+}
+
+
+hr {
+    border-color: #EF9529;
+
+}
+
+/* Countdown */
+
+#countdown {
+    font-size: 2em;
+    color: #EF9529;
+    text-align: center;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+
+
+/* Boxes */
+
+.historyBox {
+    float: right;
+    min-height: 1200px;
+    width: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    margin-right: 6%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+    text-align: center;
+}
+
+.historyBox_orange {
+    float: left;
+    min-height: 900px;
+    width: 33%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: -7%;
+    margin-top: 10%;
+    margin-bottom:10%;
+    overflow: hidden;
+    background: rgba(239, 149, 41,0.6);
 }
 
 
@@ -89,19 +152,7 @@ body{
 
 }
 
-hr {
-    border-color: #EF9529;
-
-}
-
-#countdown {
-    font-size: 2em;
-    color: #EF9529;
-    text-align: center;
-    margin-bottom: 0.1em;
-    margin-top: 0.1em;
-}
-
+/* History */
 
 .location{
     background:url(bilder/after.jpg) no-repeat!important;
@@ -145,49 +196,9 @@ hr {
 
 }
 
-.historyBox {
-    float: right;
-    min-height: 1200px;
-    width: 30%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-bottom: 10%;
-    margin-right: 6%;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 10;
-    text-align: center;
-}
-
-.historyBox_orange {
-    float: left;
-    min-height: 900px;
-    width: 33%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: -7%;
-    margin-top: 10%;
-    margin-bottom:10%;
-    overflow: hidden;
-    background: rgba(239, 149, 41,0.6);
-}
 
 
-article {
-    width: 100%;
-    float: left;
-}
-
-section {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#overskrift {
-    width: 100%;
-    margin: auto;
-}
+/* Button */
 
 #play {
     display: block;
@@ -207,6 +218,7 @@ section {
 }
 
 /* Fonts */
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -263,14 +275,14 @@ header, p {
     text-align: center;
 }
 
-/*registered*/
+/*Registered*/
 
 .registered, h3{
     text-align: center!important;
     padding-top: 5%;
 }
 
-registered, p{
+.registered, p{
     text-align: center!important;
     color: white!important;
 }
@@ -287,7 +299,7 @@ input{
     background-color: black;
 }
 
-
+/* Application */
 
 .application {
     font-family: 'Montserrat', sans-serif;
