@@ -42,18 +42,19 @@ footer {
 .boxapp {
     overflow: hidden;
     width: 60%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     margin: 18%;
     margin-bottom: 1em;
     margin-top: 1em;
     padding: 2em;
     border: hidden;
 }
-.boxapp h1 {
+.boxapp p {
     text-align: center;
     color: #EF9529;
+    font-size: 4em;
+    font-weight: 200;
     padding-bottom: 2%;
-    font-family: 'Montserrat', sans-serif!important;
 }
 #btn {
     font-family: 'Montserrat', sans-serif;
