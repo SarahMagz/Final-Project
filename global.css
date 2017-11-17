@@ -14,7 +14,7 @@
 }
 
 .menu a {
-    width: 33.3%; 
+    width: 33.3%;
     float: left;
     display: block;
     color: #ffffff;
@@ -24,7 +24,7 @@
     text-decoration: none;
     font-size: 0.9em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+
 }
 
 a:hover {
@@ -216,8 +216,8 @@ p {
     font-weight: 400;
     font-size: 0.7em;
     color: white;
-     margin-right: 5%; 
-    margin-left: 5%; 
+     margin-right: 5%;
+    margin-left: 5%;
     margin-right: 3%;
     margin-left: 3%;
 }
@@ -352,23 +352,23 @@ h1 {
     font-size: 4em;
 }
 
-h2 { 
-    font-size: 2.5em; 
-} 
- 
-h3 { 
-    font-size: 1.1em; 
-} 
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
 
 /* Menu */
 
 .menu a {
     width: 25%;
-    font-size: 1em; 
+    font-size: 1em;
     margin-left: 5%;
 }
 
-/* Boxes */ 
+/* Boxes */
 .historyBox {
     width: 40%;
     text-align: left;
@@ -406,23 +406,23 @@ h1 {
     font-size: 7em;
 }
 
-h2 { 
-    font-size: 4em; 
-} 
- 
-h3 { 
-    font-size: 2em; 
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
     margin-top: -3em;
-} 
+}
 
 /* Menu */
 
 .menu a {
     width: 15%;
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
-/* Boxes */ 
+/* Boxes */
 .historyBox {
     width: 30%;
     margin-right: 6%;
