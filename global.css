@@ -113,6 +113,8 @@ hr {
     margin-top: 5%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
 
 }
 
@@ -125,6 +127,8 @@ hr {
     margin-top: 1%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
 
 }
 
@@ -137,6 +141,8 @@ hr {
     margin-top: 1%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
 
 }
 
@@ -150,6 +156,7 @@ hr {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
+    text-align: center;
 }
 
 .historyBox_orange {
