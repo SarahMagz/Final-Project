@@ -73,15 +73,9 @@ body{
     width: 100%;
     height: 80%;
     padding-top: 10%;
-    margin-top: 7%;
+    margin-top: 5%;
     overflow: hidden;
     text-align: center;
-}
-
-box iframe{
-    width= 1000; 
-    height= 570;
-    
 }
 
 }
