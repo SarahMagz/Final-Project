@@ -78,14 +78,6 @@ body{
     text-align: center;
 }
 
-.boxapp{
-    width: 80%;
-    overflow: hidden;
-    margin: 5%;
-    padding-bottom: 2%;
-    background: rgba(0, 0, 0, 0.6);
-    text-align: center;
-
 }
 
 hr {
@@ -260,12 +252,6 @@ h4 {
     padding: 1.5em;
 }
 
-input{
-    background-color: black;
-}
-
-
-
 .application {
     padding-left: 25%;
     padding-right: 25%;
@@ -306,6 +292,7 @@ input{
     margin-top: 1em;
     padding: 2em;
     border: hidden;
+    
 }
 .boxapp p {
     text-align: center;
@@ -322,7 +309,7 @@ input{
     color: #EF9529;
     font-size: 1em;
     padding: 1em;
-}
+    text-align: center;
 }
 
 /*Nettbrett*/
