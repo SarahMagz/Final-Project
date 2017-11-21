@@ -33,16 +33,14 @@ footer {
     overflow: hidden;
     background-color: black;
     position: fixed;
-    height: 6%;
     bottom: 0;
     width: 100%;
-    margin-left: -0.5%;
 }
 
 #countdown {
     font-size: 2em;
-    margin-top: 0.3em;
-    color: #EF9529;
+    margin: 0.2em;
+    color: #EF9529!important;
     text-align: center;
 }
 
