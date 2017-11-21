@@ -1,9 +1,11 @@
 /*Mobile enheter*/
 
-@media screen and (min-width: 320px){
+/* @media screen and (min-width: 100px){ */
 
 /* Menu */
-
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 .menu {
     overflow: hidden;
     position: fixed;
@@ -23,8 +25,6 @@
     padding-top: 2%;
     text-decoration: none;
     font-size: 0.9em;
-    font-family: 'Montserrat', sans-serif;
-
 }
 
 a:hover {
@@ -36,16 +36,21 @@ a:active {
 }
 
 /* Footer */
-
 footer {
     overflow: hidden;
     background-color: black;
     position: fixed;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    height: 6%;
     bottom: 0;
     width: 100%;
-    margin-left: -0.5em;
+    margin-left: -0.5%;
+}
+
+#countdown {
+    font-size: 2em;
+    margin-top: 0.3em;
+    color: #EF9529;
+    text-align: center;
 }
 
 
@@ -212,7 +217,6 @@ section {
 
 /* Fonts */
 p {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 0.7em;
     color: white;
@@ -223,7 +227,6 @@ p {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 2em;
     color: #EF9529;
@@ -232,7 +235,6 @@ h1 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 1em;
   color: #EF9529;
@@ -240,7 +242,6 @@ h3 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 1.5em;
     color: #EF9529;
@@ -249,7 +250,6 @@ h2 {
 
 
 h4 {
-   font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 2em;
     color: white;
@@ -257,7 +257,6 @@ h4 {
 }
 
 header, p {
-   font-family: 'Montserrat', sans-serif;
     font-weight: 300i;
     color: #EF9529;
     text-align: center;
@@ -290,7 +289,6 @@ input{
 
 
 .application {
-    font-family: 'Montserrat', sans-serif;
     padding-left: 25%;
     padding-right: 25%;
 
@@ -310,7 +308,6 @@ input{
 .skjema {
     font-size: 0.8em;
     color: rgb(255,255,255);
-    font-family: 'Montserrat', sans-serif;
 
 }
 .skjema legend {
