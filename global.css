@@ -96,6 +96,8 @@ hr {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
+    
+
 
 
 }
@@ -284,7 +286,7 @@ h4 {
 /* Skjema */
 .skjema {
     font-size: 1em;
-    color:  rgb(255,255,255);    
+    color:  rgb(255,255,255);
 }
 .skjema legend {
     color: #EF9529;
