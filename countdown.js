@@ -22,7 +22,7 @@ function countdown() {
 }
 
 function smoothScroll () {
-    document.querySelector('#problem').scrollIntoView({ 
+    document.querySelector('#video').scrollIntoView({ 
         behavior: 'smooth'
     })
 }
