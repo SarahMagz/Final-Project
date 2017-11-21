@@ -3,7 +3,7 @@
 }
 
 /* Meny */
-.menu {
+nav {
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -13,7 +13,7 @@
     height: 5em;
     background: rgba(0, 0, 0, 0.6);
 }
-.menu a {
+nav a {
     width: 33.3%;
     display: block;
     float: left;
@@ -361,7 +361,7 @@ h3 {
 
 /* Menu */
 
-.menu a {
+nav a {
     width: 25%;
     font-size: 1em;
     margin-left: 5%;
@@ -419,7 +419,7 @@ h3 {
 
 /* Menu */
 
-.menu a {
+nav a {
     width: 15%;
     font-size: 1.2em;
 }
