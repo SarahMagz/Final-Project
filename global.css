@@ -57,7 +57,7 @@ body{
 }
 
 .historie{
-  background-image: none;
+    background-image: none;
 }
 
 
@@ -76,15 +76,13 @@ body{
     padding: 10% 0;
     margin-top: 5%;
     overflow: hidden;
+    text-align: center;
 }
-
-
 
 hr {
     border-color: #EF9529;
     width: 14%;
 }
-
 
 .location{
     background:url(bilder/after.jpg) no-repeat!important; /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
@@ -141,7 +139,6 @@ hr {
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
 }
-
 
 article {
     width: 100%;
