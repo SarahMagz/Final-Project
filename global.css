@@ -208,7 +208,7 @@ section {
 /* Fonts */
 p {
     font-weight: 400;
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: white;
      margin-right: 5%;
     margin-left: 5%;
@@ -344,7 +344,7 @@ h4 {
 p {
     margin-right: 3%;
     margin-left: 3%;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 h1 {
@@ -398,7 +398,7 @@ h3 {
 
 /* Fonts */
 p {
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 h1 {
