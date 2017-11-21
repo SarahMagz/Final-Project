@@ -33,6 +33,7 @@ footer {
     overflow: hidden;
     background-color: black;
     position: fixed;
+    height: 8%;
     bottom: 0;
     width: 100%;
 }
