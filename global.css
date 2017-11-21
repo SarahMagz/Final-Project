@@ -78,6 +78,12 @@ body{
     text-align: center;
 }
 
+box iframe{
+    width= 1000; 
+    height= 570;
+    
+}
+
 }
 
 hr {
