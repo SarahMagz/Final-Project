@@ -55,6 +55,9 @@ body{
     background-size: cover;
 }
 
+.historie{
+  background-image: none !important;
+}
 
 
 .main {
@@ -96,7 +99,7 @@ hr {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
-    
+
 
 
 
@@ -140,7 +143,7 @@ hr {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
-    
+
 }
 
 .historyBox {
@@ -307,7 +310,7 @@ h4 {
     margin-top: 1em;
     padding: 2em;
     border: hidden;
-    
+
 }
 .boxapp p {
     text-align: center;
