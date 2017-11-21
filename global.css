@@ -86,7 +86,7 @@ hr {
 
 
 .location{
-    background:url(bilder/after.jpg) no-repeat!important;
+    background:url(bilder/after.jpg) no-repeat!important; /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 1em;
