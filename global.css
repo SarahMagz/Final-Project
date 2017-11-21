@@ -300,10 +300,9 @@ h4 {
     border: hidden;
 
 }
-.boxapp p {
+.boxapp h2 {
     text-align: center;
-    color: #EF9529;
-    font-size: 4em;
+    color: white;
     font-weight: 200;
     padding-bottom: 2%;
 }
