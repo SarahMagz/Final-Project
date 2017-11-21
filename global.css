@@ -33,16 +33,15 @@ footer {
     overflow: hidden;
     background-color: black;
     position: fixed;
-    height: 6%;
+    height: 8%;
     bottom: 0;
     width: 100%;
-    margin-left: -0.5%;
 }
 
 #countdown {
     font-size: 2em;
-    margin-top: 0.3em;
-    color: #EF9529;
+    margin: 0.2em;
+    color: #EF9529!important;
     text-align: center;
 }
 
@@ -73,15 +72,9 @@ body{
     width: 100%;
     height: 80%;
     padding-top: 10%;
-    margin-top: 7%;
+    margin-top: 5%;
     overflow: hidden;
     text-align: center;
-}
-
-box iframe{
-    width= 1000; 
-    height= 570;
-    
 }
 
 }
