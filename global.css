@@ -55,6 +55,9 @@ body{
     background-size: cover;
 }
 
+.historie{
+  background-image: none;
+}
 
 
 .main {
@@ -98,6 +101,8 @@ hr {
     text-align: center;
 
 
+
+
 }
 
 .landing{
@@ -125,6 +130,19 @@ hr {
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
 
+
+}
+
+.Accommodation{
+    background:url(bilder/studio-apartments-for-rent-in-nyc-oceanfront-london-flats-houses-small-modern-stylish-apartment-interior-design-ideas-luxury-minimalist-beach-condo-cozy-panoramic-view-airy-li.jpg) no-repeat!important;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 10em;
+    padding-left: -7%;
+    margin-top: 1%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
 
 }
 
@@ -189,10 +207,10 @@ section {
 
 /* Fonts */
 p {
-    font-weight: 400;
-    font-size: 0.7em;
+    font-weight: 200;
+    font-size: 0.9em;
     color: white;
-     margin-right: 5%;
+    margin-right: 5%;
     margin-left: 5%;
     margin-right: 3%;
     margin-left: 3%;
@@ -266,7 +284,7 @@ h4 {
 /* Skjema */
 .skjema {
     font-size: 1em;
-    color:  rgb(255,255,255);    
+    color:  rgb(255,255,255);
 }
 .skjema legend {
     color: #EF9529;
@@ -287,7 +305,7 @@ h4 {
     margin-top: 1em;
     padding: 2em;
     border: hidden;
-    
+
 }
 .boxapp p {
     text-align: center;
@@ -326,7 +344,7 @@ h4 {
 p {
     margin-right: 3%;
     margin-left: 3%;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 h1 {
@@ -380,7 +398,7 @@ h3 {
 
 /* Fonts */
 p {
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 h1 {
@@ -388,7 +406,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 h3 {
