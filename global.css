@@ -83,7 +83,6 @@ body{
 hr {
     border-color: #EF9529;
     width: 14%;
-
 }
 
 
@@ -142,6 +141,7 @@ hr {
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
 }
+
 
 article {
     width: 100%;
