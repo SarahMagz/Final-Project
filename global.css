@@ -30,6 +30,10 @@ a:hover {
     color: white;
 }
 
+#spm {
+    color: #EF9529;
+}
+
 /* Footer */
 footer {
     overflow: hidden;
@@ -395,9 +399,7 @@ nav a {
     margin-right: 6%;
 }
 
-#Sprsmalknapp {
-    color: #EF9529;
 
-    }
+
 
 }
