@@ -15,7 +15,7 @@ nav {
 }
 
 nav a {
-    width: 33.3%;
+    width: 25%;
     display: block;
     float: left;
     color: #EF9529;
@@ -62,7 +62,6 @@ body{
 
 
 .main {
-
     width: 100%;
     padding-top: 8%;
     padding-bottom: 8%;
@@ -120,7 +119,7 @@ hr {
     background: rgba(0, 0, 0, 0.6);
 }
 
-.accommodation{
+.Accommodation{
     background:url(bilder/apartment.jpg) no-repeat!important; /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
     background-repeat: no-repeat;
     width: 100%;
@@ -281,6 +280,7 @@ h4 {
     margin-top: 1em;
     padding: 2em;
     border: hidden;
+    margin-top: 4%;
 }
 
 .boxapp h2 {
@@ -391,7 +391,7 @@ span {
 
 /* Meny */
 nav a {
-    width: 15%;
+    width: 18%;
     font-size: 1.2em;
 }
 
