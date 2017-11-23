@@ -217,6 +217,7 @@ h4 {
   font-weight: 300;
   font-size: 1.5em;
   text-align: center;
+  color: #EF9529!important;
 }
 
 .A{
@@ -283,11 +284,13 @@ h4 {
     width: 60%;
     background: rgba(0, 0, 0, 0.4);
     margin: 18%;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
     margin-top: 1em;
     padding: 2em;
     border: hidden;
     margin-top: 4%;
+    padding-bottom: 7em;
+    min-height: 60em;
 }
 
 .boxapp h2 {
