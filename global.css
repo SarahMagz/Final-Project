@@ -209,6 +209,20 @@ h4 {
     text-align: center;
 }
 
+.Q{
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.A{
+  font-weight: 300;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+
+}
+
 /*Registered*/
 .registered, h3{
     text-align: center!important;
@@ -265,7 +279,7 @@ h4 {
     width: 60%;
     background: rgba(0, 0, 0, 0.4);
     margin: 18%;
-    margin-bottom: 1em;
+    margin-bottom: 5em;
     margin-top: 1em;
     padding: 2em;
     border: hidden;
@@ -315,7 +329,7 @@ h3 {
 /* Meny */
 nav a {
     font-size: 1em;
-    
+
 }
 
 /* Boxes */
@@ -380,10 +394,10 @@ nav a {
     width: 35%;
     margin-right: 6%;
 }
-    
+
 #Sprsmalknapp {
     color: #EF9529;
-        
+
     }
 
 }
