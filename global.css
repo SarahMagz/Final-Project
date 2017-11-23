@@ -253,7 +253,7 @@ h4 {
     padding: 1.5em;
 }
 
-/* Skjema */
+/* Skjema, Why */
 .skjema legend {
     color: #EF9529;
     font-size: 2em;
@@ -269,7 +269,7 @@ h4 {
 .skjema select {
     padding: 0.2%;
 }
-.boxapp {
+.boxapp, .whybox {
     overflow: hidden;
     width: 60%;
     background: rgba(0, 0, 0, 0.4);
@@ -278,8 +278,8 @@ h4 {
     margin-top: 1em;
     padding: 2em;
     border: hidden;
-
 }
+
 .boxapp h2 {
     text-align: center;
     color: white;
