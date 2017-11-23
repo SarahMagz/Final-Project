@@ -20,3 +20,9 @@ function countdown() {
         }
     }, 1000);
 }
+
+function smoothScroll () {
+    document.querySelector('#video').scrollIntoView({ 
+        behavior: 'smooth'
+    })
+}

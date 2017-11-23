@@ -1,63 +1,64 @@
-/*Mobile enheter*/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 
-@media screen and (min-width: 100px){
-
-/* Menu */
-
-.menu {
+/* Meny */
+nav {
     overflow: hidden;
     position: fixed;
     top: 0;
-    margin-bottom: -1em;
+    left: 0;
+    right: 0;
     width: 100%;
-	margin-left: -1em;
+    height: 5em;
     background: rgba(0, 0, 0, 0.6);
 }
 
-.menu a {
+nav a {
     width: 33.3%;
-    float: left;
     display: block;
-    color: #ffffff;
+    float: left;
+    color: #EF9529;
     text-align: center;
-    padding-bottom: 1.7%;
-    padding-top: 2%;
+    padding-top: 1.5em;
     text-decoration: none;
-    font-size: 0.9em;
-    font-family: 'Montserrat', sans-serif;
-
+    font-size: 1em;
 }
 
 a:hover {
     font-style: italic;
-}
-
-a:active {
-    color: black;
+    color: white;
 }
 
 /* Footer */
-
 footer {
     overflow: hidden;
     background-color: black;
     position: fixed;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    height: 6%;
     bottom: 0;
     width: 100%;
-    margin-left: -0.5em;
+}
+
+#countdown {
+    font-size: 2em;
+    margin: 0;
+    color: #EF9529!important;
+    text-align: center;
 }
 
 
 body{
-    background-image: url('bilder/stone.png');
+    background-image: url('bilder/stone.copy.png'); /* Bilde hentet fra: http://www.nightskyinfo.com/cms/img/wallpaper-img/img/horsehead_1280x960.jpg */
     background-repeat:no-repeat;
     background-color: #000000;
     max-height: 20em;
     background-size: cover;
 }
 
+.historie{
+    background-image: none;
+}
 
 
 .main {
@@ -72,42 +73,19 @@ body{
 .box {
     width: 100%;
     height: 80%;
-    padding-top: 10%;
-    padding-bottom: -12em;
-	padding-bottom: -3em;
-	margin-left: -3em;
+    padding: 10% 0;
     margin-top: 5%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
     text-align: center;
-}
-
-.boxapp{
-    width: 80%;
-    overflow: hidden;
-    margin: 5%;
-    padding-bottom: 2%;
-    background: rgba(0, 0, 0, 0.6);
-    text-align: center;
-
 }
 
 hr {
     border-color: #EF9529;
-
+    width: 14%;
 }
-
-#countdown {
-    font-size: 2em;
-    color: #EF9529;
-    text-align: center;
-    margin-bottom: 0.1em;
-    margin-top: 0.1em;
-}
-
 
 .location{
-    background:url(bilder/after.jpg) no-repeat!important;
+    background:url(bilder/after.jpg) no-repeat!important; /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 1em;
@@ -115,13 +93,10 @@ hr {
     margin-top: 5%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
-    text-align: center;
-
-
 }
 
 .landing{
-    background:url(bilder/landingpoint.jpg) no-repeat!important;
+    background:url(bilder/landingpoint.jpg) no-repeat!important; /* Bilde hentet fra: https://www.google.no/maps*/
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 1em;
@@ -129,13 +104,21 @@ hr {
     margin-top: 1%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
-    text-align: center;
-
-
 }
 
 .thingstodo{
-    background:url(bilder/flyingbike.jpg) no-repeat!important;
+    background:url(bilder/flyingbike.jpg) no-repeat!important; /* Bilde hentet fra: http://www.blixentours.dk/images/media/lux-south-ari-atoll-resort-girl-on-bike.jpg?8d4c3bbf4f73346a04ad6d963fb5b6800ea158e6-f.jpg*/
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 1em;
+    padding-left: -7%;
+    margin-top: 1%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.accommodation{
+    background:url(bilder/apartment.jpg) no-repeat!important; /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 10em;
@@ -143,9 +126,6 @@ hr {
     margin-top: 1%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
-    text-align: center;
-
-
 }
 
 .historyBox {
@@ -158,22 +138,7 @@ hr {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
-    text-align: center;
 }
-
-.historyBox_orange {
-    float: left;
-    min-height: 900px;
-    width: 33%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: -7%;
-    margin-top: 10%;
-    margin-bottom:10%;
-    overflow: hidden;
-    background: rgba(239, 149, 41,0.6);
-}
-
 
 article {
     width: 100%;
@@ -184,11 +149,6 @@ section {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-#overskrift {
-    width: 100%;
-    margin: auto;
 }
 
 #play {
@@ -204,28 +164,19 @@ section {
     opacity: 0.5;
 }
 
-#play:hover {
-    opacity: 0.5;
-}
-
-#problem {
-    margin-top: 30%;
-}
 
 /* Fonts */
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 0.7em;
+    font-weight: 200;
+    font-size: 0.9em;
     color: white;
-     margin-right: 5%;
+    margin-right: 5%;
     margin-left: 5%;
     margin-right: 3%;
     margin-left: 3%;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 2em;
     color: #EF9529;
@@ -233,38 +184,27 @@ h1 {
     margin-top: 0em;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 1em;
-  color: #EF9529;
-  text-align: center;
-}
-
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 1.5em;
     color: #EF9529;
     text-align: center;
 }
 
+h3 {
+  font-weight: 200;
+  font-size: 1em;
+  color: #EF9529;
+  text-align: center;
+}
+
 
 h4 {
-   font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 2em;
     color: white;
     text-align: center;
 }
-
-header, p {
-   font-family: 'Montserrat', sans-serif;
-    font-weight: 300i;
-    color: #EF9529;
-    text-align: center;
-}
-
 
 /*Registered*/
 .registered, h3{
@@ -277,22 +217,7 @@ header, p {
     color: white!important;
 }
 
-.btn input{
-    border-color: #EF9529;
-    color: #EF9529;
-    font-size: 1em;
-    border-radius: 20%;
-    padding: 1.5em;
-}
-
-input{
-    background-color: black;
-}
-
-
-
 .application {
-    font-family: 'Montserrat', sans-serif;
     padding-left: 25%;
     padding-right: 25%;
 
@@ -308,28 +233,59 @@ input{
     color: #EF9529;
 }
 
-
-.skjema {
-    font-size: 0.8em;
-    color: rgb(255,255,255);
-    font-family: 'Montserrat', sans-serif;
-
+.btn input{
+    border-color: #EF9529;
+    color: #EF9529;
+    font-size: 1em;
+    border-radius: 20%;
+    padding: 1.5em;
 }
+
+/* Skjema */
 .skjema legend {
     color: #EF9529;
     font-size: 2em;
-
 }
 
+.skjema table tr td{
+    font-size: 1em;
+    color:  rgb(255,255,255);
+}
 .skjema input {
-    background-color:rgb(255,255,255);
+    margin-bottom: 0.5em;
+}
+.skjema select {
+    padding: 0.2%;
+}
+.boxapp {
+    overflow: hidden;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 18%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 2em;
+    border: hidden;
 
 }
-
+.boxapp h2 {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    padding-bottom: 2%;
+}
+#btn {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4em;
+    border-color: white;
+    background-color: black;
+    color: #EF9529;
+    font-size: 1em;
+    padding: 1em;
+    text-align: center;
 }
 
 /*Nettbrett*/
-
 @media screen and (min-width: 760px){
 /* Button */
 
@@ -341,13 +297,11 @@ input{
     margin-right: 45%;
 }
 
-
-
 /* Fonts */
 p {
     margin-right: 3%;
     margin-left: 3%;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 h1 {
@@ -362,9 +316,8 @@ h3 {
     font-size: 1.1em;
 }
 
-/* Menu */
-
-.menu a {
+/* Meny */
+nav a {
     width: 25%;
     font-size: 1em;
     margin-left: 5%;
@@ -373,19 +326,16 @@ h3 {
 /* Boxes */
 .historyBox {
     width: 40%;
-    text-align: left;
     margin-right: 6%;
 }
 
-#problem {
-    margin-top: 15%;
-}
-
+.historyBox p{
+        text-align: left!important;
+    }
 
 }
 
 /*Desktop*/
-
 @media screen and (min-width: 1200px){
 /*Button */
 
@@ -397,11 +347,13 @@ h3 {
     margin-right: 50%;
 }
 
-
+#video {
+  margin-bottom: 15em;
+}
 
 /* Fonts */
 p {
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 h1 {
@@ -409,7 +361,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 h3 {
@@ -417,16 +369,15 @@ h3 {
     margin-top: -3em;
 }
 
-/* Menu */
-
-.menu a {
+/* Meny */
+nav a {
     width: 15%;
     font-size: 1.2em;
 }
 
 /* Boxes */
 .historyBox {
-    width: 30%;
+    width: 35%;
     margin-right: 6%;
 }
 
