@@ -78,6 +78,9 @@ body{
     overflow: hidden;
     text-align: center;
 }
+.box iframe {
+    border: 0;
+}
 
 hr {
     border-color: #EF9529;
