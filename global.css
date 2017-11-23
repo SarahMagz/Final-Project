@@ -23,6 +23,7 @@ nav a {
     padding-top: 1.5em;
     text-decoration: none;
     font-size: 1em;
+    font-weight: 200;
 }
 
 a:hover {
@@ -380,7 +381,7 @@ span {
 
 /* Meny */
 nav a {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 /* Boxes */
