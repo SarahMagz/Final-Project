@@ -286,6 +286,7 @@ h4 {
     border: hidden;
     margin-top: 4%;
     padding-bottom: 7em;
+    min-height: 60em;
 }
 
 .boxapp h2 {
