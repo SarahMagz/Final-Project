@@ -322,7 +322,7 @@ h3 {
 nav a {
     width: 25%;
     font-size: 1em;
-    margin-left: 5%;
+    
 }
 
 /* Boxes */
@@ -378,7 +378,6 @@ span {
 
 /* Meny */
 nav a {
-    width: 18%;
     font-size: 1.2em;
 }
 
