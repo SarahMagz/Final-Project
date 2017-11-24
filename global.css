@@ -44,6 +44,7 @@ footer {
     right: 0;
     left: 0;
     width: 100%;
+
 }
 
 #countdown {
@@ -184,8 +185,6 @@ p {
     color: white;
     margin-right: 5%;
     margin-left: 5%;
-    margin-right: 3%;
-    margin-left: 3%;
 }
 
 h1 {
@@ -286,7 +285,6 @@ h4 {
     margin-top: 1em;
     padding: 2em;
     border: hidden;
-    margin-top: 4%;
     min-height: 60em;
 }
 
@@ -305,6 +303,7 @@ h4 {
     font-size: 1em;
     padding: 1em;
     text-align: center;
+
 }
 
 .box iframe{
@@ -356,13 +355,13 @@ nav a {
 
 .location{
     background:url(bilder/after.jpg) no-repeat!important; /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
-    background: rgba(0, 0, 0, 0.6);
+
 }
 
 
 .landing{
     background:url(bilder/landingpoint.jpg) no-repeat!important; /* Bilde hentet fra: https://www.google.no/maps*/
-    background: rgba(0, 0, 0, 0.6);
+
 }
 
 .thingstodo{
@@ -393,7 +392,7 @@ nav a {
 }
 
 #video {
-  margin-bottom: 15em;
+  margin-bottom: 5em;
 }
 
 /* Fonts */
@@ -412,7 +411,7 @@ h2 {
 
 h3 {
     font-size: 2em;
-    margin-top: -3em;
+    margin-top: 0em;
 }
 
 span {
