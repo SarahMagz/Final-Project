@@ -332,6 +332,10 @@ h3 {
   margin-top: 2em;
 }
 
+strong {
+  color: white;
+}
+
 /* Meny */
 nav a {
     font-size: 1em;
