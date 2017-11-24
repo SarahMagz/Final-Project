@@ -171,11 +171,12 @@ section {
 
 /* Fonts */
 p {
-    font-weight: 200;
-    color: #f2f2f2!important;
+    font-weight: 400;
+    color: red!important;
     font-size: 1.1em;
     margin-right: 5%;
     margin-left: 5%;
+    line-height: 170%;
 }
 
 h1 {
