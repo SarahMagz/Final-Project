@@ -397,9 +397,9 @@ nav a {
     margin-right: 50%;
 }
 
-#video {
-  margin-bottom: 5em;
-}
+/*#video {
+  margin-bottom: 0em;
+}*/
 
 /* Fonts */
 p {
