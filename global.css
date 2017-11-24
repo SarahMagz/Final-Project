@@ -27,7 +27,7 @@ nav a {
 
 a:hover {
     font-style: italic;
-    color: #f2f2f2;
+    color: #999999;
 }
 
 .spm {
@@ -139,7 +139,7 @@ hr {
 
 .historyBox p{
         text-align: left!important;
-        color: #f2f2f2!important;
+        color: #999999!important;
     }
 
 }
@@ -172,7 +172,7 @@ section {
 /* Fonts */
 p {
     font-weight: 400;
-    color: red!important;
+    color: #999999!important;
     font-size: 1.1em;
     margin-right: 5%;
     margin-left: 5%;
@@ -188,7 +188,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2.4em;
     color: #EF9529;
     text-align: center;
@@ -214,7 +214,7 @@ h3 {
 .A{
   font-weight: 300;
   font-size: 1em;
-  color: #f2f2f2;
+  color: #999999;
   text-align: center;
 
 }
@@ -237,7 +237,6 @@ h3 {
 
 .application, td{
     text-align: left;
-    font-weight: 200;
 }
 
 .application h4{
@@ -321,7 +320,7 @@ h3 {
 }
 
 strong {
-  color: #f2f2f2;
+  color: #999999;
 }
 
 /* Meny */
@@ -418,7 +417,7 @@ h3 {
 }
 
 span {
-  color: #FFFFFF;
+  color: #999999;
 
 }
 
