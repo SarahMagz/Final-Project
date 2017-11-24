@@ -91,48 +91,50 @@ hr {
     width: 14%;
 }
 
+.location p, .landing p, .thingstodo p, .Accommodation p {
+    font-size: 1.2em;
+}
+
+.location h2, .landing h2, .thingstodo h2, .Accommodation h2 {
+    font-size: 2.4em;
+    margin-top: 1em;
+}
+
 .location{
-    background:url(bilder/after.jpg) no-repeat!important; /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 1em;
     padding-left: -7%;
     margin-top: 5%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
 }
 
+
 .landing{
-    background:url(bilder/landingpoint.jpg) no-repeat!important; /* Bilde hentet fra: https://www.google.no/maps*/
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 1em;
     padding-left: -7%;
     margin-top: 1%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
 }
 
 .thingstodo{
-    background:url(bilder/flyingbike.jpg) no-repeat!important; /* Bilde hentet fra: http://www.blixentours.dk/images/media/lux-south-ari-atoll-resort-girl-on-bike.jpg?8d4c3bbf4f73346a04ad6d963fb5b6800ea158e6-f.jpg*/
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 1em;
     padding-left: -7%;
     margin-top: 1%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
 }
 
 .Accommodation{
-    background:url(bilder/apartment.jpg) no-repeat!important; /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 10em;
     padding-left: -7%;
     margin-top: 1%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
 }
 
 .historyBox {
@@ -346,8 +348,35 @@ nav a {
     width: 40%;
     margin-right: 6%;
 }
+
+.location p, .landing p, .thingstodo p, .Accomodation p{
+    font-size: 1.1em;
 }
 
+.location h2, .landing h2, .thingstodo h2, .Accomodation h2{
+    font-size: 2.5em;
+}
+
+.location{
+    background:url(bilder/after.jpg) no-repeat!important; /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.landing{
+    background:url(bilder/landingpoint.jpg) no-repeat!important; /* Bilde hentet fra: https://www.google.no/maps*/
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.thingstodo{
+    background:url(bilder/flyingbike.jpg) no-repeat!important; /* Bilde hentet fra: http://www.blixentours.dk/images/media/lux-south-ari-atoll-resort-girl-on-bike.jpg?8d4c3bbf4f73346a04ad6d963fb5b6800ea158e6-f.jpg*/
+}
+
+.Accommodation{
+    background:url(bilder/apartment.jpg) no-repeat!important; /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
+}
+
+}
 
 
 /*Desktop*/
