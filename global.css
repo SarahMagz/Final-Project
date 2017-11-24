@@ -228,7 +228,7 @@ h4 {
 /*Registered*/
 .registered, h3{
     text-align: center!important;
-    padding-top: 5%;
+
 }
 
 .registered, p{
@@ -400,9 +400,9 @@ nav a {
     margin-right: 50%;
 }
 
-#video {
-  margin-bottom: 5em;
-}
+/*#video {
+  margin-bottom: 0em;
+}*/
 
 /* Fonts */
 p {
