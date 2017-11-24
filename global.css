@@ -48,8 +48,8 @@ footer {
 }
 
 #countdown {
-    font-size: 2em;
-    margin-top: 0.3em;
+    font-size: 1.1em;
+    margin-top: 1em;
     color: #EF9529!important;
     text-align: center;
 }
@@ -89,9 +89,6 @@ hr {
     border-color: #EF9529;
     width: 14%;
 }
-
-
-
 
 .location{
     background-repeat: no-repeat;
@@ -379,6 +376,13 @@ nav a {
 
 .historie{
     background-image: none;
+}
+
+#countdown {
+    font-size: 2em;
+    margin-top: 0.3em;
+    color: #EF9529!important;
+    text-align: center;
 }
 
 }
