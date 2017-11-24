@@ -140,7 +140,7 @@ hr {
     padding-bottom: 1%;
     margin-bottom: 1%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 10;
 }
 
@@ -277,7 +277,7 @@ h4 {
 .boxapp, .whybox {
     overflow: hidden;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     margin-bottom: 3em;
     margin-top: 1em;
     min-height: 140em;
