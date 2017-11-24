@@ -220,6 +220,22 @@ h4 {
     text-align: center;
 }
 
+.Q{
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: center;
+  color: #EF9529!important;
+}
+
+
+.A{
+  font-weight: 300;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+
+}
+
 /*Registered*/
 .registered, h3{
     text-align: center!important;
