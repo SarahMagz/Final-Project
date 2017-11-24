@@ -243,9 +243,9 @@ h4 {
 
 }
 
-.application td{
-    color: white!important;
+.application, td{
     text-align: left;
+    color: #f2f2f2!important;
 }
 
 .application h4{
