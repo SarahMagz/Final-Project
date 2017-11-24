@@ -330,6 +330,10 @@ h3 {
     font-size: 1.1em;
 }
 
+.top {
+  margin-top: 2em;
+}
+
 /* Meny */
 nav a {
     font-size: 1em;
