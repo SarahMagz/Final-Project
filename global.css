@@ -62,10 +62,6 @@ body{
     background-size: cover;
 }
 
-.historie{
-    background-image: none;
-}
-
 
 .main {
 
@@ -94,7 +90,7 @@ hr {
 }
 
 .location p, .landing p, .thingstodo p, .Accommodation p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .location h2, .landing h2, .thingstodo h2, .Accommodation h2 {
@@ -141,13 +137,12 @@ hr {
 
 .historyBox {
     float: right;
-    min-height: 650px;
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 10;
 }
 
@@ -186,7 +181,6 @@ section {
 /* Fonts */
 p {
     font-weight: 200;
-    font-size: 0.9em;
     color: white;
     margin-right: 5%;
     margin-left: 5%;
@@ -349,6 +343,7 @@ nav a {
 .historyBox {
     width: 40%;
     margin-right: 6%;
+    min-height: 650px;
 }
 
 .location p, .landing p, .thingstodo p, .Accomodation p{
@@ -376,6 +371,10 @@ nav a {
 
 .Accommodation{
     background:url(bilder/apartment.jpg) no-repeat!important; /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
+}
+
+.historie{
+    background-image: none;
 }
 
 }
