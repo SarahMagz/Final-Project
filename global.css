@@ -276,14 +276,12 @@ h4 {
 }
 .boxapp, .whybox {
     overflow: hidden;
-    width: 60%;
+    width: 100%;
     background: rgba(0, 0, 0, 0.4);
-    margin: 18%;
     margin-bottom: 3em;
     margin-top: 1em;
     padding: 2em;
     border: hidden;
-    min-height: 60em;
 }
 
 .boxapp h2 {
@@ -342,6 +340,13 @@ nav a {
     margin-right: 6%;
     min-height: 650px;
 }
+
+.boxapp, .whybox {
+    width: 60%;
+    min-height: 60em;
+    margin: 18%;
+}
+
 
 .location h2, .landing h2, .thingstodo h2, .Accomodation h2{
     font-size: 2.5em;
