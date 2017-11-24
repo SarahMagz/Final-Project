@@ -39,7 +39,7 @@ footer {
     overflow: hidden;
     background-color: black;
     position: fixed;
-    height: 3.2em;
+    height: 6%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -91,10 +91,7 @@ hr {
 }
 
 
-.location h2, .landing h2, .thingstodo h2, .Accommodation h2 {
-    font-size: 2.4em;
-    margin-top: 1em;
-}
+
 
 .location{
     background-repeat: no-repeat;
@@ -195,9 +192,10 @@ h1 {
 
 h2 {
     font-weight: 100;
-    font-size: 1.5em;
+    font-size: 2.4em;
     color: #EF9529;
     text-align: center;
+    margin-top: 1.2em;
 }
 
 h3 {
@@ -344,7 +342,7 @@ nav a {
 
 /* Boxes */
 .historyBox {
-    width: 40%;
+    width: 49%;
     margin-right: 6%;
     min-height: 650px;
     background: rgba(0, 0, 0, 0.8);
