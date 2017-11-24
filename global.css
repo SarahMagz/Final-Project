@@ -89,9 +89,6 @@ hr {
     width: 14%;
 }
 
-.location p, .landing p, .thingstodo p, .Accommodation p {
-    font-size: 1.1em;
-}
 
 .location h2, .landing h2, .thingstodo h2, .Accommodation h2 {
     font-size: 2.4em;
@@ -181,6 +178,7 @@ section {
 /* Fonts */
 p {
     font-weight: 200;
+    font-size: 1.1em;
     color: white;
     margin-right: 5%;
     margin-left: 5%;
@@ -346,10 +344,6 @@ nav a {
     min-height: 650px;
 }
 
-.location p, .landing p, .thingstodo p, .Accomodation p{
-    font-size: 1.1em;
-}
-
 .location h2, .landing h2, .thingstodo h2, .Accomodation h2{
     font-size: 2.5em;
 }
@@ -398,7 +392,7 @@ nav a {
 
 /* Fonts */
 p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 h1 {
