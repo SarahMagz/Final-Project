@@ -41,12 +41,14 @@ footer {
     position: fixed;
     height: 6%;
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
 }
 
 #countdown {
     font-size: 2em;
-    margin: 0;
+    margin-top: 0.3em;
     color: #EF9529!important;
     text-align: center;
 }

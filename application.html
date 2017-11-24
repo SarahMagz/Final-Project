@@ -4,16 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="global.css">
-        <script type="text/javascript" src ="countdown.js"></script>
+        <script type="text/javascript" src ="functions.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300i,400,500,700" rel="stylesheet">
         <title> Application Form </title>
     </head>
     <body>
              <nav>
                 <a href="index.html">HOME</a>
-				<a href="why.html">WHY</a>
                 <a href="zentopia.html">ZENTOPIA</a>
                 <a href="application.html">APPLY NOW</a>
+                <a href="why.html">ABOUT US</a>
             </nav>
 
         <div class ="boxapp">
@@ -33,9 +33,9 @@
                             <td>Surname:</td>
                             <td><input type ="text" name ="surname"  placeholder="Doe" required></td>
                         </tr>
-                    
-            
-                    
+
+
+
 
                     <!-- Birthdate = day, month, year -->
                     <tr>
@@ -91,8 +91,8 @@
                     </select>
                     <input type="number" name="year"  placeholder="Year" required><br></td>
                     </tr>
-                    
-                    
+
+
 
                     <!-- Gender -->
                     <tr>
@@ -101,7 +101,7 @@
                     <input type="radio" name="gender" value="female"> Female
                     <input type="radio" name="gender" value="other"> Other</td>
                     </tr>
-                    
+
                     <tr>
                         <td><br></td>
                     </tr>
@@ -131,11 +131,11 @@
                         <td>Country:</td>
                         <td><input type="text" name="country"  placeholder="America, China etc." required></td>
                     </tr>
-                        
+
                     <tr>
                         <td><br></td>
                     </tr>
-                    
+
                     <tr>
                         <td>Phone:</td>
                         <td><input type="text" name="phone"  placeholder="xxxxxxxx" required></td>
@@ -148,7 +148,7 @@
                     <tr>
                         <td><br></td>
                     </tr>
-                    
+
                     <!-- Relationship status -->
                     <tr>
                         <td>Relationship status:</td>
@@ -165,7 +165,7 @@
                         <input type="radio" name="status" value="divorced"> Divorced
                         <input type="radio" name="status" value="widow"> Widow</td>
                     </tr>
-                        
+
                     <tr>
                         <td><br></td>
                     </tr>
@@ -175,10 +175,10 @@
                         <td>Number of kids:</td>
                         <td><input type ="number" name ="kids"  placeholder="x" required></td>
                     </tr>
-                        
+
                     </table>
                 </fieldset><br>
-                    
+
 
                 <!-- Partner information -->
             <fieldset>
@@ -195,7 +195,7 @@
                         <td>Partners surname:</td>
                         <td><input type ="text" name ="par_surname"  placeholder="Doe"></td>
                     </tr>
-                    
+
                     <!-- Partner: Birthday = date, month, year -->
                     <tr>
                         <td>Partners birthdate:</td>
@@ -259,7 +259,7 @@
                     <input type="radio" name="par_gender" value="female"> Female
                     <input type="radio" name="par_gender" value="other"> Other</td>
                     </tr>
-                    
+
                     <tr>
                         <td><br></td>
                     </tr>
@@ -316,14 +316,14 @@
                         <td><input type="text" name="cur_workadd" placeholder ="Random Address 15c"></td>
                     </tr>
                     <tr>
-                        <td>Current employers number:</td>
+                        <td>Current employers phone  number:</td>
                         <td><input type="number" name="curr_empnum" placeholder="xxxxxxxx"></td>
                     </tr>
-                      
+
                     <tr>
                         <td><br></td>
                     </tr>
-        
+
                     <tr>
                         <td>Previous job:</td>
                         <td><input type="text" name="ear_job" placeholder="Dancer, Driver etc."></td>
@@ -337,7 +337,7 @@
                         <td><input type="text" name="ear_workadd" placeholder="Random Address 16a"></td>
                     </tr>
                     <tr>
-                        <td>Previous employers number:</td>
+                        <td>Previous employers phone number:</td>
                         <td><input type="number" name="ear_empnum" placeholder="xxxxxxxx"></td>
                     </tr>
                   </table>
@@ -348,7 +348,7 @@
                     <legend>5. Passport information</legend>
                   <table>
                     <tr>
-                        <td>Pass type:</td> 
+                        <td>Pass type:</td>
                         <td><input type="text" name="p_type" placeholder="Type P etc." required></td>
                     </tr>
                     <tr>
@@ -408,7 +408,7 @@
                                 </select>
                         <input type="text" name="p_year" placeholder="Year"required></td>
                     </tr>
-                    
+
                     <tr>
                         <td>Date of experation:</td>
                         <td><select name="p_date2" required>
