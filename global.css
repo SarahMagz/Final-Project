@@ -91,10 +91,7 @@ hr {
 }
 
 
-.location h2, .landing h2, .thingstodo h2, .Accommodation h2 {
-    font-size: 2.4em;
-    margin-top: 1em;
-}
+
 
 .location{
     background-repeat: no-repeat;
@@ -195,9 +192,10 @@ h1 {
 
 h2 {
     font-weight: 100;
-    font-size: 1.5em;
+    font-size: 2.4em;
     color: #EF9529;
     text-align: center;
+    margin-top: 1.4em;
 }
 
 h3 {
