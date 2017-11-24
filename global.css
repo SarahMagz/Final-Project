@@ -30,6 +30,10 @@ a:hover {
     color: white;
 }
 
+#spm {
+    color: #EF9529;
+}
+
 /* Footer */
 footer {
     overflow: hidden;
@@ -155,13 +159,12 @@ section {
     margin-right: 10%;
 }
 
-/* Button */
 #play {
     display: block;
-    width: 10%;
+    width: 20%;
     position: absolute;
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 
@@ -175,16 +178,18 @@ p {
     font-weight: 200;
     font-size: 0.9em;
     color: white;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-right: 3%;
     margin-left: 3%;
 }
 
 h1 {
     font-weight: 200;
-    font-size: 3em;
+    font-size: 2em;
     color: #EF9529;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 0em;
 }
 
 h2 {
@@ -207,20 +212,6 @@ h4 {
     font-size: 2em;
     color: white;
     text-align: center;
-}
-
-.Q{
-  font-weight: 300;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.A{
-  font-weight: 300;
-  font-size: 1em;
-  color: white;
-  text-align: center;
-
 }
 
 /*Registered*/
@@ -279,7 +270,7 @@ h4 {
     width: 60%;
     background: rgba(0, 0, 0, 0.4);
     margin: 18%;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     margin-top: 1em;
     padding: 2em;
     border: hidden;
@@ -303,8 +294,20 @@ h4 {
     text-align: center;
 }
 
+.box iframe{
+    width: 100%;
+}
 /*Nettbrett*/
 @media screen and (min-width: 760px){
+/* Button */
+
+#play {
+    display: block;
+    width: 10%;
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 45%;
+}
 
 /* Fonts */
 p {
@@ -315,7 +318,6 @@ p {
 
 h1 {
     font-size: 4em;
-    margin-top: 1em;
 }
 
 h2 {
@@ -329,7 +331,7 @@ h3 {
 /* Meny */
 nav a {
     font-size: 1em;
-
+    
 }
 
 /* Boxes */
@@ -352,8 +354,8 @@ nav a {
     display: block;
     width: 5%;
     position: absolute;
-    margin-left: 47.5%;
-    margin-right: 47.5%;
+    margin-left: 47%;
+    margin-right: 50%;
 }
 
 #video {
@@ -367,7 +369,6 @@ p {
 
 h1 {
     font-size: 7em;
-    margin-top: 0em;
 }
 
 h2 {
@@ -394,10 +395,5 @@ nav a {
     width: 35%;
     margin-right: 6%;
 }
-
-#Sprsmalknapp {
-    color: #EF9529;
-
-    }
 
 }
