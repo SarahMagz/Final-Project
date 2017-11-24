@@ -241,14 +241,6 @@ h4 {
     color: #EF9529;
 }
 
-.btn input{
-    border-color: #EF9529;
-    color: #EF9529;
-    font-size: 1em;
-    border-radius: 20%;
-    padding: 1.5em;
-}
-
 /* Skjema, Why */
 .skjema legend {
     color: #EF9529;
@@ -270,7 +262,7 @@ h4 {
     width: 60%;
     background: rgba(0, 0, 0, 0.4);
     margin: 18%;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     margin-top: 1em;
     padding: 2em;
     border: hidden;
@@ -279,11 +271,11 @@ h4 {
 
 .boxapp h2 {
     text-align: center;
-    color: white;
+    color: #EF9529;
     font-weight: 200;
     padding-bottom: 2%;
 }
-#btn {
+.btn {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 4em;
     border-color: white;
