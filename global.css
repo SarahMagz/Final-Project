@@ -140,7 +140,7 @@ hr {
     padding-bottom: 1%;
     margin-bottom: 1%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 10;
 }
 
@@ -344,6 +344,7 @@ nav a {
     width: 40%;
     margin-right: 6%;
     min-height: 650px;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .boxapp, .whybox {
