@@ -278,6 +278,9 @@ h3 {
     font-weight: 200;
     padding-bottom: 2%;
 }
+.boxapp abbr {
+    text-decoration: none;
+}
 .btn {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 4em;
