@@ -31,6 +31,9 @@ a:hover {
     font-style: italic;
     color: #999999;
 }
+a:visited{
+  color: #EF9529;
+}
 
 .spm {
     color: #EF9529;
