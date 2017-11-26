@@ -4,7 +4,15 @@
     color: rgb(173, 173, 173);
     size: 100%;
 }
-
+body {
+    background-image: url('bilder/stone.copy.png');
+    /* Bilde hentet fra: http://www.nightskyinfo.com/cms/img/wallpaper-img/img/horsehead_1280x960.jpg */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    max-height: 20em;
+    background-size: cover;
+    font-size: 1.2em;
+}
 /* MENY START*/
 nav {
     overflow: hidden;
@@ -54,15 +62,6 @@ footer {
 }
 /* FOOTER SLUTT */
 
-body {
-    background-image: url('bilder/stone.copy.png');
-    /* Bilde hentet fra: http://www.nightskyinfo.com/cms/img/wallpaper-img/img/horsehead_1280x960.jpg */
-    background-repeat: no-repeat;
-    background-color: #000000;
-    max-height: 20em;
-    background-size: cover;
-    font-size: 1.2em;
-}
 /* INDEX.HTML START */
 .fp {
     margin-top: 15%;
