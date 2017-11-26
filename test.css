@@ -160,7 +160,7 @@ footer {
     color: #EF9529;
     font-size: 1.5em;
 }
-.btn {
+.btn { /* Definerer css for knapp på application.html OG registered.html */
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: #EF9529;
@@ -169,3 +169,21 @@ footer {
     text-align: center;
 }
 /* APPLICATION.HTML SLUTT */
+
+/* REGISTERED.HTML START */
+.registered {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    text-align: center;
+}
+.registered h1 {
+    color: #EF9529;
+}
+/* REGISTERED.HTML SLUTT */
+
+/* ABOUT.HTML START */
+/* ABOUT.HTML SLUTT */
+
+/* FAQ.HTML START */
+/* FAQ.HTML SLUTT */
