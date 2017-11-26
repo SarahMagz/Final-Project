@@ -27,75 +27,78 @@
                 <table>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Given name:</td>
+                            <label for="name"><abbr title="Required">*</abbr> Given name:</label>
+                        </td>
                         <td>
-                            <input type="text" name="name" placeholder="Jane/John" required>
+                            <input type="text" name="name" id="name" placeholder="Jane/John" required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Surname:</td>
+                            <label for ="surname"><abbr title="Required">*</abbr> Surname:</label>
+                        </td>
                         <td>
-                            <input type="text" name="surname" placeholder="Doe" required>
+                            <input type="text" name="surname" id="surname" placeholder="Doe" required>
                         </td>
                         <td></td>
                     </tr>
                     <!-- Birthdate = day, month, year -->
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr>Birthdate:</td>
-                        <td colspan="2">
-                            <select name="date" required>
-                                <option label="default">-Date-</option>
-                                <option label="1">1</option>
-                                <option label="2">2</option>
-                                <option label="3">3</option>
-                                <option label="4">4</option>
-                                <option label="5">5</option>
-                                <option label="6">6</option>
-                                <option label="7">7</option>
-                                <option label="8">8</option>
-                                <option label="9">9</option>
-                                <option label="10">10</option>
-                                <option label="11">11</option>
-                                <option label="12">12</option>
-                                <option label="13">13</option>
-                                <option label="14">14</option>
-                                <option label="15">15</option>
-                                <option label="16">16</option>
-                                <option label="17">17</option>
-                                <option label="18">18</option>
-                                <option label="19">19</option>
-                                <option label="20">20</option>
-                                <option label="21">21</option>
-                                <option label="22">22</option>
-                                <option label="23">23</option>
-                                <option label="24">24</option>
-                                <option label="25">25</option>
-                                <option label="26">26</option>
-                                <option label="27">27</option>
-                                <option label="28">28</option>
-                                <option label="29">29</option>
-                                <option label="30">30</option>
-                                <option label="31">31</option>
+                            <label for ="date" for ="month" for ="year"><abbr title="Required">*</abbr>Birthdate:</label>
+                        </td>
+                        <td>
+                            <select name="date" id ="date" required>
+                                <option value ="default">-Date-</option>                                
+                                <option value ="1">1</option>
+                                <option value ="2">2</option>
+                                <option value ="3">3</option>
+                                <option value ="4">4</option>
+                                <option value ="5">5</option>
+                                <option value ="6">6</option>
+                                <option value ="7">7</option>
+                                <option value ="8">8</option>
+                                <option value ="9">9</option>
+                                <option value ="10">10</option>
+                                <option value ="11">11</option>
+                                <option value ="12">12</option>
+                                <option value ="13">13</option>
+                                <option value ="14">14</option>
+                                <option value ="15">15</option>
+                                <option value ="16">16</option>
+                                <option value ="17">17</option>
+                                <option value ="18">18</option>
+                                <option value ="19">19</option>
+                                <option value ="20">20</option>
+                                <option value ="21">21</option>
+                                <option value ="22">22</option>
+                                <option value ="23">23</option>
+                                <option value ="24">24</option>
+                                <option value ="25">25</option>
+                                <option value ="26">26</option>
+                                <option value ="27">27</option>
+                                <option value ="28">28</option>
+                                <option value ="29">29</option>
+                                <option value ="30">30</option>
+                                <option value ="31">31</option>
                             </select>
-                            <select name="month" required>
-                                <option label="default">-Month-</option>
-                                <option label="January">January</option>
-                                <option label="February">February</option>
-                                <option label="March">March</option>
-                                <option label="April">April</option>
-                                <option label="May">May</option>
-                                <option label="June">June</option>
-                                <option label="July">July</option>
-                                <option label="August">August</option>
-                                <option label="September">September</option>
-                                <option label="October">October</option>
-                                <option label="November">November</option>
-                                <option label="December">December</option>
+                            <select name="month" id ="month" required>
+                                <option value ="default">-Month-</option>
+                                <option value ="January">January</option>
+                                <option value ="February">February</option>
+                                <option value ="March">March</option>
+                                <option value ="April">April</option>
+                                <option value ="May">May</option>
+                                <option value ="June">June</option>
+                                <option value ="July">July</option>
+                                <option value ="August">August</option>
+                                <option value ="September">September</option>
+                                <option value ="October">October</option>
+                                <option value ="November">November</option>
+                                <option value ="December">December</option>
                             </select>
-                            <input type="number" name="year" placeholder="Year" required>
+                            <input type="number" name="year" id ="year" placeholder="Year" required>
                             <br>
                         </td>
                     </tr>
@@ -120,49 +123,55 @@
                     <!-- Nationality -->
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Nationality:</td>
+                            <label for ="nationality"><abbr title="Required">*</abbr> Nationality:</label>
+                        </td>
                         <td>
-                            <input type="text" name="Nationality" placeholder="Norwegian, Spanish etc." required>
+                            <input type="text" name="nationality" id ="nationality" placeholder="Norwegian, Spanish etc." required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Birthcountry:</td>
+                            <label for ="birthplace"><abbr title="Required">*</abbr> Birthcountry:</label>
+                        </td>
                         <td>
-                            <input type="text" name="birthplace" placeholder="France, England etc." required>
+                            <input type="text" name="birthplace" id ="birthplace" placeholder="France, England etc." required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Address:</td>
+                            <label for ="address"><abbr title="Required">*</abbr> Address:</label>
+                        </td>
                         <td>
-                            <input type="text" name="address" placeholder="Random Address 14b" required>
+                            <input type="text" name="address" id ="address" placeholder="Random Address 14b" required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> ZIP code:</td>
+                            <label for ="zip"><abbr title="Required">*</abbr> ZIP code:</label>
+                        </td>
                         <td>
-                            <input type="number" name="zip" placeholder="xxxx" required>
+                            <input type="number" name="zip" id ="zip" placeholder="xxxx" required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> City / Province:</td>
+                            <label for ="city"><abbr title="Required">*</abbr> City / Province:</label>
+                        </td>
                         <td>
-                            <input type="text" name="city" placeholder="Oslo, Boston etc." required>
+                            <input type="text" name="city" id ="city" placeholder="Oslo, Boston etc." required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Country:</td>
+                            <label for ="country"><abbr title="Required">*</abbr> Country:</label>
+                        </td>
                         <td>
-                            <input type="text" name="country" placeholder="America, China etc." required>
+                            <input type="text" name="country" id ="country" placeholder="America, China etc." required>
                         </td>
                         <td></td>
                     </tr>
@@ -173,17 +182,19 @@
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Phone:</td>
+                            <label for ="phone"><abbr title="Required">*</abbr> Phone:</label>
+                        </td>
                         <td>
-                            <input type="text" name="phone" placeholder="xxxxxxxx" required>
+                            <input type="text" name="phone" id ="phone" placeholder="xxxxxxxx" required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> E-mail:</td>
+                            <label for ="email"><abbr title="Required">*</abbr> E-mail:</label>
+                        </td>
                         <td>
-                            <input type="email" name="email" placeholder="random@random.com" required>
+                            <input type="email" name="email" id ="email" placeholder="random@random.com" required>
                         </td>
                         <td></td>
                     </tr>
@@ -195,7 +206,8 @@
                     <!-- Relationship status -->
                     <tr>
                         <td colspan="2">
-                            <abbr title="Required">*</abbr> Relationship status:</td>
+                            <abbr title="Required">*</abbr> Relationship status:
+                        </td>
                         <td></td>
                     </tr>
                     <tr>
@@ -226,9 +238,10 @@
                     <!-- Number of kids -->
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Number of kids:</td>
+                            <label for ="kids"><abbr title="Required">*</abbr> Number of kids:</label>
+                        </td>
                         <td>
-                            <input type="number" name="kids" placeholder="x" required>
+                            <input type="number" name="kids" id ="kids" placeholder="x" required>
                         </td>
                         <td></td>
                     </tr>
@@ -246,73 +259,79 @@
                 <table>
                     <!-- Partner: Name -->
                     <tr>
-                        <td>Partners name:</td>
                         <td>
-                            <input type="text" name="par_name" placeholder="Jane/John">
+                            <label for ="par_name">Partners name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="par_name" id ="par_name" placeholder="Jane/John">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Partners surname:</td>
                         <td>
-                            <input type="text" name="par_surname" placeholder="Doe">
+                            <label for ="par_surname">Partners surname:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="par_surname" id ="par_surname" placeholder="Doe">
                         </td>
                         <td></td>
                     </tr>
                     <!-- Partner: Birthday = date, month, year -->
                     <tr>
-                        <td>Partners birthdate:</td>
+                        <td>
+                            <label for ="par_date" for ="par_month" for ="par_year">Partners birthdate:</label>
+                        </td>
                         <td colspan="2">
-                            <select name="par_date">
-                                <option label="default">-Date-</option>
-                                <option label="1">1</option>
-                                <option label="2">2</option>
-                                <option label="3">3</option>
-                                <option label="4">4</option>
-                                <option label="5">5</option>
-                                <option label="6">6</option>
-                                <option label="7">7</option>
-                                <option label="8">8</option>
-                                <option label="9">9</option>
-                                <option label="10">10</option>
-                                <option label="11">11</option>
-                                <option label="12">12</option>
-                                <option label="13">13</option>
-                                <option label="14">14</option>
-                                <option label="15">15</option>
-                                <option label="16">16</option>
-                                <option label="17">17</option>
-                                <option label="18">18</option>
-                                <option label="19">19</option>
-                                <option label="20">20</option>
-                                <option label="21">21</option>
-                                <option label="22">22</option>
-                                <option label="23">23</option>
-                                <option label="24">24</option>
-                                <option label="25">25</option>
-                                <option label="26">26</option>
-                                <option label="27">27</option>
-                                <option label="28">28</option>
-                                <option label="29">29</option>
-                                <option label="30">30</option>
-                                <option label="31">31</option>
+                            <select name="par_date" id ="par_date">
+                                <option value="default">-Date-</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
                             </select>
-                            <select name="par_month">
-                                <option label="default">-Month-</option>
-                                <option label="January">January</option>
-                                <option label="February">February</option>
-                                <option label="March">March</option>
-                                <option label="April">April</option>
-                                <option label="May">May</option>
-                                <option label="June">June</option>
-                                <option label="July">July</option>
-                                <option label="August">August</option>
-                                <option label="September">September</option>
-                                <option label="October">October</option>
-                                <option label="November">November</option>
-                                <option label="December">December</option>
+                            <select name="par_month" id ="par_month">
+                                <option value="default">-Month-</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
                             </select>
-                            <input type="number" name="par_year" placeholder="Year">
+                            <input type="number" name="par_year" id ="par_year" placeholder="Year">
                         </td>
                     </tr>
                     <!-- Partner: Gender -->
@@ -334,23 +353,29 @@
                     </tr>
                     <!-- Partner: Nationality -->
                     <tr>
-                        <td>Nationality:</td>
                         <td>
-                            <input type="text" name="par_nationality" placeholder="Norwegian, Spanish etc.">
+                            <label for ="par_nationality">Nationality:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="par_nationality" id ="par_nationality" placeholder="Norwegian, Spanish etc.">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Birthcountry:</td>
                         <td>
-                            <input type="text" name="par_birthplace" placeholder="France, England etc.">
+                            <label for ="par_birthplace">Birthcountry:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="par_birthplace" id ="par_birthplace" placeholder="France, England etc.">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Recidency (city/country):</td>
                         <td>
-                            <input type="text" name="par_recidency" placeholder="Oslo/Norway, Paris/France etc.">
+                            <label for ="par_recidency">Recidency (city/country):</label>
+                        </td>
+                        <td>
+                            <input type="text" name="par_recidency" id ="par_recidency" placeholder="Oslo/Norway, Paris/France etc.">
                         </td>
                         <td></td>
                     </tr>
@@ -364,25 +389,28 @@
                 <table>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Highest degree achieved:</td>
+                            <label for ="degree"><abbr title="Required">*</abbr> Highest degree achieved:</label>
+                        </td>
                         <td>
-                            <input type="text" name="degree" placeholder="Bachelors, Masters etc." required>
+                            <input type="text" name="degree" id ="degree" placeholder="Bachelors, Masters etc." required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Year degree achieved:</td>
+                            <label for ="deg_year"><abbr title="Required">*</abbr> Year degree achieved:</label>
+                        </td>
                         <td>
-                            <input type="number" name="deg_year" placeholder="xxxx" required>
+                            <input type="number" name="deg_year" id ="deg_year" placeholder="xxxx" required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> School:</td>
+                            <label for ="school"><abbr title="Required">*</abbr> School:</label>
+                        </td>
                         <td>
-                            <input type="text" name="school" placeholder="School Name" required>
+                            <input type="text" name="school" id ="school" placeholder="School Name" required>
                         </td>
                         <td></td>
                     </tr>
@@ -395,30 +423,38 @@
                 <legend>4. Work</legend>
                 <table>
                     <tr>
-                        <td>Current job:</td>
                         <td>
-                            <input\ type="text" name="cur_job" placeholder="Mechanic, Doctor etc.">
+                            <label for ="cur_job">Current job:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="cur_job" id ="cur_job" placeholder="Mechanic, Doctor etc.">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Current employer:</td>
                         <td>
-                            <input type="text" name="cur_emp" placeholder="Company, Self employed etc">
+                            <label for ="cur_emp">Current employer:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="cur_emp" id ="cur_emp" placeholder="Company, Self employed etc">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Current work address:</td>
                         <td>
-                            <input type="text" name="cur_workadd" placeholder="Random Address 15c">
+                            <label for ="cur_workadd">Current work address:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="cur_workadd" id ="cur_workadd" placeholder="Random Address 15c">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Current employers phone number:</td>
                         <td>
-                            <input type="number" name="curr_empnum" placeholder="xxxxxxxx">
+                            <label for ="cur_empnum">Current employers phone number:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="cur_empnum" id ="cur_empnum" placeholder="xxxxxxxx">
                         </td>
                         <td></td>
                     </tr>
@@ -428,30 +464,38 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Previous job:</td>
                         <td>
-                            <input type="text" name="ear_job" placeholder="Dancer, Driver etc.">
+                           <label for ="pre_job">Previous job:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="pre_job" id ="pre_job" placeholder="Dancer, Driver etc.">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Previous employer:</td>
                         <td>
-                            <input type="text" name="ear_emp" placeholder="Company, Self employed etc.">
+                            <label for ="pre_emp">Previous employer:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="pre_emp" id ="pre_emp" placeholder="Company, Self employed etc.">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Previous work address:</td>
                         <td>
-                            <input type="text" name="ear_workadd" placeholder="Random Address 16a">
+                            <label for ="pre_workadd">Previous work address:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="pre_workadd" id ="pre_workadd" placeholder="Random Address 16a">
                         </td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Previous employers phone number:</td>
                         <td>
-                            <input type="number" name="ear_empnum" placeholder="xxxxxxxx">
+                            <label for ="pre_empnum">Previous employers phone number:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="pre_empnum" id ="pre_empnum" placeholder="xxxxxxxx">
                         </td>
                         <td></td>
                     </tr>
@@ -465,130 +509,134 @@
                 <table>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Pass type:</td>
+                            <label for ="p_type"><abbr title="Required">*</abbr> Pass type:</label>
+                        </td>
                         <td>
-                            <input type="text" name="p_type" placeholder="Type P etc." required>
+                            <input type="text" name="p_type" id ="p_type" placeholder="Type P etc." required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Pass number:</td>
+                            <label for ="p_num"><abbr title="Required">*</abbr> Pass number:</label>
+                        </td>
                         <td>
-                            <input type="text" name="p_number" placeholder="xxxxxxxx" required>
+                            <input type="text" name="p_num" id ="p_num" placeholder="xxxxxxxx" required>
                         </td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Date of issue:</td>
+                            <label for ="p_date" for ="p_month" for ="p_year"><abbr title="Required">*</abbr> Date of issue:</label>
+                        </td>
                         <td colspan="2">
-                            <select name="p_date" required>
-                                <option label="default">-Date-</option>
-                                <option label="1">1</option>
-                                <option label="2">2</option>
-                                <option label="3">3</option>
-                                <option label="4">4</option>
-                                <option label="5">5</option>
-                                <option label="6">6</option>
-                                <option label="7">7</option>
-                                <option label="8">8</option>
-                                <option label="9">9</option>
-                                <option label="10">10</option>
-                                <option label="11">11</option>
-                                <option label="12">12</option>
-                                <option label="13">13</option>
-                                <option label="14">14</option>
-                                <option label="15">15</option>
-                                <option label="16">16</option>
-                                <option label="17">17</option>
-                                <option label="18">18</option>
-                                <option label="19">19</option>
-                                <option label="20">20</option>
-                                <option label="21">21</option>
-                                <option label="22">22</option>
-                                <option label="23">23</option>
-                                <option label="24">24</option>
-                                <option label="25">25</option>
-                                <option label="26">26</option>
-                                <option label="27">27</option>
-                                <option label="28">28</option>
-                                <option label="29">29</option>
-                                <option label="30">30</option>
-                                <option label="31">31</option>
+                            <select name="p_date" id ="p_date" required>
+                                <option value="default">-Date-</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
                             </select>
-                            <select name="p_month" required>
-                                <option label="default">-Month-</option>
-                                <option label="January">January</option>
-                                <option label="February">February</option>
-                                <option label="March">March</option>
-                                <option label="April">April</option>
-                                <option label="May">May</option>
-                                <option label="June">June</option>
-                                <option label="July">July</option>
-                                <option label="August">August</option>
-                                <option label="September">September</option>
-                                <option label="October">October</option>
-                                <option label="November">November</option>
-                                <option label="December">December</option>
+                            <select name="p_month" id ="p_month" required>
+                                <option value="default">-Month-</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
                             </select>
-                            <input type="text" name="p_year" placeholder="Year" required>
+                            <input type="text" name="p_year" id ="p_year" placeholder="Year" required>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <abbr title="Required">*</abbr> Date of experation:</td>
+                            <label for ="p_date_ex" for ="p_month_ex" for ="p_year_ex"><abbr title="Required">*</abbr> Date of experation:</label>
+                        </td>
                         <td colspan="2">
-                            <select name="p_date2" required>
-                                <option label="default">-Date-</option>
-                                <option label="1">1</option>
-                                <option label="2">2</option>
-                                <option label="3">3</option>
-                                <option label="4">4</option>
-                                <option label="5">5</option>
-                                <option label="6">6</option>
-                                <option label="7">7</option>
-                                <option label="8">8</option>
-                                <option label="9">9</option>
-                                <option label="10">10</option>
-                                <option label="11">11</option>
-                                <option label="12">12</option>
-                                <option label="13">13</option>
-                                <option label="14">14</option>
-                                <option label="15">15</option>
-                                <option label="16">16</option>
-                                <option label="17">17</option>
-                                <option label="18">18</option>
-                                <option label="19">19</option>
-                                <option label="20">20</option>
-                                <option label="21">21</option>
-                                <option label="22">22</option>
-                                <option label="23">23</option>
-                                <option label="24">24</option>
-                                <option label="25">25</option>
-                                <option label="26">26</option>
-                                <option label="27">27</option>
-                                <option label="28">28</option>
-                                <option label="29">29</option>
-                                <option label="30">30</option>
-                                <option label="31">31</option>
+                            <select name="p_date_ex" id ="p_date_ex" required>
+                                <option value="default">-Date-</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
                             </select>
-                            <select name="p_month2" required>
-                                <option label="default">-Month-</option>
-                                <option label="January">January</option>
-                                <option label="February">February</option>
-                                <option label="March">March</option>
-                                <option label="April">April</option>
-                                <option label="May">May</option>
-                                <option label="June">June</option>
-                                <option label="July">July</option>
-                                <option label="August">August</option>
-                                <option label="September">September</option>
-                                <option label="October">October</option>
-                                <option label="November">November</option>
-                                <option label="December">December</option>
+                            <select name="p_month_ex" id ="p_month_ex" required>
+                                <option value="default">-Month-</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
                             </select>
-                            <input type="text" name="p_year2" placeholder="Year" required>
+                            <input type="text" name="p_year_ex" id ="p_year_ex" placeholder="Year" required>
                         </td>
                     </tr>
                 </table>
@@ -611,7 +659,7 @@
                     <br>
                     <br>
                 </span>
-                <textarea name="text" rows="6" cols="60" placeholder="Write Here" required></textarea>
+                <label for ="textarea"><textarea name="textarea" id ="textarea" rows="6" cols="60" placeholder="Write Here" required></textarea></label>
                 <br>
             </fieldset>
             <br>
@@ -636,3 +684,4 @@
 
 <!-- BEGRUNNELSER -->
 <!-- Abbr-elementer for å hjelpe blindeleser. "Asterics" = "Required" -->
+<!-- Label-elementer for å navngi ulike tekstfelt -->
