@@ -151,13 +151,13 @@ section {
     margin-left: 10%;
     margin-right: 10%;
 }
-#play {
+#scroll {
     display: block;
     width: 10%;
     position: absolute;
     margin-left: 44%;
 }
-#play:hover {
+#scroll:hover {
     opacity: 0.5;
 }
 
@@ -370,7 +370,7 @@ td {
 @media screen and (min-width: 1200px) {
     /*Button */
 
-    #play {
+    #scroll {
         display: block;
         width: 5%;
         position: absolute;
