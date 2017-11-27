@@ -96,15 +96,15 @@ footer {
 #zentopia {
     background-image: none; /* Fjerner bakgrunnsbildet */
 }
-.img { 
-    width: 100%; 
-    margin-top: 2%;  
+.img {
+    width: 100%;
+    margin-top: 2%;
     margin-bottom: 3%;
 }
-#blackBox { 
+#blackBox {
     margin-bottom: 4%;
 }
-.historyBox { 
+.historyBox {
     background-color: rgba(173, 22, 22, 0.9);
     width: 40%;
     position: absolute; /* Legger boksen på toppen av bildet */
@@ -166,6 +166,25 @@ footer {
     font-size: 1em;
     padding: 1em;
     text-align: center;
+}
+#topBtn {
+  display: none;
+  position: fixed;
+  border-color: #EF9529;
+  outline-width: medium;
+  background-color: black;
+  color: #EF9529;
+  bottom: 3em;
+  right: 4em;
+  z-index: 99;
+  padding: 1em;
+  border-radius: 0.1em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#topBtn:hover {
+  color: #cccccc;
 }
 /* APPLICATION.HTML SLUTT */
 
