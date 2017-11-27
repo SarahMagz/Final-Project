@@ -31,7 +31,7 @@ function smoothScroll() {
 /* <script>
 var inputs = '';
  for (var i = 1; i <= 31; i++) {
-   
+
    inputs+= "<option label = "+i+">"+i+"</option>"
  }
  document.getElementById('day').insertAdjacentHTML('afterbegin', inputs);
