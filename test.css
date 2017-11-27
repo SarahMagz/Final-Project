@@ -1,0 +1,196 @@
+* { /* Definerer css for ALLE elementer */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(173, 173, 173);
+    size: 100%;
+}
+body {
+    background-image: url('bilder/background.png');
+    /* Bilde hentet fra: http://www.nightskyinfo.com/cms/img/wallpaper-img/img/horsehead_1280x960.jpg */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    max-height: 20em;
+    background-size: cover;
+    font-size: 1.2em;
+}
+/* MENY START*/
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 6%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+}
+nav a {
+    width: 25%;
+    display: block;
+    float: left;
+    color: #EF9529;
+    text-align: center;
+    padding-top: 1em;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+}
+a:hover {
+    font-style: italic;
+    color: rgb(225, 225, 225);
+}
+/* MENY SLUTT */
+
+/* FOOTER START*/
+footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 6%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 10
+}
+#countdown {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    color: #EF9529;
+    text-align: center;
+}
+/* FOOTER SLUTT */
+
+/* INDEX.HTML START */
+.fp {
+    margin-top: 13%;
+    overflow: hidden;
+    text-align: center;
+}
+.fp iframe {
+    border: none;
+    margin-bottom: 15%;
+    width: 100%;
+}
+.fp h1{
+    font-weight: 300;
+    font-size: 6em;
+    color: rgb(221, 132, 30);
+}
+.fp h2 {
+    color: #EF9529;
+    font-weight: 300;
+    font-size: 2em;
+}
+.fp hr {
+    border-color: #EF9529;
+    width: 20%;
+}
+#play {
+    width: 5em;
+}
+/* INDEX.HTML SLUTT */
+
+/* ZENTOPIA.HTML START */
+#zentopia {
+    background-image: none; /* Fjerner bakgrunnsbildet */
+}
+.img { 
+    width: 100%; 
+    margin-top: 2%;  
+    margin-bottom: 3%;
+}
+#blackBox { 
+    margin-bottom: 4%;
+}
+.historyBox { 
+    background-color:  rgba(173, 22, 22, 0.9);
+    width: 40%;
+    position: absolute; /* Legger boksen på toppen av bildet */
+    margin-left: 55%;
+    overflow: hidden;
+    padding-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 33em;
+}
+.historyBox h2 { /* Kun overskrifter */
+    color: #EF9529;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: 4%;
+}
+.historyBox p { /* All tekst på siden */
+    margin: 3%;
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 1em;
+}
+/* ZENTOPIA.HTML SLUTT */
+
+/* APPLICATION.HTML START */
+.boxapp { /* Sort Bakgrunns-felt */
+    overflow: hidden;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.6);
+    margin-left: 20%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+.boxapp fieldset {
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+.boxapp h1 { /* Overskrift */
+    text-align: center;
+    color: #EF9529;
+    font-weight: 300;
+    padding-bottom: 2%;
+    margin-top: 2em;
+    font-size: 2.5em;
+}
+.boxapp abbr { /* Fjerner understreker fra under "*" */
+    text-decoration: none;
+}
+.skjema legend { /* Underoverskrifter */
+    color: #EF9529;
+    font-size: 1.5em;
+}
+.btn { /* Definerer css for knapp på application.html OG registered.html */
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: #EF9529;
+    font-size: 1em;
+    padding: 1em;
+    text-align: center;
+}
+/* APPLICATION.HTML SLUTT */
+
+/* REGISTERED.HTML START */
+.registered {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    text-align: center;
+}
+.registered h1 {
+    color: #EF9529;
+}
+/* REGISTERED.HTML SLUTT */
+
+/* ABOUT.HTML START */
+/* ABOUT.HTML SLUTT */
+
+/* FAQ.HTML START */
+/* FAQ.HTML SLUTT */
+
+/* MEDIATAGS (burde bruke max-width og ikke min? Da sier den på en måte "når skjermen er max så stor så skjer dette" aka fra eks 300px og under skjer en bestemt ting. */
+/* Om man definerer en ny mediatag som er f. eks max 100, så skjer en ting mellom 0 og 100, en annen mellom 100 og 300, og en tredje fra 300 og opp */
+
+/* Boksene på Zentopia er fucka lol ups, men det er fordi jeg definerte dem på en helt annen måte enn tidligere, og da overlapper de hverandre og fucker seg ): Kan sikkert bare kopiere koden fra global.css*/
+/* Ingen kode på about us eler faq ennå, kan sikkert også bare kopieres. Slette ting som ikke er nødvendige selvfølgelig.  */
+
+/*  */
