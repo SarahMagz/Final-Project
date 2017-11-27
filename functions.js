@@ -27,11 +27,25 @@ function smoothScroll() {
     })
 }
 
+window.onscroll = function() {letsScroll()};
+
+function letsScroll(){
+  if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25){
+    document.getElementById("topBtn").style.display = "block";
+  } else {
+    document.getElementById("topBtn").style.display = "none";
+  }
+}
+
+function topScroll() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 /* <script>
 var inputs = '';
  for (var i = 1; i <= 31; i++) {
-   
+
    inputs+= "<option label = "+i+">"+i+"</option>"
  }
  document.getElementById('day').insertAdjacentHTML('afterbegin', inputs);
