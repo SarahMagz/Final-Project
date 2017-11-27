@@ -1,4 +1,4 @@
-* {
+* { /* Definerer css for ALLE elementer */
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: rgb(173, 173, 173);
@@ -94,20 +94,20 @@ footer {
 
 /* ZENTOPIA.HTML START */
 #zentopia {
-    background-image: none;
+    background-image: none; /* Fjerner bakgrunnsbildet */
 }
-.img {
-    width: 100%;  
+.img { 
+    width: 100%; 
     margin-top: 2%;  
     margin-bottom: 3%;
 }
-#blackBox {
+#blackBox { 
     margin-bottom: 4%;
 }
-.historyBox {
+.historyBox { 
     background-color:  rgba(173, 22, 22, 0.9);
     width: 40%;
-    position: absolute;
+    position: absolute; /* Legger boksen på toppen av bildet */
     margin-left: 55%;
     overflow: hidden;
     padding-bottom: 2em;
@@ -115,15 +115,14 @@ footer {
     margin-bottom: 2em;
     height: 33em;
 }
-.historyBox h2 {
+.historyBox h2 { /* Kun overskrifter */
     color: #EF9529;
     text-align: center;
     font-weight: 300;
     font-size: 2em;
-    margin: 1em;
     margin-top: 4%;
 }
-.historyBox p {
+.historyBox p { /* All tekst på siden */
     margin: 3%;
     font-weight: 300;
     line-height: 150%;
@@ -132,7 +131,7 @@ footer {
 /* ZENTOPIA.HTML SLUTT */
 
 /* APPLICATION.HTML START */
-.boxapp {
+.boxapp { /* Sort Bakgrunns-felt */
     overflow: hidden;
     width: 60%;
     background: rgba(0, 0, 0, 0.6);
@@ -145,7 +144,7 @@ footer {
     margin-right: 2em;
     margin-bottom: 1em;
 }
-.boxapp h1 {
+.boxapp h1 { /* Overskrift */
     text-align: center;
     color: #EF9529;
     font-weight: 300;
@@ -153,10 +152,10 @@ footer {
     margin-top: 2em;
     font-size: 2.5em;
 }
-.boxapp abbr {
+.boxapp abbr { /* Fjerner understreker fra under "*" */
     text-decoration: none;
 }
-.skjema legend {
+.skjema legend { /* Underoverskrifter */
     color: #EF9529;
     font-size: 1.5em;
 }
@@ -187,3 +186,11 @@ footer {
 
 /* FAQ.HTML START */
 /* FAQ.HTML SLUTT */
+
+/* MEDIATAGS (burde bruke max-width og ikke min? Da sier den på en måte "når skjermen er max så stor så skjer dette" aka fra eks 300px og under skjer en bestemt ting. */
+/* Om man definerer en ny mediatag som er f. eks max 100, så skjer en ting mellom 0 og 100, en annen mellom 100 og 300, og en tredje fra 300 og opp */
+
+/* Boksene på Zentopia er fucka lol ups, men det er fordi jeg definerte dem på en helt annen måte enn tidligere, og da overlapper de hverandre og fucker seg ): Kan sikkert bare kopiere koden fra global.css*/
+/* Ingen kode på about us eler faq ennå, kan sikkert også bare kopieres. Slette ting som ikke er nødvendige selvfølgelig.  */
+
+/*  */
