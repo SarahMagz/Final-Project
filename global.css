@@ -346,123 +346,123 @@ h1 {
 
 /*NETTBRETT*/
 @media screen and (min-width: 760px) {
-    p {
-        margin-right: 3%;
-        margin-left: 3%;
-        font-size: 1em;
-    }
+p {
+     margin-right: 3%;
+     margin-left: 3%;
+     font-size: 1em;
+}
 
-    #zentext, h1 {
-        font-size: 5em;
-        margin-top: 1em;
-    }
+#zentext, h1 {
+    font-size: 5em;
+    margin-top: 1em;
+}
 
-    h1 {
-        font-size: 2.5em;
-    }
+h1 {
+    font-size: 2.5em;
+}
 
-    h2 {
-        font-size: 1.1em;
-    }
+h2 {
+    font-size: 1.1em;
+}
 
-    strong {
-        color: #CCCCCC;
-    }
+strong {
+    color: #CCCCCC;
+}
 
-    nav a {
-        font-size: 1em;
-    }
+nav a {
+    font-size: 1em;
+}
 
-    .historyBox {
-        width: 49%;
-        margin-right: 6%;
-        min-height: 650px;
-        background: rgba(0, 0, 0, 0.87);
-    }
+.historyBox {
+    width: 49%;
+    margin-right: 6%;
+    min-height: 650px;
+    background: rgba(0, 0, 0, 0.87);
+}
 
-    .boxapp,
-    .whybox {
-        width: 60%;
-        margin-left: 18.5%;
-        padding: 2em;
-    }
+.boxapp,
+.whybox {
+    width: 60%;
+    margin-left: 18.5%;
+    padding: 2em;
+}
 
 
-    .location {
-        background: url(bilder/after.jpg) no-repeat!important;
-        /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
-    }
+.location {
+    background: url(bilder/after.jpg) no-repeat!important;
+    /* Bilde hentet fra: https://thumbnails.trvl-media.com/b0RxLzAhuvEcDcyDJJtO_ivQpYM=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/6051084/Maldives-All-180678.jpg */
+}
 
-    .landing {
-        background: url(bilder/landingpoint.jpg) no-repeat!important;
-        /* Bilde hentet fra: https://www.google.no/maps*/
-    }
+.landing {
+    background: url(bilder/landingpoint.jpg) no-repeat!important;
+    /* Bilde hentet fra: https://www.google.no/maps*/
+}
 
-    .thingstodo {
-        background: url(bilder/flyingbike.jpg) no-repeat!important;
-        /* Bilde hentet fra: http://www.blixentours.dk/images/media/lux-south-ari-atoll-resort-girl-on-bike.jpg?8d4c3bbf4f73346a04ad6d963fb5b6800ea158e6-f.jpg*/
-    }
+.thingstodo {
+    background: url(bilder/flyingbike.jpg) no-repeat!important;
+    /* Bilde hentet fra: http://www.blixentours.dk/images/media/lux-south-ari-atoll-resort-girl-on-bike.jpg?8d4c3bbf4f73346a04ad6d963fb5b6800ea158e6-f.jpg*/
+}
 
-    .accommodation {
-        background: url(bilder/apartment.jpg) no-repeat!important;
-        /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
-    }
+.accommodation {
+    background: url(bilder/apartment.jpg) no-repeat!important;
+    /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
+}
 
-    .historie {
-        background-image: none;
-    }
+.historie {
+    background-image: none;
+}
 
-    #countdown {
-        font-size: 1.5em;
-        margin-top: 0.5em;
-        color: #EF9529;
-    }
+#countdown {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    color: #EF9529;
+}
 
-    footer {
-        padding-bottom: 1.2em;
-    }
+footer {
+    padding-bottom: 1.2em;
+}
 }
 /* NETTBRETT SLUTT */
 
 /* DESKTOP START */
 @media screen and (min-width: 1200px) {
-    #scroll {
-        display: block;
-        width: 5%;
-        position: absolute;
-        margin-left: 47%;
-        margin-right: 50%;
-    }
+#scroll {
+    display: block;
+    width: 5%;
+    position: absolute;
+    margin-left: 47%;
+    margin-right: 50%;
+}
 
-    p {
-        font-size: 1em;
-    }
+p {
+    font-size: 1em;
+}
 
-    #zentext, h1 {
-        font-size: 7em;
-        margin-top: 0em;
-    }
+#zentext, h1 {
+    font-size: 7em;
+    margin-top: 0em;
+}
 
-    h1 {
-        font-size: 3em;
-    }
+h1 {
+    font-size: 3em;
+}
 
-    h2 {
-        font-size: 2em;
-        margin-top: 0em;
-    }
+h2 {
+    font-size: 2em;
+    margin-top: 0em;
+}
 
-    span {
-        color: #CCCCCC;
-    }
+span {
+    color: #CCCCCC;
+}
 
-    nav a {
-        font-size: 1.2em;
-    }
+nav a {
+    font-size: 1.2em;
+}
 
-    .historyBox {
-        width: 35%;
-        margin-right: 6%;
-    }
+.historyBox {
+    width: 35%;
+    margin-right: 6%;
+}
 }
 /* DESKTOP SLUTT */
