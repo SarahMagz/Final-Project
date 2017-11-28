@@ -76,10 +76,11 @@ a:hover {
 
 .dropdown-content a {
     float: left;
-    text-align: left;
+    text-align: center;
     color: #EF9529;
     font-size: 1em;
-    padding: 0.3em 1em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
     text-decoration: none;
     display: block;
     min-width: 100%;
