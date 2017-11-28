@@ -172,21 +172,21 @@ p {
     margin-left: 5%;
     line-height: 170%;
 }
-h1 {
+.zentopia h1 {
     font-weight: 200;
     font-size: 3.8em;
     color: #EF9529;
     text-align: center;
     margin-top: 2em;
 }
-h2 {
+h1 {
     font-weight: 200;
     font-size: 2.4em;
     color: #EF9529;
     text-align: center;
 
 }
-h3 {
+h2 {
     font-weight: 200;
     font-size: 1em;
     color: #EF9529;
@@ -212,7 +212,7 @@ h3 {
 
 /*Registered*/
 .registered,
-h3 {
+h2 {
     text-align: center!important;
 }
 .registered,
@@ -259,7 +259,7 @@ td {
     padding-top: 4em;
     padding-bottom: 5em;
 }
-.boxapp h2 {
+.boxapp h1 {
     text-align: center;
     color: #EF9529;
     font-weight: 200;
@@ -313,16 +313,16 @@ td {
         font-size: 1em;
     }
 
-    h1 {
+    .zentopia, h1 {
         font-size: 5em;
         margin-top: 1em;
     }
 
-    h2 {
+    h1 {
         font-size: 2.5em;
     }
 
-    h3 {
+    h2 {
         font-size: 1.1em;
     }
 
@@ -350,10 +350,10 @@ td {
         padding: 2em;
     }
 
-    .location h2,
-    .landing h2,
-    .thingstodo h2,
-    .Accomodation h2 {
+    .location h1,
+    .landing h1,
+    .thingstodo h1,
+    .Accomodation h1 {
         font-size: 2.5em;
     }
 
@@ -410,16 +410,16 @@ td {
         font-size: 1em;
     }
 
-    h1 {
+    .zentopia, h1 {
         font-size: 7em;
         margin-top: 0em;
     }
 
-    h2 {
+    h1 {
         font-size: 3em;
     }
 
-    h3 {
+    h2 {
         font-size: 2em;
         margin-top: 0em;
     }
