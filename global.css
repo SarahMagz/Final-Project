@@ -308,9 +308,8 @@ h1 {
 /* APPLICATION.HTML START */
 .boxapp { /* Sort Bakgrunns-felt */
     overflow: hidden;
-    width: 60%;
+    width: 100%;
     background: rgba(0, 0, 0, 0.6);
-    margin-left: 20%;
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
@@ -383,7 +382,7 @@ nav a {
 .boxapp,
 .whybox {
     width: 60%;
-    margin-left: 18.5%;
+    margin-left: 20%;
     padding: 2em;
 }
 
