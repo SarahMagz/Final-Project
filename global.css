@@ -163,10 +163,6 @@ h2 {
     text-align: center;
 }
 
-.historie, .top {
-    margin-top: 2em;
-}
-
 #zentopia {
     background-image: none; /* Fjerner bakgrunnsbildet */
 }
@@ -178,9 +174,9 @@ h2 {
 }
 
 .historyBox {
+    padding-top: 4em;
     float: right;
     width: 100%;
-    padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
     overflow: hidden;
@@ -246,24 +242,22 @@ h2 {
     text-align: center;
 }
 
-.top {
-    margin-top: 2em;
-}
-
 .spm {
     color: #EF9529;
 }
 
+.top {
+    padding-top: 1em;
+}
 
 .whybox { /* Gjelder også for FAQ.HTML */
     overflow: hidden;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     margin-bottom: 3em;
     margin-top: 1em;
     min-height: 70em;
     border: hidden;
-    padding-top: 4em;
     padding-bottom: 5em;
     text-align: center;
 }
@@ -310,7 +304,6 @@ h1 {
     overflow: hidden;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
-    margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
 }
@@ -381,6 +374,7 @@ nav a {
 }
 
 .historyBox {
+    padding-top: 1em;
     width: 49%;
     margin-right: 6%;
     min-height: 650px;
@@ -392,8 +386,8 @@ nav a {
     width: 60%;
     margin-left: 20%;
     padding: 2em;
+    margin-top: 1em;
 }
-
 
 .location {
     background: url(bilder/after.jpg) no-repeat!important;
@@ -428,16 +422,16 @@ nav a {
 footer {
     padding-bottom: 1.2em;
 }
-
-.historie, .top {
-    margin-top: 1em;
-}
-
 }
 /* NETTBRETT SLUTT */
 
 /* DESKTOP START */
 @media screen and (min-width: 1200px) {
+#countdown {
+    font-size: 2em;
+    margin-top: 0.5em;
+    color: #EF9529;
+}
 #scroll {
     display: block;
     width: 5%;
@@ -450,7 +444,7 @@ p {
     font-size: 1em;
 }
 
-#zentext, h1 {
+#zentext h1 {
     font-size: 7em;
     margin-top: 0em;
 }
@@ -475,10 +469,6 @@ nav a {
 .historyBox {
     width: 35%;
     margin-right: 6%;
-}
-
-.historie, .top {
-    margin-top: 0em;
 }
 }
 /* DESKTOP SLUTT */
