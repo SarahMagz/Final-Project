@@ -1,6 +1,9 @@
-* {
+* { /* Definerer css for ALLE elementer */
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #CCCCCC;
 }
+
 /* Meny */
 
 nav {
@@ -394,9 +397,7 @@ td {
         margin-left: 47%;
         margin-right: 50%;
     }
-    /*#video {
-  margin-bottom: 0em;
-}*/
+
     /* Fonts */
 
     p {
