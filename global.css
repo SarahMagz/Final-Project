@@ -76,7 +76,7 @@ p {
 
 #zentext h1 {
     font-weight: 200;
-    font-size: 3.8em;
+    font-size: 3.9em;
     color: #EF9529;
     text-align: center;
     margin-top: 2em;
@@ -163,7 +163,7 @@ h2 {
     text-align: center;
 }
 
-.top {
+.historie, .top {
     margin-top: 2em;
 }
 
@@ -345,10 +345,18 @@ h1 {
 
 /*NETTBRETT*/
 @media screen and (min-width: 760px) {
+#scroll {
+    display: block;
+    width: 7%;
+    position: absolute;
+    margin-left: 46%;
+    
+}
+
 p {
-     margin-right: 3%;
-     margin-left: 3%;
-     font-size: 1em;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 1em;
 }
 
 #zentext, h1 {
@@ -420,6 +428,11 @@ nav a {
 footer {
     padding-bottom: 1.2em;
 }
+
+.historie, .top {
+    margin-top: 1em;
+}
+
 }
 /* NETTBRETT SLUTT */
 
@@ -462,6 +475,10 @@ nav a {
 .historyBox {
     width: 35%;
     margin-right: 6%;
+}
+
+.historie, .top {
+    margin-top: 0em;
 }
 }
 /* DESKTOP SLUTT */
