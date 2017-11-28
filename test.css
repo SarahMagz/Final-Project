@@ -105,7 +105,7 @@ footer {
     margin-bottom: 4%;
 }
 .historyBox { 
-    background-color: rgba(173, 22, 22, 0.9);
+    background-color:  rgba(173, 22, 22, 0.9);
     width: 40%;
     position: absolute; /* Legger boksen på toppen av bildet */
     margin-left: 55%;
