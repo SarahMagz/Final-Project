@@ -65,13 +65,43 @@ footer {
     color: #EF9529!important;
     text-align: center;
 }
+/* FOOTER SLUTT */
 
+/* INDEX.HTML*/
+p {
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 170%;
+}
 
-.main {
-    width: 100%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    margin: auto;
+#zentext h1 {
+    font-weight: 200;
+    font-size: 3.8em;
+    color: #EF9529;
+    text-align: center;
+    margin-top: 2em;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1em;
+    color: #EF9529;
+    text-align: center;
+}
+
+#scroll {
+    display: block;
+    width: 10%;
+    position: absolute;
+    margin-left: 44%;
+}
+#scroll:hover {
+    opacity: 0.5;
+}
+
+hr {
+    border-color: #EF9529;
+    width: 14%;
 }
 
 .box {
@@ -87,9 +117,79 @@ footer {
     border: 0px;
 }
 
-hr {
-    border-color: #EF9529;
-    width: 14%;
+#topBtn { /* Denne knappen gjelder også for zentopia, application og about */
+  display: none;
+  position: fixed;
+  border-color: #EF9529;
+  outline-width: medium;
+  background-color: black;
+  color: #EF9529;
+  bottom: 3em;
+  right: 4em;
+  z-index: 99;
+  padding: 1em;
+  border-radius: 0.1em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#topBtn:hover {
+  color: #cccccc;
+}
+
+.box iframe {
+    width: 100%;
+}
+/* INDEX.HTML SLUTT */
+
+/* ZENTOPIA.HTML START */
+p {
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 170%;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 2.4em;
+    color: #EF9529;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1em;
+    color: #EF9529;
+    text-align: center;
+}
+
+.top {
+    margin-top: 2em;
+}
+
+#zentopia {
+    background-image: none; /* Fjerner bakgrunnsbildet */
+}
+
+.img {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.historyBox {
+    float: right;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.historyBox p {
+    text-align: left!important;
+    color: #CCCCCC!important;
 }
 
 .location {
@@ -116,139 +216,46 @@ hr {
     overflow: hidden;
 }
 
-.Accommodation {
+.accommodation {
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 10em;
     margin-top: 1%;
     overflow: hidden;
 }
+/* ZENTOPIA.HTML SLUTT */
 
-.historyBox {
-    float: right;
-    width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-bottom: 1%;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
+/* ABOUT.HTML START */
+p {
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 170%;
 }
 
-.historyBox p {
-    text-align: left!important;
-    color: #CCCCCC!important;
+h1 {
+    font-weight: 200;
+    font-size: 2.4em;
+    color: #EF9529;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1em;
+    color: #EF9529;
+    text-align: center;
+}
+
+.top {
+    margin-top: 2em;
 }
 
 .spm {
     color: #EF9529;
 }
 
-}
-article {
-    width: 100%;
-    float: left;
-}
-section {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-#scroll {
-    display: block;
-    width: 10%;
-    position: absolute;
-    margin-left: 44%;
-}
-#scroll:hover {
-    opacity: 0.5;
-}
 
-/* Fonts */
-p {
-    font-weight: 400;
-    color: #CCCCCC!important;
-    font-size: 1.1em;
-    margin-right: 5%;
-    margin-left: 5%;
-    line-height: 170%;
-}
-#zentext, h1 {
-    font-weight: 200;
-    font-size: 3.8em;
-    color: #EF9529;
-    text-align: center;
-    margin-top: 2em;
-}
-h1 {
-    font-weight: 200;
-    font-size: 2.4em;
-    color: #EF9529;
-    text-align: center;
-
-}
-h2 {
-    font-weight: 200;
-    font-size: 1em;
-    color: #EF9529;
-    text-align: center;
-}
-.Q {
-    font-weight: 300;
-    font-size: 1.5em;
-    text-align: center;
-    color: #EF9529!important;
-}
-.A {
-    font-weight: 300;
-    font-size: 1em;
-    color: #CCCCCC;
-    text-align: center;
-}
-
- .top {
-    margin-top: 2em;
-    }
-
-
-/*Registered*/
-.registered,
-h2 {
-    text-align: center!important;
-}
-.registered,
-p {
-    text-align: center!important;
-}
-.application {
-    padding-left: 25%;
-    padding-right: 25%;
-}
-.application,
-td {
-    text-align: left;
-}
-.application h4 {
-    text-align: left;
-    color: #EF9529;
-}
-
-/* Skjema, Why */
-.skjema legend {
-    color: #EF9529;
-    font-size: 2em;
-}
-.skjema table tr td {
-    font-size: 1em;
-    color: rgb(255, 255, 255);
-}
-.skjema input {
-    margin-bottom: 0.5em;
-}
-.skjema select {
-    padding: 0.2%;
-}
-.boxapp,
-.whybox {
+.whybox { /* Gjelder også for FAQ.HTML */
     overflow: hidden;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
@@ -258,55 +265,87 @@ td {
     border: hidden;
     padding-top: 4em;
     padding-bottom: 5em;
+    text-align: center;
 }
-.boxapp h1 {
+/* ABOUT.HTML SLUTT */
+
+/* FAQ.HTML START */
+h1 {
+    font-weight: 200;
+    font-size: 2.4em;
+    color: #EF9529;
+    text-align: center;
+}
+
+.Q {
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    color: #EF9529!important;
+}
+
+.A {
+    font-weight: 300;
+    font-size: 1em;
+    color: #CCCCCC;
+    text-align: center;
+}
+/* FAQ.HTML SLUTT */
+
+/* REGISTERED.HTML START */
+.registered {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    text-align: center;
+}
+.registered h1 {
+    color: #EF9529;
+}
+/* REGISTERED.HTML SLUTT */
+
+/* APPLICATION.HTML START */
+.boxapp { /* Sort Bakgrunns-felt */
+    overflow: hidden;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.6);
+    margin-left: 20%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+.boxapp fieldset {
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+.boxapp h1 { /* Overskrift */
     text-align: center;
     color: #EF9529;
-    font-weight: 200;
+    font-weight: 300;
     padding-bottom: 2%;
+    margin-top: 2em;
+    font-size: 2.5em;
 }
-.boxapp abbr {
+.boxapp abbr { /* Fjerner understreker fra under "*" */
     text-decoration: none;
 }
-.btn {
+.skjema legend { /* Underoverskrifter */
+    color: #EF9529;
+    font-size: 1.5em;
+}
+.btn { /* Definerer css for knapp på application.html OG registered.html */
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 4em;
-    border-color: white;
     background-color: black;
     color: #EF9529;
     font-size: 1em;
     padding: 1em;
     text-align: center;
 }
+/* APPLICATION.HTML SLUTT */
 
-#topBtn {
-  display: none;
-  position: fixed;
-  border-color: #EF9529;
-  outline-width: medium;
-  background-color: black;
-  color: #EF9529;
-  bottom: 3em;
-  right: 4em;
-  z-index: 99;
-  padding: 1em;
-  border-radius: 0.1em;
-  font-size: 1em;
-  font-weight: 500;
-}
-
-#topBtn:hover {
-  color: #cccccc;
-}
-
-.box iframe {
-    width: 100%;
-}
-
-/*Nettbrett*/
+/*NETTBRETT*/
 @media screen and (min-width: 760px) {
-    /* Fonts */
-
     p {
         margin-right: 3%;
         margin-left: 3%;
@@ -329,12 +368,10 @@ td {
     strong {
         color: #CCCCCC;
     }
-    /* Meny */
 
     nav a {
         font-size: 1em;
     }
-    /* Boxes */
 
     .historyBox {
         width: 49%;
@@ -350,12 +387,6 @@ td {
         padding: 2em;
     }
 
-    .location h1,
-    .landing h1,
-    .thingstodo h1,
-    .Accomodation h1 {
-        font-size: 2.5em;
-    }
 
     .location {
         background: url(bilder/after.jpg) no-repeat!important;
@@ -372,7 +403,7 @@ td {
         /* Bilde hentet fra: http://www.blixentours.dk/images/media/lux-south-ari-atoll-resort-girl-on-bike.jpg?8d4c3bbf4f73346a04ad6d963fb5b6800ea158e6-f.jpg*/
     }
 
-    .Accommodation {
+    .accommodation {
         background: url(bilder/apartment.jpg) no-repeat!important;
         /* Bilde hentet fra:; http://www.yoo.com/residences/echo-brickell/ */
     }
@@ -391,11 +422,10 @@ td {
         padding-bottom: 1.2em;
     }
 }
+/* NETTBRETT SLUTT */
 
-/*Desktop*/
+/* DESKTOP START */
 @media screen and (min-width: 1200px) {
-    /*Button */
-
     #scroll {
         display: block;
         width: 5%;
@@ -403,8 +433,6 @@ td {
         margin-left: 47%;
         margin-right: 50%;
     }
-
-    /* Fonts */
 
     p {
         font-size: 1em;
@@ -427,15 +455,14 @@ td {
     span {
         color: #CCCCCC;
     }
-    /* Meny */
 
     nav a {
         font-size: 1.2em;
     }
-    /* Boxes */
 
     .historyBox {
         width: 35%;
         margin-right: 6%;
     }
 }
+/* DESKTOP SLUTT */
