@@ -172,7 +172,7 @@ p {
     margin-left: 5%;
     line-height: 170%;
 }
-.zentopia h1 {
+#zentext, h1 {
     font-weight: 200;
     font-size: 3.8em;
     color: #EF9529;
@@ -313,7 +313,7 @@ td {
         font-size: 1em;
     }
 
-    .zentopia, h1 {
+    #zentext, h1 {
         font-size: 5em;
         margin-top: 1em;
     }
@@ -410,7 +410,7 @@ td {
         font-size: 1em;
     }
 
-    .zentopia, h1 {
+    #zentext, h1 {
         font-size: 7em;
         margin-top: 0em;
     }
