@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    width: 25%;
+    width: 25% !important;
     display: block;
     float: left;
     color: #EF9529;
@@ -52,7 +52,9 @@ a:visited{
 /*---DROPDOWN---*/
 
 .dropdown {
+    width: 25%;
     float: left;
+    text-align: center;
 }
 
 .dropbtn {
@@ -73,17 +75,19 @@ a:visited{
     background-color: rgba(0, 0, 0, 0.8);
     min-width: 10em;
     padding-top: 0.3em;
+    min-width: 10em;
     z-index: 1;
 }
 
 .dropdown-content a {
     float: none;
     color: #EF9529;
+    font-size: 1em;
     padding: 0.3em 1em;
     text-decoration: none;
     display: block;
     text-align: left;
-    width: 100%;
+    min-width: 100%;
 }
 
 .dropdown-content a:hover {
@@ -358,6 +362,7 @@ h1 {
     overflow: hidden;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
+    margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
 }
