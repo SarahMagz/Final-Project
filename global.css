@@ -352,6 +352,7 @@ h1 {
     overflow: hidden;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
+    margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
 }
