@@ -71,9 +71,9 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     min-width: 10em;
     padding-top: 0.3em;
+    padding-bottom: 1em;
     z-index: 1;
     text-align: center;
-    margin-top: 1.36em;
 }
 
 .dropdown-content a {
