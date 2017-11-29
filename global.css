@@ -75,18 +75,19 @@ a:visited{
     background-color: rgba(0, 0, 0, 0.8);
     min-width: 10em;
     padding-top: 0.3em;
-    min-width: 10em;
     z-index: 1;
+    text-align: center;
 }
 
 .dropdown-content a {
-    float: none;
+    float: left;
+    text-align: center;
     color: #EF9529;
     font-size: 1em;
-    padding: 0.3em 1em;
+    padding-left: 0em;
+    padding-bottom: 0.5em;
     text-decoration: none;
     display: block;
-    text-align: left;
     min-width: 100%;
 }
 
@@ -98,8 +99,11 @@ a:visited{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+<<<<<<< HEAD
 
 
+>>>>>>> master
+=======
 >>>>>>> master
 /* MENY SLUTT */
 
