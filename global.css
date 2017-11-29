@@ -43,11 +43,10 @@ a:hover {
     font-style: italic;
     color: #CCCCCC;
 }
-<<<<<<< HEAD
+
 a:visited{
   color: #EF9529;
 }
-=======
 
 /*---DROPDOWN---*/
 
@@ -99,12 +98,7 @@ a:visited{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-<<<<<<< HEAD
 
-
->>>>>>> master
-=======
->>>>>>> master
 /* MENY SLUTT */
 
 /* FOOTER START */
