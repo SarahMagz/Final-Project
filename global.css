@@ -388,6 +388,9 @@ h1 {
     padding: 1em;
     text-align: center;
 }
+input[type=text] {
+    color: black;
+}
 /* APPLICATION.HTML SLUTT */
 
 /*NETTBRETT*/
