@@ -12,7 +12,7 @@ body {
     background-color: #000000;
     max-height: 20em;
     background-size: cover;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 /* MENY START */
@@ -55,27 +55,6 @@ a:hover {
     background:rgba(255,255,255, 0.3);
     border-bottom-style: solid;
     border-bottom-width: 0.2em;
-}
-
-/*---DROPDOWN---*/
-
-.dropdown {
-    width: 25%;
-    float: left;
-    text-align: center;
-    position: relative;
-}
-
-.dropbtn {
-    font-size: 1em;
-    border: none;
-    color: #EF9529;
-    background-color: inherit;
-}
-
- .dropdown:hover .dropbtn {
-    font-style: italic;
-    color: #CCCCCC;
 }
 /* MENY SLUTT */
 
