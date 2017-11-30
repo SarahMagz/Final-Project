@@ -357,16 +357,24 @@ h1 {
 .boxapp fieldset {
     margin-right: 2em;
     margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .boxapp h1 { /* Overskrift */
     text-align: center;
     color: #EF9529;
     padding-bottom: 2%;
     margin-top: 2em;
-    font-size: 3.5em;
+    font-size: 3.7em;
 }
-.boxapp td {
-    line-height: 170%;
+.boxapp td, .boxapp span, .boxapp label, textarea{
+    line-height: 150%;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.boxapp input{
+    margin-left: 1em;
+    font-size: 1em;
 }
 .boxapp abbr { /* Fjerner understreker fra under "*" */
     text-decoration: none;
@@ -376,7 +384,7 @@ h1 {
     color: #EF9529;
     font-size: 2em;
 }
-.btn { /* Definerer css for knapp på application.html OG registered.html */
+.boxapp .btn, .btn { /* Definerer css for knapp på application.html OG registered.html */
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: #EF9529;
@@ -384,8 +392,9 @@ h1 {
     padding: 1em;
     text-align: center;
     font-weight: 500;
+    height: 4em;
 }
-input[type=text] {
+input, textarea {
     color: black;
 }
 /* APPLICATION.HTML SLUTT */
