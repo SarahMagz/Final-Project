@@ -511,7 +511,7 @@ footer {
 @media screen and (min-width: 1200px) {
 #countdown {
     font-size: 2em;
-    margin-top: 0.5em;
+    margin-top: 0.25em;
     color: #EF9529;
 }
 #scroll {
