@@ -185,7 +185,7 @@ h2 {
     padding-bottom: 3em;
     margin-bottom: 2em;
     overflow: hidden;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     height: 33em;
 
@@ -205,7 +205,7 @@ h2 {
     padding-bottom: 3em;
     margin-bottom: 2em;
     overflow: hidden;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     height: 33em;
 
