@@ -477,7 +477,7 @@ h2 {
     font-size: 1.1em;
 }
 
-.boxapp h1 { 
+.boxapp h1 {
     font-size: 3.7em;
 }
 
@@ -494,35 +494,26 @@ nav a {
     padding-top: 1em;
 }
 
+
 .zenimg {
     display: inline-block;
-    size: 100%;
+    width: 100%;
     margin-top: 2%;
     margin-bottom: 3%;
 }
-    
+
 
 .historyBox {
+    float:right;
     padding-top: 1em;
-    width: 55%;
-    margin-right: 6%;
-    margin-left: 45%;
-    min-height: 650px;
+    right: 0;
+    min-height: 640px;
     position: absolute;
     background: rgba(0, 0, 0, 0.87);
-}
+    width: 45%;
     
-
-.historyBox2 {
-    padding-top: 1em;
-    width: 55%;
-    margin-left: 6%;
-    margin-right: 45%;
-    min-height: 650px;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.87);
-
 }
+   
 
 .boxapp,
 .whybox {
