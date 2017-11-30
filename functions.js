@@ -11,7 +11,7 @@ function countdown() {
         var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-        document.getElementById("countdown").innerHTML = "Departure in " + years +
+        document.getElementById("countdown").innerHTML = "Apply now, departure in " + years +
             "y " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
         if (timeLeft < 0) {
@@ -41,13 +41,3 @@ function topScroll() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-/* <script>
-var inputs = '';
- for (var i = 1; i <= 31; i++) {
-
-   inputs+= "<option label = "+i+">"+i+"</option>"
- }
- document.getElementById('day').insertAdjacentHTML('afterbegin', inputs);
-                    </script> */
-/* KODEN OVER == TEST FOR LØKKE TIL DATOVALG. FUNKER IKKE MEN LAGT INN HER FORELØPIG */

@@ -11,26 +11,24 @@
 </head>
 
 <body>
-	<nav>  
+	<nav>
         <a href="index.html">HOME</a>
-        <div class="dropdown">
-        
-        <button class="dropbtn">
-            <a href="zentopia.html" >ZENTOPIA </a>
-        </button>
-        <div class="dropdown-content">
-            <a href="zentopia.html#location">LOCATION</a>
-            <a href="zentopia.html#landing">LANDING</a>
-            <a href="zentopia.html#thingsToDo">THINGS TO DO</a>
-            <a href="zentopia.html#accommodationid"> ACCOMMODATION</a>
-        </div>
-        </div>
-        <a href="application.html">APPLY NOW</a>
-        <a href="about.html">ABOUT US</a> 
+        <a href="zentopia.html" >ZENTOPIA </a>
+        <a class="active" href="application.html">APPLY NOW</a>
+		<a href="about.html">ABOUT US</a>
     </nav>
     <button onclick="topScroll()" id="topBtn" title="Scroll to top">Back to top</button>
     <div class="boxapp">
-        <h1 class="top">Application for visa to Zentopia</h1>
+        <h1>Application for visa to Zentopia</h1>
+        <p id ="why.app">
+            To be able to travel to Zentopia, you first have to apply for a Visa. You apply by filling out the
+            input-fields here on this site, and we will take your application into consideration. Not everyone 
+            will be able to travel to Mars, that is why you have to apply. <br><br>
+            Here at GoToMars Inc. we respect your privacy and take protecting it seriously. Your information 
+            will be safe with us, and it will only be used to consider your application. If you are chosen, your 
+            information will also be used to find you a fitting job.<br><br>
+            Your information will never be sold to other companies.<br><br>
+        </p>
         <form action="registered.html" method="post" class="skjema">
             <!-- Your Information -->
             <fieldset>
@@ -59,7 +57,7 @@
                             <label for ="date"><abbr title="Required">*</abbr> Birthdate:</label>
                         </td>
                         <td>
-                            <input type ="text" name ="date" id ="date" placeholder ="dd/mm/yyyy" required>
+                            <input type ="date" name ="date" id ="date" placeholder ="mm/dd/yyyy" required>
                         </td>
                     </tr>
                     <!-- Gender -->
@@ -103,18 +101,18 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for ="address"><abbr title="Required">*</abbr> Address:</label>
+                            <br>
                         </td>
                         <td>
-                            <input type="text" name="address" id ="address" placeholder="Random Address 14b" required>
+                            <br>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for ="zip"><abbr title="Required">*</abbr> ZIP code:</label>
+                            <label for ="country"><abbr title="Required">*</abbr> Country:</label>
                         </td>
                         <td>
-                            <input type="number" name="zip" id ="zip" placeholder="xxxx" required>
+                            <input type="text" name="country" id ="country" placeholder="America, China etc." required>
                         </td>
                     </tr>
                     <tr>
@@ -127,10 +125,18 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for ="country"><abbr title="Required">*</abbr> Country:</label>
+                            <label for ="address"><abbr title="Required">*</abbr> Address:</label>
                         </td>
                         <td>
-                            <input type="text" name="country" id ="country" placeholder="America, China etc." required>
+                            <input type="text" name="address" id ="address" placeholder="Random Address 14b" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for ="postal"><abbr title="Required">*</abbr> Postal code:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="postal" id ="postal" placeholder="xxxx" required>
                         </td>
                     </tr>
                     <tr>
@@ -215,7 +221,7 @@
             <!-- Partner information -->
             <fieldset>
                 <legend>2. Partners information</legend>
-                <strong>Please leave empty if you don't have a partner</strong>
+                <strong><span>Please leave empty if you don't have a partner</span></strong>
                 <br>
                 <br>
 
@@ -243,7 +249,7 @@
                             <label for ="par_date">Partners birthdate:</label>
                         </td>
                         <td>
-                            <input type ="text" name ="par_date" id ="par_date" placeholder ="dd/mm/yyyy" required>
+                            <input type ="date" name ="par_date" id ="par_date" placeholder ="mm/dd/yyyy" required>
                         </td>
                     </tr>
                     <!-- Partner: Gender -->
@@ -431,7 +437,7 @@
                             <label for ="p_date"><abbr title="Required">*</abbr> Date of issue:</label>
                         </td>
                         <td>
-                            <input type ="text" name ="p_date" id ="p_date" placeholder ="dd/mm/yyyy" required>
+                            <input type ="date" name ="p_date" id ="p_date" placeholder ="mm/dd/yyyy" required>
                         </td>
                     </tr>
                     <tr>
@@ -439,7 +445,7 @@
                             <label for ="p_date_ex"><abbr title="Required">*</abbr> Date of experation:</label>
                         </td>
                         <td>
-                            <input type ="text" name ="p_date_ex" id ="p_date_ex" placeholder ="dd/mm/yyyy" required>
+                            <input type ="date" name ="p_date_ex" id ="p_date_ex" placeholder ="mm/dd/yyyy" required>
                         </td>
                     </tr>
                 </table>
