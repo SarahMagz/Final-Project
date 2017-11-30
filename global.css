@@ -180,11 +180,11 @@ img {
     margin-top: 2%;
     margin-bottom: 3%;
 
-    
+
 }
 
 .historyBox {
-    
+
     float: right;
     width: 40%;
     padding-bottom: 2em;
@@ -195,7 +195,7 @@ img {
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
     height: 33em;
-    
+
 }
 
 .historyBox p {
@@ -218,7 +218,7 @@ img {
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
     height: 33em;
-   
+
 }
 
 .historyBox2 p {
@@ -525,7 +525,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 0em;
 }
 
