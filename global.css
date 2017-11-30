@@ -436,6 +436,7 @@ nav a {
     padding-top: 1em;
 }
 
+
 .zenimg {
     display: inline-block;
     size: 100%;
@@ -445,26 +446,16 @@ nav a {
     
 
 .historyBox {
+    float:right;
     padding-top: 1em;
-    width: 55%;
-    margin-right: 6%;
-    margin-left: 45%;
-    min-height: 650px;
+    right: 0;
+    min-height: 630px;
     position: absolute;
     background: rgba(0, 0, 0, 0.87);
-}
+    width: 50%;
     
-
-.historyBox2 {
-    padding-top: 1em;
-    width: 55%;
-    margin-left: 6%;
-    margin-right: 45%;
-    min-height: 650px;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.87);
-
 }
+   
 
 .boxapp,
 .whybox {
