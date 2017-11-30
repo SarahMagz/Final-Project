@@ -371,8 +371,8 @@ h1 {
     color: #EF9529;
     font-size: 2em;
 }
-.boxapp .btn, .btn { /* Definerer css for knapp på application.html OG registered.html */
-    font-family: 'Montserrat', sans-serif;
+.boxapp .btn:hover, .btn { /* Definerer css for knapp på application.html OG registered.html */
+    border-color: #EF9529;
     background-color: black;
     color: #EF9529;
     font-size: 1em;
@@ -382,6 +382,11 @@ h1 {
     height: 4em;
     margin-left: 0;
 }
+
+.boxapp .btn:hover {
+    color: #cccccc;
+}
+
 input, textarea {
     color: black;
 }
