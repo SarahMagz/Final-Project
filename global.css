@@ -586,6 +586,7 @@ nav a {
 .historyBox {
     width: 37%;
     margin-right: 6%;
+    min-width: 34em;
 }
 }
 /* DESKTOP SLUTT */
