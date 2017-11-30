@@ -41,13 +41,3 @@ function topScroll() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-/* <script>
-var inputs = '';
- for (var i = 1; i <= 31; i++) {
-
-   inputs+= "<option label = "+i+">"+i+"</option>"
- }
- document.getElementById('day').insertAdjacentHTML('afterbegin', inputs);
-                    </script> */
-/* KODEN OVER == TEST FOR LØKKE TIL DATOVALG. FUNKER IKKE MEN LAGT INN HER FORELØPIG */
