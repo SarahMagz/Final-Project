@@ -203,26 +203,6 @@ h2 {
 
 }
 
-.historyBox2 {
-    padding-top: 4em;
-    float: left;
-    width: 100%;
-    padding-bottom: 3em;
-    margin-bottom: 2em;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.8);
-    min-height: 33em;
-
-}
-
-.historyBox2 p {
-    margin: 3%;
-    font-weight: 400;
-    line-height: 150%;
-    font-size: 1em;
-    text-align: left;
-    color: #CCCCCC;
-}
 
 .location {
     background-repeat: no-repeat;
@@ -602,7 +582,7 @@ nav a {
 }
 
 .historyBox {
-    width: 45%;
+    width: 37%;
     margin-right: 6%;
 }
 
