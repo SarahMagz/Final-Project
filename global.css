@@ -180,24 +180,23 @@ img {
     margin-top: 2%;
     margin-bottom: 3%;
 
-
+    
 }
 
 .historyBox {
-
     float: right;
-    width: 40%;
-    padding-bottom: 3em;
-    margin-left: 55%;
+    width: 100%;
+    padding-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
+    background-color: black;
     position: absolute;
     height: 33em;
 
 }
 
 .historyBox p {
-
     margin: 3%;
     font-weight: 300;
     line-height: 150%;
@@ -207,11 +206,12 @@ img {
 
 .historyBox2 {
     float: left;
-    width: 40%;
-    padding-bottom: 3em;
-    margin-left: 55%;
+    width: 100%;
+    padding-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.6);
+    background-color: black;
     position: absolute;
     height: 33em;
 
@@ -434,10 +434,18 @@ nav a {
     font-size: 1em;
 }
 
+.zenimg {
+    display: inline-block;
+    size: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%  
+}
+
 .historyBox {
     padding-top: 1em;
     width: 49%;
     margin-right: 6%;
+    margin-left: 55%;
     min-height: 650px;
     background: rgba(0, 0, 0, 0.87);
 }
@@ -446,6 +454,7 @@ nav a {
     padding-top: 1em;
     width: 49%;
     margin-left: 6%;
+    margin-left: 55%;
     min-height: 650px;
     background: rgba(0, 0, 0, 0.87);
 
