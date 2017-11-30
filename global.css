@@ -175,9 +175,10 @@ h2 {
 
 }
 
-.zenimg {
+.zenimg, .zenimg2 {
     display: none;
 }
+
 
 .historyBox {
     float: right;
@@ -186,13 +187,13 @@ h2 {
     margin-bottom: 2em;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
-    height: 33em;
+    min-height: 33em;
 
 }
 
 .historyBox p {
-    margin: 2%;
-    font-weight: 300;
+    margin: 3%;
+    font-weight: 400;
     line-height: 150%;
     font-size: 1em;
 
@@ -205,13 +206,13 @@ h2 {
     margin-bottom: 2em;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
-    height: 33em;
+    min-height: 33em;
 
 }
 
 .historyBox2 p {
     margin: 3%;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 150%;
     font-size: 1em;
 }
@@ -354,7 +355,7 @@ h1 {
     color: #EF9529;
     padding-bottom: 2%;
     margin-top: 2em;
-    font-size: 3.7em;
+    font-size: 3em;
 }
 .boxapp td, .boxapp span, .boxapp label, textarea{
     line-height: 150%;
@@ -418,6 +419,10 @@ h2 {
     font-size: 1.1em;
 }
 
+.boxapp h1 { 
+    font-size: 3.7em;
+}
+
 strong {
     color: #CCCCCC;
 }
@@ -425,6 +430,7 @@ strong {
 nav a {
     font-size: 1em;
 }
+
 
 .top {
     padding-top: 1em;
@@ -434,24 +440,26 @@ nav a {
     display: inline-block;
     size: 100%;
     margin-top: 2%;
-    margin-bottom: 3%  
+    margin-bottom: 3%;
 }
+    
 
 .historyBox {
     padding-top: 1em;
-    width: 49%;
+    width: 55%;
     margin-right: 6%;
-    margin-left: 50%;
+    margin-left: 45%;
     min-height: 650px;
     position: absolute;
     background: rgba(0, 0, 0, 0.87);
 }
+    
 
 .historyBox2 {
     padding-top: 1em;
-    width: 49%;
+    width: 55%;
     margin-left: 6%;
-    margin-right: 50%;
+    margin-right: 45%;
     min-height: 650px;
     position: absolute;
     background: rgba(0, 0, 0, 0.87);
@@ -542,12 +550,12 @@ nav a {
 }
 
 .historyBox {
-    width: 35%;
+    width: 45%;
     margin-right: 6%;
 }
 
 .historyBox2 {
-    width: 35%;
+    width: 45%;
     margin-left: 6%;
 }
 .top {
