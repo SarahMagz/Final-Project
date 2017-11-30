@@ -126,7 +126,7 @@ hr {
   outline-width: medium;
   background-color: black;
   color: #EF9529;
-  bottom: 3em;
+  bottom: 0.5em;
   right: 4em;
   z-index: 99;
   padding: 1em;
@@ -186,6 +186,21 @@ h2 {
 }
 
 .historyBox p {
+    text-align: left;
+    color: #CCCCCC;
+}
+
+.historyBox2 {
+    padding-top: 4em;
+    float: left;
+    width: 100%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.historyBox2 p {
     text-align: left;
     color: #CCCCCC;
 }
@@ -390,6 +405,15 @@ nav a {
     min-height: 650px;
     background: rgba(0, 0, 0, 0.87);
 }
+    
+.historyBox2 {
+    padding-top: 1em;
+    width: 49%;
+    margin-left: 6%;
+    min-height: 650px;
+    background: rgba(0, 0, 0, 0.87);
+    
+}
 
 .boxapp,
 .whybox {
@@ -479,6 +503,11 @@ nav a {
 .historyBox {
     width: 35%;
     margin-right: 6%;
+}
+
+.historyBox2 {
+    width: 35%;
+    margin-left: 6%;
 }
 }
 /* DESKTOP SLUTT */
