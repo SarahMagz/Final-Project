@@ -175,18 +175,13 @@ h2 {
 
 }
 
-img {
-    size: 100%;
-    margin-top: 2%;
-    margin-bottom: 3%;
-
-    
+.zenimg {
+    display: none; 
 }
 
 .historyBox {
-    
     float: right;
-    width: 40%;
+    width: 100%;
     padding-bottom: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -199,7 +194,6 @@ img {
 }
 
 .historyBox p {
-
     margin: 3%;
     font-weight: 300;
     line-height: 150%;
@@ -209,7 +203,7 @@ img {
 
 .historyBox2 {
     float: left;
-    width: 40%;
+    width: 100%;
     padding-bottom: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -436,6 +430,13 @@ strong {
 
 nav a {
     font-size: 1em;
+}
+
+.zenimg {
+    display: inline-block;
+    size: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%  
 }
 
 .historyBox {
