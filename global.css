@@ -317,17 +317,20 @@ h1 {
 .boxapp h1 { /* Overskrift */
     text-align: center;
     color: #EF9529;
-    font-weight: 300;
     padding-bottom: 2%;
     margin-top: 2em;
-    font-size: 2.5em;
+    font-size: 3.5em;
+}
+.boxapp td {
+    line-height: 170%;
 }
 .boxapp abbr { /* Fjerner understreker fra under "*" */
     text-decoration: none;
+    color: #EF9529;
 }
 .skjema legend { /* Underoverskrifter */
     color: #EF9529;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .btn { /* Definerer css for knapp på application.html OG registered.html */
     font-family: 'Montserrat', sans-serif;
@@ -336,6 +339,7 @@ h1 {
     font-size: 1em;
     padding: 1em;
     text-align: center;
+    font-weight: 500;
 }
 input {
     color: black;
