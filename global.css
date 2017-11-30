@@ -393,6 +393,7 @@ h1 {
     text-align: center;
     font-weight: 500;
     height: 4em;
+    margin-left: 0;
 }
 input, textarea {
     color: black;
