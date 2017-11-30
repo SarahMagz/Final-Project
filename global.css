@@ -191,31 +191,29 @@ h2 {
 
 #topBtn:hover {
   color: #cccccc;
-}
 
-.img {
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 3%;
 }
 
 img {
-    width: 100%;
-    padding-bottom: 10%;
-    padding-top: 5%;
+    size: 100%;
+    padding-bottom: 15%;
+
       
     
 }
 
 .historyBox {
+    
     float: right;
-    width: 100%;
-    padding-bottom: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 40%;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 55%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
+    height: 33em;
     
 }
 
@@ -223,20 +221,22 @@ img {
     text-align: left;
     color: #CCCCCC;
     margin: 3%;
-    font font-weight: 300;
     line-height: 150%;
+    font-weight: 300;
 
 }
 
 .historyBox2 {
     float: left;
-    width: 100%;
-    padding-bottom: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 40%;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 55%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
+    height: 33em;
    
 }
 
@@ -244,8 +244,8 @@ img {
     text-align: left;
     color: #CCCCCC;
     margin: 3%;
-    font font-weight: 300;
     line-height: 150%;
+    font-weight: 300;
 }
 
 .location {
