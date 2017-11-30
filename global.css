@@ -97,6 +97,10 @@ p {
     margin-top: 2em;
 }
 
+#zentext {
+    padding-top: 2em;
+}
+
 h2 {
     font-weight: 200;
     font-size: 1em;
@@ -578,6 +582,11 @@ p {
     margin-top: 0em;
 }
 
+#zentext {
+    padding-top: 0em;
+}
+
+
 h1 {
     font-size: 3em;
 }
@@ -605,6 +614,5 @@ nav a {
     width: 45%;
     margin-right: 6%;
 }
-
 }
 /* DESKTOP SLUTT */
