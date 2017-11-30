@@ -186,8 +186,7 @@ img {
 .historyBox {
     float: right;
     width: 100%;
-    padding-bottom: 2em;
-    margin-top: 2em;
+    padding-bottom: 3em;
     margin-bottom: 2em;
     overflow: hidden;
     background-color: black;
@@ -197,7 +196,7 @@ img {
 }
 
 .historyBox p {
-    margin: 3%;
+    margin: 2%;
     font-weight: 300;
     line-height: 150%;
     font-size: 1em;
@@ -207,8 +206,7 @@ img {
 .historyBox2 {
     float: left;
     width: 100%;
-    padding-bottom: 2em;
-    margin-top: 2em;
+    padding-bottom: 3em;
     margin-bottom: 2em;
     overflow: hidden;
     background-color: black;
