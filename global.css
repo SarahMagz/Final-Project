@@ -437,6 +437,7 @@ nav a {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.85);
     min-height: 35em;
+    min-width: 30em;
 }
 
 .historyBox p {
