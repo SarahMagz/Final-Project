@@ -498,7 +498,7 @@ nav a {
 }
 
 #topBtn {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 footer {
@@ -546,6 +546,10 @@ span {
 
 nav a {
     font-size: 1.2em;
+}
+
+#topBtn {
+    font-size: 1em;
 }
 
 .historyBox {
