@@ -151,7 +151,7 @@ p {
 }
 
 h1 {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 2.4em;
     color: #EF9529;
     text-align: center;
@@ -184,11 +184,10 @@ h2 {
 }
 
 .historyBox {
-    padding-top: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     float: right;
     width: 100%;
-    padding-bottom: 3em;
-    margin-bottom: 2em;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
     min-height: 33em;
@@ -231,7 +230,7 @@ h2 {
 .accommodation {
     background-repeat: no-repeat;
     width: 100%;
-    padding-bottom: 10em;
+    padding-bottom: 1em;
     margin-top: 1%;
     overflow: hidden;
 }
@@ -263,7 +262,7 @@ h2 {
 }
 
 .top {
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .whybox { /* Gjelder også for FAQ.HTML */
@@ -384,7 +383,6 @@ input, textarea {
     width: 7%;
     position: absolute;
     margin-left: 46%;
-
 }
 
 p {
@@ -432,12 +430,10 @@ nav a {
 
 
 .historyBox {
-    padding-top: 4em;
     float: right;
-    width: 45%;
+    width: 50%;
     margin-right: 6%;
-    padding-bottom: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 2em;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.85);
 }
