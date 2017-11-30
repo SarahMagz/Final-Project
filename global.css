@@ -175,11 +175,16 @@ h2 {
 
 }
 
-.zenimg {
-    display: none; 
+img {
+    size: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+    
 }
 
 .historyBox {
+    
     float: right;
     width: 100%;
     padding-bottom: 2em;
@@ -190,7 +195,7 @@ h2 {
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
     height: 33em;
-    
+
 }
 
 .historyBox p {
@@ -212,7 +217,7 @@ h2 {
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
     height: 33em;
-   
+
 }
 
 .historyBox2 p {
@@ -526,7 +531,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 0em;
 }
 
@@ -552,5 +557,9 @@ nav a {
     width: 35%;
     margin-left: 6%;
 }
+.top {
+    padding-top: 0em;
+}
+
 }
 /* DESKTOP SLUTT */
