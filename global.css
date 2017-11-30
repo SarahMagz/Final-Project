@@ -95,6 +95,10 @@ p {
     margin-top: 2em;
 }
 
+#zentext {
+    padding-top: 2em;
+}
+
 h2 {
     font-weight: 200;
     font-size: 1em;
@@ -201,26 +205,6 @@ h2 {
 
 }
 
-.historyBox2 {
-    padding-top: 4em;
-    float: left;
-    width: 100%;
-    padding-bottom: 3em;
-    margin-bottom: 2em;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.8);
-    min-height: 33em;
-
-}
-
-.historyBox2 p {
-    margin: 3%;
-    font-weight: 400;
-    line-height: 150%;
-    font-size: 1em;
-    text-align: left;
-    color: #CCCCCC;
-}
 
 .location {
     background-repeat: no-repeat;
@@ -438,7 +422,7 @@ nav a {
 
 
 .top {
-    padding-top: 1em;
+    padding-top: 0em;
 }
 
 
@@ -452,7 +436,8 @@ nav a {
 .historyBox {
     padding-top: 4em;
     float: right;
-    width: 100%;
+    width: 45%;
+    margin-right: 6%;
     padding-bottom: 1%;
     margin-bottom: 1%;
     overflow: hidden;
@@ -575,6 +560,11 @@ p {
     margin-top: 0em;
 }
 
+#zentext {
+    padding-top: 0em;
+}
+
+
 h1 {
     font-size: 3em;
 }
@@ -599,14 +589,8 @@ nav a {
 }
 
 .historyBox {
-    width: 45%;
+    width: 37%;
     margin-right: 6%;
 }
-
-
-.top {
-    padding-top: 0em;
-}
-
 }
 /* DESKTOP SLUTT */
