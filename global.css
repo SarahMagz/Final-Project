@@ -202,8 +202,6 @@ h2 {
     width: 100%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
-    min-height: 33em;
-
 }
 
 .historyBox p {
