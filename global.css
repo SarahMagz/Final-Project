@@ -183,7 +183,8 @@ h2 {
 }
 
 .historyBox {
-    padding-top: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     float: right;
     width: 100%;
     overflow: hidden;
@@ -260,7 +261,7 @@ h2 {
 }
 
 .top {
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .whybox { /* Gjelder også for FAQ.HTML */
@@ -428,11 +429,9 @@ nav a {
 
 
 .historyBox {
-    padding-top: 4em;
     float: right;
     width: 50%;
     margin-right: 6%;
-    padding-bottom: 3em;
     margin-bottom: 2em;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.85);
