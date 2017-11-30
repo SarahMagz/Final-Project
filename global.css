@@ -551,5 +551,9 @@ nav a {
     width: 35%;
     margin-left: 6%;
 }
+.top {
+    padding-top: 0em;
+}
+
 }
 /* DESKTOP SLUTT */
