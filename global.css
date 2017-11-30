@@ -45,19 +45,19 @@ nav a {
 
 a:hover {
     font-style: italic;
-    color: #CCCCCC;
+    color: #CCCCCC; background:rgba(255,255,255, 0.3);
+}
+
+.active{
+    background:rgba(255,255,255, 0.3);
+    border-bottom-style: solid;
+    border-bottom-width: 0.2em;
 }
 
 a:visited{
   color: #EF9529;
 }
 
-.active{
-    background:rgba(255,255,255, 0.3);
-    border-bottom-style: solid;
-    border-bottom-width: 0.01em;
-    border-bottom-width: 0.2em;
-} 
 input:focus {
     background-color: #ffe0b3;
 }
