@@ -384,7 +384,7 @@ h1 {
     margin-left: 0;
 }
 
-.boxapp .btn:hover {
+.boxapp .btn:hover, .btn:hover {
     color: #cccccc;
 }
 
