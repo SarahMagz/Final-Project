@@ -91,7 +91,8 @@ footer {
     background: #000;
     z-index: 10;
     border-top-style: solid;
-    border-top-width: 0.01em;
+    border-top-width: 0.1em;
+    border-color: #EF9529;
 }
 
 #countdown {
