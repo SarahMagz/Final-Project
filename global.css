@@ -153,25 +153,6 @@ hr {
     border: 0px;
 }
 
-#topBtn { /* Denne knappen gjelder også for zentopia, application og about */
-  display: none;
-  position: fixed;
-  border-color: #EF9529;
-  outline-width: medium;
-  background-color: black;
-  color: #EF9529;
-  bottom: 0.5em;
-  right: 4em;
-  z-index: 99;
-  padding: 1em;
-  border-radius: 0.1em;
-  font-size: 1em;
-  font-weight: 500;
-}
-
-#topBtn:hover {
-  color: #cccccc;
-}
 
 .box iframe {
     width: 100%;
@@ -201,6 +182,26 @@ h2 {
 
 #zentopia {
     background-image: none; /* Fjerner bakgrunnsbildet */
+}
+
+#topBtn { /* Denne knappen gjelder for zentopia, application */
+  display: none;
+  position: fixed;
+  border-color: #EF9529;
+  outline-width: medium;
+  background-color: black;
+  color: #EF9529;
+  bottom: 0.5em;
+  right: 4em;
+  z-index: 99;
+  padding: 1em;
+  border-radius: 0.1em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#topBtn:hover {
+  color: #cccccc;
 }
 
 .img {
