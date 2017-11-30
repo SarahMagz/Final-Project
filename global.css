@@ -355,7 +355,7 @@ h1 {
     color: #EF9529;
     padding-bottom: 2%;
     margin-top: 2em;
-    font-size: 3.7em;
+    font-size: 3em;
 }
 .boxapp td, .boxapp span, .boxapp label, textarea{
     line-height: 150%;
@@ -417,6 +417,10 @@ h1 {
 
 h2 {
     font-size: 1.1em;
+}
+
+.boxapp h1 { 
+    font-size: 3.7em;
 }
 
 strong {
