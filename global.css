@@ -187,9 +187,7 @@ img {
 
     float: right;
     width: 40%;
-    padding-bottom: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    padding-bottom: 3em;
     margin-left: 55%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
@@ -210,9 +208,7 @@ img {
 .historyBox2 {
     float: left;
     width: 40%;
-    padding-bottom: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    padding-bottom: 3em;
     margin-left: 55%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
