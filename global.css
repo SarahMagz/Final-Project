@@ -186,7 +186,6 @@ h2 {
     margin-bottom: 2em;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
-    position: absolute;
     height: 33em;
 
 }
@@ -206,7 +205,6 @@ h2 {
     margin-bottom: 2em;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
-    position: absolute;
     height: 33em;
 
 }
@@ -441,6 +439,7 @@ nav a {
     margin-right: 6%;
     margin-left: 50%;
     min-height: 650px;
+    position: absolute;
     background: rgba(0, 0, 0, 0.87);
 }
 
@@ -448,8 +447,9 @@ nav a {
     padding-top: 1em;
     width: 49%;
     margin-left: 6%;
-    margin-right: 5o%;
+    margin-right: 50%;
     min-height: 650px;
+    position: absolute;
     background: rgba(0, 0, 0, 0.87);
 
 }
