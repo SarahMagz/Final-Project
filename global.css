@@ -48,7 +48,6 @@ nav a {
 
 a:hover {
     font-style: italic;
-<<<<<<< HEAD
     color: #CCCCCC;
 }
 
@@ -103,9 +102,7 @@ a:visited{
 .dropdown-content a:hover {
     font-style: italic;
     color: #CCCCCC;
-=======
     color: #CCCCCC; background:rgba(255,255,255, 0.3);
->>>>>>> master
 }
 
 .active{
