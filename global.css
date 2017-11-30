@@ -17,7 +17,7 @@ body {
 
 /* MENY START */
 nav {
-    /*overflow: hidden;*/
+    overflow: hidden;
     position: fixed;
     top: 0;
     left: 0;
@@ -45,61 +45,7 @@ a:hover {
     color: #CCCCCC;
 }
 
-/*---DROPDOWN---*/
 
-.dropdown {
-    width: 25%;
-    float: left;
-    text-align: center;
-    position: relative;
-}
-
-.dropbtn {
-    font-size: 1em;
-    border: none;
-    color: #EF9529;
-    background-color: inherit;
-}
-
- .dropdown:hover .dropbtn {
-    font-style: italic;
-    color: #CCCCCC;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    min-width: 10em;
-    padding-top: 0.3em;
-    padding-bottom: 1em;
-    z-index: 1;
-    text-align: center;
-}
-
-.dropdown-content a {
-    float: left;
-    text-align: center;
-    color: #EF9529;
-    font-size: 1em;
-    padding-left: 0em;
-    padding-bottom: 0.5em;
-    text-decoration: none;
-    display: block;
-    min-width: 100%;
-
-
-
-}
-
-.dropdown-content a:hover {
-    font-style: italic;
-    color: #CCCCCC;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 /* MENY SLUTT */
 
 /* FOOTER START */
