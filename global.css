@@ -54,6 +54,10 @@ a:visited{
 input:focus { 
     background-color: #ffe0b3;
 }
+:focus {
+  background: #e6e6e6;
+}
+
 
 
 /* FOOTER START */
