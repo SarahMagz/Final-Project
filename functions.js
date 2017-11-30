@@ -11,7 +11,7 @@ function countdown() {
         var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-        document.getElementById("countdown").innerHTML = "Departure in " + years +
+        document.getElementById("countdown").innerHTML = "Apply now, departure in: " + years +
             "y " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
         if (timeLeft < 0) {
