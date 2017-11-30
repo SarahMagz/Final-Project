@@ -175,9 +175,10 @@ h2 {
 
 }
 
-.zenimg {
+.zenimg, .zenimg2 {
     display: none;
 }
+
 
 .historyBox {
     float: right;
