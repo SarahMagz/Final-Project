@@ -184,7 +184,7 @@ h2 {
     background-image: none; /* Fjerner bakgrunnsbildet */
 }
 
-#topBtn { /* Denne knappen gjelder for zentopia, application */
+#topBtn { /* Denne knappen gjelder for zentopia og application */
   display: none;
   position: fixed;
   border-color: #EF9529;
