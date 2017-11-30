@@ -446,9 +446,9 @@ nav a {
 
 .historyBox {
     padding-top: 1em;
-    width: 49%;
+    width: 55%;
     margin-right: 6%;
-    margin-left: 50%;
+    margin-left: 45%;
     min-height: 650px;
     position: absolute;
     background: rgba(0, 0, 0, 0.87);
@@ -457,9 +457,9 @@ nav a {
 
 .historyBox2 {
     padding-top: 1em;
-    width: 49%;
+    width: 55%;
     margin-left: 6%;
-    margin-right: 50%;
+    margin-right: 45%;
     min-height: 650px;
     position: absolute;
     background: rgba(0, 0, 0, 0.87);
@@ -550,12 +550,12 @@ nav a {
 }
 
 .historyBox {
-    width: 35%;
+    width: 45%;
     margin-right: 6%;
 }
 
 .historyBox2 {
-    width: 35%;
+    width: 45%;
     margin-left: 6%;
 }
 .top {
