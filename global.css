@@ -25,8 +25,7 @@ nav {
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
     z-index: 10;
-    border-bottom: solid;
-    border-width: 0.01em;
+
 }
 
 nav a {
@@ -72,41 +71,6 @@ a:hover {
  .dropdown:hover .dropbtn {
     font-style: italic;
     color: #CCCCCC;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    min-width: 10em;
-    padding-top: 0.3em;
-    padding-bottom: 1em;
-    z-index: 1;
-    text-align: center;
-}
-
-.dropdown-content a {
-    float: left;
-    text-align: center;
-    color: #EF9529;
-    font-size: 1em;
-    padding-left: 0em;
-    padding-bottom: 0.5em;
-    text-decoration: none;
-    display: block;
-    min-width: 100%;
-
-
-
-}
-
-.dropdown-content a:hover {
-    font-style: italic;
-    color: #CCCCCC;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 /* MENY SLUTT */
 
@@ -189,7 +153,7 @@ hr {
   outline-width: medium;
   background-color: black;
   color: #EF9529;
-  bottom: 3em;
+  bottom: 0.5em;
   right: 4em;
   z-index: 99;
   padding: 1em;
@@ -249,6 +213,21 @@ h2 {
 }
 
 .historyBox p {
+    text-align: left;
+    color: #CCCCCC;
+}
+
+.historyBox2 {
+    padding-top: 4em;
+    float: left;
+    width: 100%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.historyBox2 p {
     text-align: left;
     color: #CCCCCC;
 }
@@ -380,17 +359,20 @@ h1 {
 .boxapp h1 { /* Overskrift */
     text-align: center;
     color: #EF9529;
-    font-weight: 300;
     padding-bottom: 2%;
     margin-top: 2em;
-    font-size: 2.5em;
+    font-size: 3.5em;
+}
+.boxapp td {
+    line-height: 170%;
 }
 .boxapp abbr { /* Fjerner understreker fra under "*" */
     text-decoration: none;
+    color: #EF9529;
 }
 .skjema legend { /* Underoverskrifter */
     color: #EF9529;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .btn { /* Definerer css for knapp på application.html OG registered.html */
     font-family: 'Montserrat', sans-serif;
@@ -399,6 +381,7 @@ h1 {
     font-size: 1em;
     padding: 1em;
     text-align: center;
+    font-weight: 500;
 }
 input[type=text] {
     color: black;
@@ -448,6 +431,15 @@ nav a {
     margin-right: 6%;
     min-height: 650px;
     background: rgba(0, 0, 0, 0.87);
+}
+    
+.historyBox2 {
+    padding-top: 1em;
+    width: 49%;
+    margin-left: 6%;
+    min-height: 650px;
+    background: rgba(0, 0, 0, 0.87);
+    
 }
 
 .boxapp,
@@ -538,6 +530,11 @@ nav a {
 .historyBox {
     width: 35%;
     margin-right: 6%;
+}
+
+.historyBox2 {
+    width: 35%;
+    margin-left: 6%;
 }
 }
 /* DESKTOP SLUTT */
