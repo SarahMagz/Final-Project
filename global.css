@@ -28,9 +28,6 @@ nav {
     border-bottom: solid;
     border-bottom-width: 0.1em;
     border-color: #EF9529;
-
-
-
 }
 
 nav a {
@@ -116,6 +113,7 @@ h2 {
     padding-top: 0%;
     padding-bottom: 0%;
 }
+
 #scroll:hover {
     opacity: 0.5;
 }
@@ -171,7 +169,6 @@ h2 {
 
 #topBtn { /* Denne knappen gjelder for zentopia og application */
   display: none;
-
 }
 
 #topBtn:hover {
@@ -204,9 +201,7 @@ h2 {
     font-size: 1em;
     text-align: left;
     color: #CCCCCC;
-
 }
-
 
 .location {
     background-repeat: no-repeat;
