@@ -17,15 +17,19 @@ body {
 
 /* MENY START */
 nav {
-    /*overflow: hidden;*/
+    overflow: hidden;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: 5em;
-    background: rgba(0, 0, 0, 0.8);
+    background: #000;
     z-index: 10;
+    border-bottom: solid;
+    border-bottom-width: 0.1em;
+    border-color: #EF9529;
+
+
 
 }
 
@@ -35,13 +39,41 @@ nav a {
     float: left;
     color: #EF9529;
     text-align: center;
-    padding-top: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-decoration: none;
     font-size: 1em;
     font-weight: 400;
 }
 
 a:hover {
+    font-style: italic;
+    color: #CCCCCC; background:rgba(255,255,255, 0.3);
+}
+
+.active{
+    background:rgba(255,255,255, 0.3);
+    border-bottom-style: solid;
+    border-bottom-width: 0.2em;
+}
+
+/*---DROPDOWN---*/
+
+.dropdown {
+    width: 25%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.dropbtn {
+    font-size: 1em;
+    border: none;
+    color: #EF9529;
+    background-color: inherit;
+}
+
+ .dropdown:hover .dropbtn {
     font-style: italic;
     color: #CCCCCC;
 }
@@ -54,11 +86,13 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    height: 3em;
     width: 100%;
-    height: 6%;
-    padding-bottom: 0.5em;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 10
+    background: #000;
+    z-index: 10;
+    border-top-style: solid;
+    border-top-width: 0.1em;
+    border-color: #EF9529;
 }
 
 #countdown {
@@ -119,25 +153,6 @@ hr {
     border: 0px;
 }
 
-#topBtn { /* Denne knappen gjelder også for zentopia, application og about */
-  display: none;
-  position: fixed;
-  border-color: #EF9529;
-  outline-width: medium;
-  background-color: black;
-  color: #EF9529;
-  bottom: 0.5em;
-  right: 4em;
-  z-index: 99;
-  padding: 1em;
-  border-radius: 0.1em;
-  font-size: 1em;
-  font-weight: 500;
-}
-
-#topBtn:hover {
-  color: #cccccc;
-}
 
 .box iframe {
     width: 100%;
@@ -167,6 +182,15 @@ h2 {
 
 #zentopia {
     background-image: none; /* Fjerner bakgrunnsbildet */
+}
+
+#topBtn { /* Denne knappen gjelder for zentopia og application */
+  display: none;
+
+}
+
+#topBtn:hover {
+  color: #cccccc;
 }
 
 .img {
@@ -308,15 +332,15 @@ h1 {
 }
 
 .Q {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5em;
     text-align: center;
     color: #EF9529;
 }
 
 .A {
-    font-weight: 300;
-    font-size: 1em;
+    font-weight: 400;
+    font-size: 1.1em;
     color: #CCCCCC;
     text-align: center;
 }
@@ -347,31 +371,44 @@ h1 {
 .boxapp fieldset {
     margin-right: 2em;
     margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .boxapp h1 { /* Overskrift */
     text-align: center;
     color: #EF9529;
-    font-weight: 300;
     padding-bottom: 2%;
     margin-top: 2em;
-    font-size: 2.5em;
+    font-size: 3.7em;
+}
+.boxapp td, .boxapp span, .boxapp label, textarea{
+    line-height: 150%;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.boxapp input{
+    margin-left: 1em;
+    font-size: 1em;
 }
 .boxapp abbr { /* Fjerner understreker fra under "*" */
     text-decoration: none;
+    color: #EF9529;
 }
 .skjema legend { /* Underoverskrifter */
     color: #EF9529;
-    font-size: 1.5em;
+    font-size: 2em;
 }
-.btn { /* Definerer css for knapp på application.html OG registered.html */
+.boxapp .btn, .btn { /* Definerer css for knapp på application.html OG registered.html */
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: #EF9529;
     font-size: 1em;
     padding: 1em;
     text-align: center;
+    font-weight: 500;
+    height: 4em;
 }
-input {
+input, textarea {
     color: black;
 }
 /* APPLICATION.HTML SLUTT */
@@ -420,14 +457,14 @@ nav a {
     min-height: 650px;
     background: rgba(0, 0, 0, 0.87);
 }
-    
+
 .historyBox2 {
     padding-top: 1em;
     width: 49%;
     margin-left: 6%;
     min-height: 650px;
     background: rgba(0, 0, 0, 0.87);
-    
+
 }
 
 .boxapp,
@@ -449,6 +486,21 @@ nav a {
     color: #EF9529;
 }
 
+#topBtn {
+  position: fixed;
+  border-color: #EF9529;
+  outline-width: medium;
+  background-color: black;
+  color: #EF9529;
+  bottom: 0.5em;
+  right: 4em;
+  z-index: 99;
+  padding: 1em;
+  border-radius: 0.1em;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
 footer {
     padding-bottom: 1.2em;
 
@@ -459,7 +511,7 @@ footer {
 @media screen and (min-width: 1200px) {
 #countdown {
     font-size: 2em;
-    margin-top: 0.5em;
+    margin-top: 0.25em;
     color: #EF9529;
 }
 #scroll {
@@ -494,6 +546,11 @@ span {
 
 nav a {
     font-size: 1.2em;
+}
+
+#topBtn {
+    font-size: 1em;
+    bottom: 0.45em;
 }
 
 .historyBox {
