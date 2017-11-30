@@ -65,7 +65,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 3em;
+    height: 2em;
     width: 100%;
     background: #000;
     z-index: 10;
@@ -76,7 +76,7 @@ footer {
 
 #countdown {
     font-size: 1.1em;
-    margin-top: 0.5em;
+    margin-top: 0;
     color: #EF9529;
     text-align: center;
 }
@@ -184,8 +184,7 @@ img {
 .historyBox {
     float: right;
     width: 100%;
-    padding-bottom: 2em;
-    margin-top: 2em;
+    padding-bottom: 3em;
     margin-bottom: 2em;
     overflow: hidden;
     background-color: black;
@@ -195,7 +194,7 @@ img {
 }
 
 .historyBox p {
-    margin: 3%;
+    margin: 2%;
     font-weight: 300;
     line-height: 150%;
     font-size: 1em;
@@ -205,8 +204,7 @@ img {
 .historyBox2 {
     float: left;
     width: 100%;
-    padding-bottom: 2em;
-    margin-top: 2em;
+    padding-bottom: 3em;
     margin-bottom: 2em;
     overflow: hidden;
     background-color: black;
@@ -473,7 +471,7 @@ nav a {
 
 #countdown {
     font-size: 1.5em;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
     color: #EF9529;
 }
 
@@ -486,7 +484,7 @@ nav a {
   bottom: 0.5em;
   right: 4em;
   z-index: 99;
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 0.1em;
   font-size: 0.8em;
   font-weight: 500;
@@ -501,11 +499,6 @@ footer {
 
 /* DESKTOP START */
 @media screen and (min-width: 1200px) {
-#countdown {
-    font-size: 2em;
-    margin-top: 0.25em;
-    color: #EF9529;
-}
 #scroll {
     display: block;
     width: 5%;
@@ -537,12 +530,13 @@ span {
 }
 
 nav a {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #topBtn {
     font-size: 1em;
     bottom: 0.45em;
+
 }
 
 .historyBox {
