@@ -371,12 +371,13 @@ h1 {
     color: #EF9529;
     font-size: 2em;
 }
-.boxapp .btn:hover, .btn { /* Definerer css for knapp på application.html OG registered.html */
+.boxapp .btn, .btn { /* Definerer css for knapp på application.html OG registered.html */
     border-color: #EF9529;
+    outline-width: medium;
     background-color: black;
     color: #EF9529;
     font-size: 1em;
-    padding: 1em;
+    padding: 0.8em;
     text-align: center;
     font-weight: 500;
     height: 4em;
