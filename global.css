@@ -186,18 +186,7 @@ h2 {
 
 #topBtn { /* Denne knappen gjelder for zentopia og application */
   display: none;
-  position: fixed;
-  border-color: #EF9529;
-  outline-width: medium;
-  background-color: black;
-  color: #EF9529;
-  bottom: 0.5em;
-  right: 4em;
-  z-index: 99;
-  padding: 1em;
-  border-radius: 0.1em;
-  font-size: 0.6em;
-  font-weight: 500;
+
 }
 
 #topBtn:hover {
@@ -498,7 +487,18 @@ nav a {
 }
 
 #topBtn {
-    font-size: 0.8em;
+  position: fixed;
+  border-color: #EF9529;
+  outline-width: medium;
+  background-color: black;
+  color: #EF9529;
+  bottom: 0.5em;
+  right: 4em;
+  z-index: 99;
+  padding: 1em;
+  border-radius: 0.1em;
+  font-size: 0.8em;
+  font-weight: 500;
 }
 
 footer {
@@ -550,6 +550,7 @@ nav a {
 
 #topBtn {
     font-size: 1em;
+    bottom: 0.45em;
 }
 
 .historyBox {
