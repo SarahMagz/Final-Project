@@ -275,7 +275,7 @@ h2 {
 }
 
 .top {
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 .whybox { /* Gjelder også for FAQ.HTML */
@@ -425,7 +425,15 @@ strong {
 nav a {
     font-size: 1em;
 }
+<<<<<<< HEAD
     
+=======
+
+.top {
+    padding-top: 1em;
+}
+
+>>>>>>> master
 .zenimg {
     display: inline-block;
     size: 100%;
