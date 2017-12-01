@@ -358,8 +358,8 @@ h1 {
     font-weight: 400;
 }
 .boxapp input{
-    margin-left: 1em;
-    font-size: 1em;
+    margin-left: 0.6em;
+    font-size: 0.9em;
 }
 .boxapp abbr { /* Fjerner understreker fra under "*" */
     text-decoration: none;
@@ -386,6 +386,7 @@ h1 {
 .boxapp .btn:hover, .btn:hover {
     color: #cccccc;
 }
+
 
 .btn a{
   text-decoration: none;
@@ -432,6 +433,10 @@ h2 {
     font-size: 3em;
 }
 
+.boxapp input{
+    margin-left: 1em;
+    font-size: 1em;
+}
 
 .boxapp td, .boxapp span, .boxapp label, textarea{
     line-height: 150%;
