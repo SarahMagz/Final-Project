@@ -13,6 +13,7 @@ body {
     max-height: 20em;
     background-size: cover;
     font-size: 1.1em;
+
 }
 
 /* MENY START */
@@ -379,10 +380,15 @@ h1 {
     font-weight: 500;
     height: 4em;
     margin-left: 0;
+
 }
 
 .boxapp .btn:hover, .btn:hover {
     color: #cccccc;
+}
+
+.btn a{
+  text-decoration: none;
 }
 
 input, textarea {
