@@ -196,19 +196,18 @@ h2 {
 }
 
 .historyBox {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     float: right;
     width: 100%;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .historyBox p {
     margin: 3%;
     font-weight: 400;
     line-height: 150%;
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: left;
     color: #CCCCCC;
 }
@@ -251,7 +250,7 @@ p {
     margin-right: 5%;
     margin-left: 5%;
     line-height: 170%;
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
 h1 {
@@ -273,7 +272,7 @@ h2 {
 }
 
 .top {
-    padding-top: 4em;
+    padding-top: 2em;
 }
 
 .whybox { /* Gjelder også for FAQ.HTML */
@@ -327,7 +326,7 @@ h1 {
     font-weight: 400;
 }
 .registered p {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: 400;
 }
 /* REGISTERED.HTML SLUTT */
@@ -339,10 +338,8 @@ h1 {
     background: rgba(0, 0, 0, 0.6);
     margin-top: 3em;
     margin-bottom: 3em;
-    padding-left: 2em;
 }
 .boxapp fieldset {
-    margin-right: 2em;
     margin-bottom: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -352,12 +349,12 @@ h1 {
     color: #EF9529;
     padding-bottom: 2%;
     margin-top: 2em;
-    font-size: 3em;
+    font-size: 2em;
 }
 .boxapp td, .boxapp span, .boxapp label, textarea{
     line-height: 150%;
-    font-size: 1.1em;
-    font-weight: 500;
+    font-size: 0.9em;
+    font-weight: 400;
 }
 .boxapp input{
     margin-left: 1em;
@@ -369,7 +366,7 @@ h1 {
 }
 .skjema legend { /* Underoverskrifter */
     color: #EF9529;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 .boxapp .btn, .btn { /* Definerer css for knapp på application.html OG registered.html */
     border-color: #EF9529;
@@ -426,7 +423,24 @@ h2 {
 }
 
 .boxapp h1 {
-    font-size: 3.7em;
+    font-size: 3em;
+}
+
+
+.boxapp td, .boxapp span, .boxapp label, textarea{
+    line-height: 150%;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.skjema legend { /* Underoverskrifter */
+    font-size: 1.6em;
+}
+
+
+.registered p {
+    font-size: 1.1em;
+    font-weight: 400;
 }
 
 strong {
@@ -464,6 +478,7 @@ nav a {
 .historyBox p {
     text-align: left;
     color: #CCCCCC;
+    font-size: 1em;
 }
 
 .location {
